@@ -21,10 +21,10 @@ namespace ConsoleApp.Controllers
                     string line;
                     while ((line = await reader.ReadLineAsync()) != null)
                     {
-                        string [] parts = line.Split('|');
+                        string[] parts = line.Split('|');
                         CodigoPostal codigoPostal = new CodigoPostal();
                         codigoPostal.d_codigo = parts[0];
-                        codigoPostal.d_asenta= parts[1];
+                        codigoPostal.d_asenta = parts[1];
                         codigoPostal.d_tipo_asenta = parts[2];
                         codigoPostal.d_mnpio = parts[3];
                         codigoPostal.d_estado = parts[4];
@@ -49,16 +49,34 @@ namespace ConsoleApp.Controllers
             try
             {
                 foreach (var item in list)
-                    await item.Add();
+                    await item.AddSet();
 
                 flag = true;
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                flag = false; 
+                flag = false;
             }
             return flag;
+        }
+
+        public async Task<List<CodigoPostal>> Get()
+        {
+            return await new CodigoPostal().Get();
+        }
+
+        public async Task GetLatLng()
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
     }
 }
