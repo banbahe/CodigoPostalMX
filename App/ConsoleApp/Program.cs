@@ -43,8 +43,8 @@ namespace ConsoleApp
                 Task task = fileController.GetLatLng(resList);
                 Console.WriteLine("666 quiuboles");
                 task.Wait();
-                Console.WriteLine("666 quiuboles");
-
+                Console.WriteLine("GOD quiuboles");
+                Console.ReadKey();
 
             }
 

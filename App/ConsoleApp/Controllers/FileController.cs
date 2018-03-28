@@ -78,16 +78,24 @@ namespace ConsoleApp.Controllers
                 {
                     var res = await WebRequest(item.d_asenta, item.d_mnpio, item.d_estado, item.d_ciudad);
                     JObject jObject = JObject.Parse(res);
-                    var reqItem = jObject["results"][0]["geometry"]["location"];
-
-                    foreach (var itemJson in reqItem)
+                    try
                     {
-                        if (((Newtonsoft.Json.Linq.JProperty)itemJson).Name == "lat")
-                            item.d_x = ((Newtonsoft.Json.Linq.JProperty)itemJson).Value.ToString();
-                        if (((Newtonsoft.Json.Linq.JProperty)itemJson).Name == "lng")
-                            item.d_y = ((Newtonsoft.Json.Linq.JProperty)itemJson).Value.ToString();
+                        var reqItem = jObject["results"][0]["geometry"]["location"];
+                        foreach (var itemJson in reqItem)
+                        {
+                            if (((Newtonsoft.Json.Linq.JProperty)itemJson).Name == "lat")
+                                item.d_x = ((Newtonsoft.Json.Linq.JProperty)itemJson).Value.ToString();
+                            if (((Newtonsoft.Json.Linq.JProperty)itemJson).Name == "lng")
+                                item.d_y = ((Newtonsoft.Json.Linq.JProperty)itemJson).Value.ToString();
+                        }
+                        await item.AddSet();
                     }
-                    await item.AddSet();
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        
+                    }
+                    
                     //Console.WriteLine(res);
                 }
             }
@@ -104,7 +112,7 @@ namespace ConsoleApp.Controllers
             // https://maps.googleapis.com/maps/api/geocode/json?address=Las Águilas+Nezahualcóyotl+México+Ciudad Nezahualcóyotl&key=AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ
 
             string result = string.Empty;
-            Thread.Sleep(1800);
+            Thread.Sleep(300);
             var webRequest = System.Net.WebRequest.Create(WEBSERVICE_URL);
             try
             {
