@@ -11,8 +11,8 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-			// Test to POSTMAN
-			// https://maps.googleapis.com/maps/api/geocode/json?address=Las Águilas+Nezahualcóyotl+México+Ciudad Nezahualcóyotl&key=AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ
+            // Test to POSTMAN
+            // https://maps.googleapis.com/maps/api/geocode/json?address=Las Águilas+Nezahualcóyotl+México+Ciudad Nezahualcóyotl&key=AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ
             //FileController fileController = new FileController();
             //Task<List< CodigoPostal>> taskt = fileController.Read();
             //Console.WriteLine("0 quiuboles");
@@ -38,8 +38,13 @@ namespace ConsoleApp
             list.Wait();
             var resList = list.Result;
 
-            foreach (var item in resList)
             {
+                //resList = resList.Take(1).ToList();
+                Task task = fileController.GetLatLng(resList);
+                Console.WriteLine("666 quiuboles");
+                task.Wait();
+                Console.WriteLine("666 quiuboles");
+
 
             }
 

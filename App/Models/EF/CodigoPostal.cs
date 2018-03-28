@@ -48,7 +48,7 @@ namespace Models.EF
             {
                 using (CPContext context = new CPContext())
                 {
-                    if(this.id > 0)
+                    if (this.id > 0)
                     {
                         context.Entry(this).State = EntityState.Modified;
                     }
@@ -73,7 +73,7 @@ namespace Models.EF
             {
                 using (CPContext context = new CPContext())
                 {
-                    return await context.CodigoPostals.ToListAsync();
+                    return await context.CodigoPostals.Where(x => string.IsNullOrEmpty(x.d_x)).ToListAsync();
                 }
             }
             catch (Exception ex)
