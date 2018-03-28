@@ -108,7 +108,9 @@ namespace ConsoleApp.Controllers
 
         private async Task<string> WebRequest(string item0, string item1, string item2, string item3)
         {
-            string WEBSERVICE_URL = string.Concat("https://maps.googleapis.com/maps/api/geocode/json?address=", item0, "+", item1, "+", item2, "+", item3, "&key=AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ");
+            string WEBSERVICE_URL = string.Concat("https://maps.googleapis.com/maps/api/geocode/json?address=", item0, "+", item1, "+", item2, "+", item3, "&key=AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w");
+            //AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w
+            //AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ
             // https://maps.googleapis.com/maps/api/geocode/json?address=Las Águilas+Nezahualcóyotl+México+Ciudad Nezahualcóyotl&key=AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ
 
             string result = string.Empty;
@@ -116,7 +118,7 @@ namespace ConsoleApp.Controllers
             var webRequest = System.Net.WebRequest.Create(WEBSERVICE_URL);
             try
             {
-
+                Console.WriteLine(WEBSERVICE_URL);
 
                 if (webRequest != null)
                 {

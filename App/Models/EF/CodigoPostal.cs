@@ -73,7 +73,7 @@ namespace Models.EF
             {
                 using (CPContext context = new CPContext())
                 {
-                    return await context.CodigoPostals.Where(x => string.IsNullOrEmpty(x.d_x)).ToListAsync();
+                    return await context.CodigoPostals.Where(x => string.IsNullOrEmpty(x.d_x) && x.id > 12368).ToListAsync();
                 }
             }
             catch (Exception ex)
