@@ -93,9 +93,9 @@ namespace ConsoleApp.Controllers
                     catch (Exception ex)
                     {
                         Console.WriteLine(ex.Message);
-                        
+
                     }
-                    
+
                     //Console.WriteLine(res);
                 }
             }
@@ -106,16 +106,17 @@ namespace ConsoleApp.Controllers
             }
         }
 
-        private async Task<string> WebRequest(string item0, string item1, string item2, string item3)
+        private async Task<string> WebRequest(string item0, string item1, string item2, string item3,string key = "AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w")
         {
-            string WEBSERVICE_URL = string.Concat("https://maps.googleapis.com/maps/api/geocode/json?address=", item0, "+", item1, "+", item2, "+", item3, "&key=AIzaSyCWr4Nz0sSYli3awpibCvQVLOORWF2r8I4");
-            //AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w
-            //AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ
-            //AIzaSyANxXK2AvmErEceN5XALmzhDs4rALrP3Mg
+            string WEBSERVICE_URL = string.Concat("https://maps.googleapis.com/maps/api/geocode/json?address=", item0, "+", item1, "+", item2, "+", item3, "&key=",key);
+            //
+            //
+            //
+            //
             // https://maps.googleapis.com/maps/api/geocode/json?address=Las Águilas+Nezahualcóyotl+México+Ciudad Nezahualcóyotl&key=AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ
 
             string result = string.Empty;
-            Thread.Sleep(300);
+            Thread.Sleep(200);
             var webRequest = System.Net.WebRequest.Create(WEBSERVICE_URL);
             try
             {
@@ -136,6 +137,16 @@ namespace ConsoleApp.Controllers
                             result = await sr.ReadToEndAsync();
                         }
                     }
+                }
+                JObject jObject = JObject.Parse(result);
+
+                var reqItem = jObject["status"];
+                if (((JValue)jObject["status"]).Value.ToString() == "REQUEST_DENIED" || ((JValue)jObject["status"]).Value.ToString() == "OVER_QUERY_LIMIT")
+                {
+                    await WebRequest(item0, item1, item2, item3, "AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ");
+                    // AIzaSyCWr4Nz0sSYli3awpibCvQVLOORWF2r8I4
+                    // AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w
+                    // AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w
                 }
                 return result;
             }
