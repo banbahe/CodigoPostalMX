@@ -72,13 +72,15 @@ namespace ConsoleApp.Controllers
 
         public async Task GetLatLng(List<CodigoPostal> list)
         {
-            try
+
+            foreach (var item in list)
             {
-                foreach (var item in list)
+                var res = await WebRequest(item.d_asenta, item.d_mnpio, item.d_estado, item.d_ciudad);
+                JObject jObject = JObject.Parse(res);
+                try
                 {
-                    var res = await WebRequest(item.d_asenta, item.d_mnpio, item.d_estado, item.d_ciudad);
-                    JObject jObject = JObject.Parse(res);
-                    try
+
+                    if (jObject["results"].Count() > 0)
                     {
                         var reqItem = jObject["results"][0]["geometry"]["location"];
                         foreach (var itemJson in reqItem)
@@ -88,27 +90,20 @@ namespace ConsoleApp.Controllers
                             if (((Newtonsoft.Json.Linq.JProperty)itemJson).Name == "lng")
                                 item.d_y = ((Newtonsoft.Json.Linq.JProperty)itemJson).Value.ToString();
                         }
-                        await item.AddSet();
+                        var x = await item.AddSet();
                     }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-
-                    }
-
-                    //Console.WriteLine(res);
                 }
-            }
-            catch (Exception ex)
-            {
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
 
-                throw;
+                }
             }
         }
 
-        private async Task<string> WebRequest(string item0, string item1, string item2, string item3,string key = "AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w")
+        private async Task<string> WebRequest(string item0, string item1, string item2, string item3, string key = "AIzaSyCWr4Nz0sSYli3awpibCvQVLOORWF2r8I4")
         {
-            string WEBSERVICE_URL = string.Concat("https://maps.googleapis.com/maps/api/geocode/json?address=", item0, "+", item1, "+", item2, "+", item3, "&key=",key);
+            string WEBSERVICE_URL = string.Concat("https://maps.googleapis.com/maps/api/geocode/json?address=", item0, "+", item1, "+", item2, "+", item3, "&key=", key);
             //
             //
             //
@@ -145,6 +140,7 @@ namespace ConsoleApp.Controllers
                 {
                     await WebRequest(item0, item1, item2, item3, "AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ");
                     // AIzaSyCWr4Nz0sSYli3awpibCvQVLOORWF2r8I4
+                    // AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w
                     // AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w
                     // AIzaSyAk0eDeiXAyWrtaGVEXpE0xQu2gYpoxu4w
                 }

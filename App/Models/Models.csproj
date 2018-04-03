@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -53,6 +56,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="EFCore\CFDI_ADDRESS.cs" />
+    <Compile Include="EFCore\CFDI_PEOPLE.cs" />
+    <Compile Include="EFCore\CFDI_RECORDS.cs" />
+    <Compile Include="EFCore\CodigoPostal.cs" />
+    <Compile Include="EF\CFDI_ADDRESS.cs" />
+    <Compile Include="EF\CFDI_PEOPLE.cs" />
+    <Compile Include="EF\CFDI_PeopleAddress.cs" />
+    <Compile Include="EF\CFDI_RECORDS.cs" />
     <Compile Include="EF\CodigoPostal.cs" />
     <Compile Include="EF\CPContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,5 +72,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
