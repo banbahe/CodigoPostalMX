@@ -122,7 +122,7 @@ namespace ConsoleApp.Controllers
                 _cfdi_people.Nombre = cfdi.emisor.nombre;
                 _cfdi_people.RFC = cfdi.emisor.rfc;
                 _cfdi_people.Tipo = 0;
-                if( _cfdi_people.Id_Address <=0)
+                if (_cfdi_people.Id_Address <= 0)
                 {
                     var obj_address = (new CFDI_ADDRESS()
                     {
@@ -136,7 +136,7 @@ namespace ConsoleApp.Controllers
 
                     obj_address.AddSet();
                 }
-                
+
 
                 var tmpemisor = _cfdi_people.Get();
                 if (tmpemisor == null)

@@ -61,8 +61,8 @@ namespace ConsoleApp
             // UpdateZipCode();
             // AutoMapperConfig autoMapperConfig = new AutoMapperConfig();
             _cfdi = new CFDIController();
-            List<string> files = _cfdi.GetFiles(@"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
-            //List<string> files = _cfdi.GetFiles(@"C:\Users\dell\Documents\emailmanagmentattachment\files", new List<string> { ".xml" });
+            //List<string> files = _cfdi.GetFiles(@"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
+            List<string> files = _cfdi.GetFiles(@"C:\Users\mefistofeles\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
 
             foreach (var item in files)
             {
