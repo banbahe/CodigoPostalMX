@@ -15,7 +15,7 @@ namespace Models.EF
             {
                 using (CPContext context = new CPContext())
                 {
-                    return context.CFDI_ADDRESS.SingleOrDefault(x => x.Id_CFDI_PEOPLE == this.Id_CFDI_PEOPLE);
+                    return context.CFDI_ADDRESS.SingleOrDefault(x => x.Id == this.Id);
                 }
             }
             catch (Exception ex)

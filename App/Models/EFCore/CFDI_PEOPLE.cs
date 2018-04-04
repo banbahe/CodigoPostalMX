@@ -11,6 +11,8 @@ namespace Models.EF
 {
     partial class CFDI_PEOPLE
     {
+        public enum TipoPersona { EMISOR = 0, RECEPTOR = 1 };
+
         public List<CFDI_PEOPLE> List()
         {
             try
@@ -72,7 +74,7 @@ namespace Models.EF
                 {
                     if (this.Id > 0)
                     {
-                        return context.CFDI_PEOPLE.Include(fk => fk.CFDI_ADDRESS)
+                        return context.CFDI_PEOPLE.Include(fk => fk.CFDI_PeopleAddress)
                           .FirstOrDefault(x => x.Id == this.Id);
                     }
                     if (string.IsNullOrEmpty(this.RFC))
@@ -86,7 +88,7 @@ namespace Models.EF
 
                     else
                     {
-                        return context.CFDI_PEOPLE.Include(fk => fk.CFDI_ADDRESS)
+                        return context.CFDI_PEOPLE.Include(fk => fk.CFDI_PeopleAddress)
                               .FirstOrDefault(x => x.RFC == this.RFC && x.Tipo == this.Tipo);
                     }
                 }
@@ -96,7 +98,6 @@ namespace Models.EF
                 Console.WriteLine(ex);
                 return null;
             }
-            return null;
         }
 
     }

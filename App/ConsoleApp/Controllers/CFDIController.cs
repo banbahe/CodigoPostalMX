@@ -1,7 +1,5 @@
 ﻿using AutoMapper;
-using CFDI.AutoMapper;
 using ConsoleApp.Models;
-using Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,6 +14,7 @@ namespace ConsoleApp.Controllers
     {
         private CFDI_RECORDS _cfdi_records;
         private CFDI_PEOPLE _cfdi_people;
+        private CFDI_ADDRESS _cfdi_address;
 
         public Models.CFDI Read(string path)
         {
@@ -110,93 +109,68 @@ namespace ConsoleApp.Controllers
             }
         }
 
-        public bool Add(Models.CFDI cfdi)
+        public bool Add(Models.CFDI arg_cfdi)
         {
             try
             {
-                var obj = Mapper.Map<CFDI_RECORDS>(cfdi);
-                _cfdi_records = obj;
-
-                // emisor
-                _cfdi_people = new CFDI_PEOPLE();
-                _cfdi_people.Nombre = cfdi.emisor.nombre;
-                _cfdi_people.RFC = cfdi.emisor.rfc;
-                _cfdi_people.Tipo = 0;
-                if (_cfdi_people.Id_Address <= 0)
+                // add emisor
+                _cfdi_people = new CFDI_PEOPLE()
                 {
-                    var obj_address = (new CFDI_ADDRESS()
-                    {
-                        calle = cfdi.emisor.domicilio.calle,
-                        codigoPostal = cfdi.emisor.domicilio.codigoPostal,
-                        colonia = cfdi.emisor.domicilio.colonia,
-                        estado = cfdi.emisor.domicilio.estado,
-                        municipio = cfdi.emisor.domicilio.municipio,
-                        pais = cfdi.emisor.domicilio.pais
-                    });
+                    Nombre = arg_cfdi.emisor.nombre,
+                    RFC = arg_cfdi.emisor.rfc,
+                    Tipo = (int)CFDI_PEOPLE.TipoPersona.EMISOR
+                };
 
-                    obj_address.AddSet();
-                }
-
-
-                var tmpemisor = _cfdi_people.Get();
-                if (tmpemisor == null)
+                // add receptor
+                _cfdi_people = new CFDI_PEOPLE()
                 {
-                    _cfdi_people.AddSet();
-                    _cfdi_records.Id_Emisor = _cfdi_people.Id;
-                }
-                else
+                    Nombre = arg_cfdi.receptor.nombre,
+                    RFC = arg_cfdi.receptor.rfc,
+                    Tipo = (int)CFDI_PEOPLE.TipoPersona.RECEPTOR
+                };
+
+                // add address emisor
+                _cfdi_address = new CFDI_ADDRESS()
                 {
-                    // var addresstmp = tmpemisor.CFDI_ADDRESS.FirstOrDefault();
-                    //addresstmp.calle = addresstmp.calle != cfdi.emisor.domicilio.calle ? cfdi.emisor.domicilio.calle : addresstmp.calle;
-                    //addresstmp.codigoPostal = addresstmp.codigoPostal != cfdi.emisor.domicilio.codigoPostal ? cfdi.emisor.domicilio.codigoPostal : addresstmp.codigoPostal;
-                    //    addresstmp.colonia = addresstmp.colonia != cfdi.emisor.domicilio.colonia ? cfdi.emisor.domicilio.colonia : addresstmp.colonia;
-                    //    addresstmp.estado = addresstmp.estado != cfdi.emisor.domicilio.estado ? cfdi.emisor.domicilio.estado : addresstmp.estado;
-                    //    addresstmp.pais = addresstmp.pais != cfdi.emisor.domicilio.pais ? cfdi.emisor.domicilio.pais : addresstmp.pais;
-                    //    tmpemisor.AddSet();
-                    //    _cfdi_records.Id_Emisor = tmpemisor.Id;
-                }
+                    calle = arg_cfdi.emisor.domicilio.calle,
+                    colonia = arg_cfdi.emisor.domicilio.colonia,
+                    municipio = arg_cfdi.emisor.domicilio.municipio,
+                    estado = arg_cfdi.emisor.domicilio.estado,
+                    pais = arg_cfdi.emisor.domicilio.pais,
+                    codigoPostal = arg_cfdi.emisor.domicilio.codigoPostal,
+                    noExterior = arg_cfdi.emisor.domicilio.noExterior,
+                };
 
-                // receptor
-                _cfdi_people = new CFDI_PEOPLE();
-                _cfdi_people.Nombre = cfdi.receptor.nombre;
-                _cfdi_people.RFC = cfdi.receptor.rfc;
-                _cfdi_people.Tipo = 1;
-                _cfdi_people.CFDI_ADDRESS.Add(new CFDI_ADDRESS()
+                // add address receptor
+                _cfdi_address = new CFDI_ADDRESS()
                 {
-                    calle = cfdi.receptor.domicilio.calle,
-                    codigoPostal = cfdi.receptor.domicilio.codigoPostal,
-                    colonia = cfdi.receptor.domicilio.colonia,
-                    estado = cfdi.receptor.domicilio.estado,
-                    municipio = cfdi.receptor.domicilio.municipio,
-                    pais = cfdi.receptor.domicilio.pais
-                });
+                    calle = arg_cfdi.receptor.domicilio.calle,
+                    colonia = arg_cfdi.receptor.domicilio.colonia,
+                    municipio = arg_cfdi.receptor.domicilio.municipio,
+                    estado = arg_cfdi.receptor.domicilio.estado,
+                    pais = arg_cfdi.receptor.domicilio.pais,
+                    codigoPostal = arg_cfdi.receptor.domicilio.codigoPostal,
+                    noExterior = arg_cfdi.receptor.domicilio.noExterior,
+                };
 
-
-                var people2tmp = _cfdi_people.Get();
-
-                if (people2tmp == null)
+                // add cfdi 
+                _cfdi_records = new CFDI_RECORDS()
                 {
-                    _cfdi_people.AddSet();
-                    _cfdi_records.Id_Receptor = _cfdi_people.Id;
-                }
-                else
-                {
-                    var addresstmp = people2tmp.CFDI_ADDRESS.FirstOrDefault();
-                    addresstmp.calle = addresstmp.calle != cfdi.receptor.domicilio.calle ? cfdi.receptor.domicilio.calle : addresstmp.calle;
-                    addresstmp.codigoPostal = addresstmp.codigoPostal != cfdi.receptor.domicilio.codigoPostal ? cfdi.receptor.domicilio.codigoPostal : addresstmp.codigoPostal;
-                    addresstmp.colonia = addresstmp.colonia != cfdi.receptor.domicilio.colonia ? cfdi.receptor.domicilio.colonia : addresstmp.colonia;
-                    addresstmp.estado = addresstmp.estado != cfdi.receptor.domicilio.estado ? cfdi.receptor.domicilio.estado : addresstmp.estado;
-                    addresstmp.pais = addresstmp.pais != cfdi.receptor.domicilio.pais ? cfdi.receptor.domicilio.pais : addresstmp.pais;
-
-                    //_cfdi_address = new CFDI_ADDRESS();
-                    //_cfdi_address = addresstmp;
-                    //_cfdi_address.AddSet();
-                    people2tmp.AddSet();
-                    _cfdi_records.Id_Receptor = people2tmp.Id;
-                }
-
-                _cfdi_records.AddSet();
-                return true;
+                    version = arg_cfdi.version,
+                    serie = arg_cfdi.serie,
+                    folio = arg_cfdi.folio,
+                    fecha = DateTime.Parse(arg_cfdi.fecha),
+                    formaDePago = arg_cfdi.formaDePago,
+                    subtotal = Decimal.Parse(arg_cfdi.subTotal),
+                    TipoCambio = Decimal.Parse(arg_cfdi.TipoCambio),
+                    Moneda = arg_cfdi.version,
+                    total = Decimal.Parse(arg_cfdi.total),
+                    tipoDeComprobante = arg_cfdi.tipoDeComprobante,
+                    metodoDePago = arg_cfdi.metodoDePago,
+                    UUID = arg_cfdi.UUID,
+                    Id_Emisor = arg_cfdi.emisor.id,
+                    Id_Receptor = arg_cfdi.receptor.id,
+                };
             }
             catch (Exception ex)
             {

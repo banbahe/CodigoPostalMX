@@ -76,9 +76,9 @@
     <Folder Include="ModelsLN\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj">
+    <ProjectReference Include="..\Models\Repository.csproj">
       <Project>{5525b7fc-ee3e-4fec-a590-2792d1085297}</Project>
-      <Name>Models</Name>
+      <Name>Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
