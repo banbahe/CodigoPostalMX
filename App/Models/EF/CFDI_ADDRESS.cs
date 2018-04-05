@@ -8,12 +8,6 @@ namespace Models.EF
 
     public partial class CFDI_ADDRESS
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public CFDI_ADDRESS()
-        {
-            CFDI_PeopleAddress = new HashSet<CFDI_PeopleAddress>();
-        }
-
         public int Id { get; set; }
 
         [StringLength(500)]
@@ -60,8 +54,5 @@ namespace Models.EF
 
         [StringLength(500)]
         public string extra07 { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CFDI_PeopleAddress> CFDI_PeopleAddress { get; set; }
     }
 }

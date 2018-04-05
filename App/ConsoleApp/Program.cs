@@ -29,7 +29,7 @@ namespace ConsoleApp
             // Console.WriteLine("6 quiuboles");
             // Console.WriteLine("7 quiuboles");
             // taskB.Wait();
-               
+
             // var y = taskB.Result;
             // Console.WriteLine();
             // Console.ReadLine();
@@ -46,8 +46,7 @@ namespace ConsoleApp
             //    Console.WriteLine("GOD quiuboles");
             //    Console.ReadKey();
             //}
-
-
+            Main2();
         }
         // TODO
         // READ FILE
@@ -55,8 +54,8 @@ namespace ConsoleApp
 
         public static void Main2()
         {
-            _cfdi = new CFDIController();
-            _cfdi.List();
+            ICFDI _cfdi = new CFDIController();
+            //  _cfdi.List();
 
             // UpdateZipCode();
             // AutoMapperConfig autoMapperConfig = new AutoMapperConfig();

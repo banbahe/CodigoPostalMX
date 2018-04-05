@@ -80,12 +80,6 @@ namespace Models.EF
                 .Property(e => e.extra07)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<CFDI_ADDRESS>()
-                .HasMany(e => e.CFDI_PeopleAddress)
-                .WithRequired(e => e.CFDI_ADDRESS)
-                .HasForeignKey(e => e.Id_Address)
-                .WillCascadeOnDelete(false);
-
             modelBuilder.Entity<CFDI_PEOPLE>()
                 .Property(e => e.RFC)
                 .IsUnicode(false);
@@ -93,12 +87,6 @@ namespace Models.EF
             modelBuilder.Entity<CFDI_PEOPLE>()
                 .Property(e => e.Nombre)
                 .IsUnicode(false);
-
-            modelBuilder.Entity<CFDI_PEOPLE>()
-                .HasMany(e => e.CFDI_PeopleAddress)
-                .WithRequired(e => e.CFDI_PEOPLE)
-                .HasForeignKey(e => e.Id_People)
-                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<CFDI_RECORDS>()
                 .Property(e => e.version)

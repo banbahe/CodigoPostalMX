@@ -38,7 +38,16 @@ namespace Models.EF
                     if (this.Id > 0)
                         context.Entry(this).State = EntityState.Modified;
                     else
-                        context.Entry(this).State = EntityState.Added;
+                    {
+                        if (this.Exist())
+                        {
+                            flag = false;
+                        }
+                        else
+                        {
+                            context.Entry(this).State = EntityState.Added;
+                        }
+                    }
 
                     context.SaveChanges();
                 }
@@ -74,7 +83,7 @@ namespace Models.EF
                 {
                     if (this.Id > 0)
                     {
-                        return context.CFDI_PEOPLE.Include(fk => fk.CFDI_PeopleAddress)
+                        return context.CFDI_PEOPLE
                           .FirstOrDefault(x => x.Id == this.Id);
                     }
                     if (string.IsNullOrEmpty(this.RFC))
@@ -88,8 +97,7 @@ namespace Models.EF
 
                     else
                     {
-                        return context.CFDI_PEOPLE.Include(fk => fk.CFDI_PeopleAddress)
-                              .FirstOrDefault(x => x.RFC == this.RFC && x.Tipo == this.Tipo);
+                        return context.CFDI_PEOPLE.FirstOrDefault(x => x.RFC == this.RFC && x.Tipo == this.Tipo);
                     }
                 }
             }

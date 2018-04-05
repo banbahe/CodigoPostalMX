@@ -1,12 +1,11 @@
-﻿using AutoMapper;
-using ConsoleApp.Models;
+﻿using ConsoleApp.Models;
+using Models.EF;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using Models.EF;
 
 namespace ConsoleApp.Controllers
 {
@@ -111,6 +110,7 @@ namespace ConsoleApp.Controllers
 
         public bool Add(Models.CFDI arg_cfdi)
         {
+            bool flag;
             try
             {
                 // add emisor
@@ -120,6 +120,7 @@ namespace ConsoleApp.Controllers
                     RFC = arg_cfdi.emisor.rfc,
                     Tipo = (int)CFDI_PEOPLE.TipoPersona.EMISOR
                 };
+                _cfdi_people.AddSet();
 
                 // add receptor
                 _cfdi_people = new CFDI_PEOPLE()
@@ -171,14 +172,16 @@ namespace ConsoleApp.Controllers
                     Id_Emisor = arg_cfdi.emisor.id,
                     Id_Receptor = arg_cfdi.receptor.id,
                 };
+                flag = true;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("=============================================================");
                 Console.WriteLine(string.Format("Error al add cfdi record", ex.Message));
                 Console.WriteLine("=============================================================");
-                return false;
+                flag = false;
             }
+            return flag;
         }
 
         public bool Exist(Models.CFDI cfdi)
@@ -186,7 +189,7 @@ namespace ConsoleApp.Controllers
             try
             {
                 _cfdi_records = new CFDI_RECORDS();
-                _cfdi_records = Mapper.Map<CFDI_RECORDS>(cfdi);
+                _cfdi_records.UUID = cfdi.UUID;
                 return _cfdi_records.Exist();
             }
             catch (Exception ex)
@@ -246,26 +249,26 @@ namespace ConsoleApp.Controllers
                 Models.CFDI obj = new Models.CFDI();
                 obj.id = item.Id;
                 _cfdi_people = new CFDI_PEOPLE();
-                _cfdi_people.Id = item.Id_Emisor ?? 0;
+                _cfdi_people.Id = item.Id_Emisor;
                 _cfdi_people = listPeople.SingleOrDefault(x => x.Id == _cfdi_people.Id);
                 obj.emisor = new Emisor();
                 obj.emisor.id = _cfdi_people.Id;
                 obj.emisor.nombre = _cfdi_people.Nombre;
                 obj.emisor.rfc = _cfdi_people.RFC;
 
-                obj.emisor.domicilio = new Domicilio();
-                obj.emisor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
-                obj.emisor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
-                obj.emisor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
-                obj.emisor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
-                obj.emisor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
-                obj.emisor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
-                obj.emisor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
+                //obj.emisor.domicilio = new Domicilio();
+                //obj.emisor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
+                //obj.emisor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
+                //obj.emisor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
+                //obj.emisor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
+                //obj.emisor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
+                //obj.emisor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
+                //obj.emisor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
 
 
 
                 _cfdi_people = new CFDI_PEOPLE();
-                _cfdi_people.Id = item.Id_Receptor ?? 0;
+                _cfdi_people.Id = item.Id_Receptor;
                 //_cfdi_people = _cfdi_people.Get();
                 _cfdi_people = listPeople.SingleOrDefault(x => x.Id == _cfdi_people.Id);
                 obj.receptor = new Receptor();
@@ -282,13 +285,13 @@ namespace ConsoleApp.Controllers
                 //obj.receptor.domicilio.noExterior = string.IsNullOrEmpty(_cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior) ? string.Empty : _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
                 //obj.receptor.domicilio.pais = string.IsNullOrEmpty(_cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais) ? string.Empty : _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
                 obj.receptor.domicilio = new Domicilio();
-                obj.receptor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
-                obj.receptor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
-                obj.receptor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
-                obj.receptor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
-                obj.receptor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
-                obj.receptor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
-                obj.receptor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
+                //obj.receptor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
+                //obj.receptor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
+                //obj.receptor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
+                //obj.receptor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
+                //obj.receptor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
+                //obj.receptor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
+                //obj.receptor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
                 // Generic 
                 obj.fecha = item.fecha.ToString();
                 obj.folio = item.folio;
@@ -320,7 +323,7 @@ namespace ConsoleApp.Controllers
             var people = _cfdi_people.Get();
             Models.CFDI obj = new Models.CFDI();
             _cfdi_people = new CFDI_PEOPLE();
-            _cfdi_people.Id = item.Id_Emisor ?? 0;
+            _cfdi_people.Id = item.Id_Emisor;
             _cfdi_people = _cfdi_people.Get();
             obj.emisor = new Emisor();
             obj.emisor.id = _cfdi_people.Id;
@@ -328,18 +331,18 @@ namespace ConsoleApp.Controllers
             obj.emisor.rfc = _cfdi_people.RFC;
 
             obj.emisor.domicilio = new Domicilio();
-            obj.emisor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
-            obj.emisor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
-            obj.emisor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
-            obj.emisor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
-            obj.emisor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
-            obj.emisor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
-            obj.emisor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
+            //obj.emisor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
+            //obj.emisor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
+            //obj.emisor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
+            //obj.emisor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
+            //obj.emisor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
+            //obj.emisor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
+            //obj.emisor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
 
 
 
             _cfdi_people = new CFDI_PEOPLE();
-            _cfdi_people.Id = item.Id_Receptor ?? 0;
+            _cfdi_people.Id = item.Id_Receptor;
             _cfdi_people = _cfdi_people.Get();
             obj.receptor = new Receptor();
             obj.receptor.id = _cfdi_people.Id;
@@ -355,14 +358,14 @@ namespace ConsoleApp.Controllers
             //obj.receptor.domicilio.noExterior = string.IsNullOrEmpty(_cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior) ? string.Empty : _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
             //obj.receptor.domicilio.pais = string.IsNullOrEmpty(_cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais) ? string.Empty : _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
             obj.receptor.domicilio = new Domicilio();
-            obj.receptor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
-            obj.receptor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
-            obj.receptor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
-            obj.receptor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
-            obj.receptor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
-            obj.receptor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
-            obj.receptor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
-            // Generic 
+            //obj.receptor.domicilio.calle = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().calle;
+            //obj.receptor.domicilio.codigoPostal = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().codigoPostal;
+            //obj.receptor.domicilio.colonia = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().colonia;
+            //obj.receptor.domicilio.estado = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().estado;
+            //obj.receptor.domicilio.municipio = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().municipio;
+            //obj.receptor.domicilio.noExterior = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().noExterior;
+            //obj.receptor.domicilio.pais = _cfdi_people.CFDI_ADDRESS.FirstOrDefault().pais;
+            //// Generic 
             obj.fecha = item.fecha.ToString();
             obj.folio = item.folio;
             obj.formaDePago = item.formaDePago;
