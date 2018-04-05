@@ -13,7 +13,7 @@ namespace ConsoleApp.Controllers
 
         bool Exist(Models.CFDI cfdi);
 
-        bool Add(Models.CFDI cfdi);
+        Task<bool> AddAsync(Models.CFDI cfdi);
 
         bool Move(string source, string destination, string name);
 
@@ -26,5 +26,7 @@ namespace ConsoleApp.Controllers
 
         //Models.CFDI Get();
         Task<Models.CFDI> Get(int id);
+
+        //async  AddAsync
     }
 }

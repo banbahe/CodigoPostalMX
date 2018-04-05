@@ -60,14 +60,14 @@ namespace ConsoleApp
             // UpdateZipCode();
             // AutoMapperConfig autoMapperConfig = new AutoMapperConfig();
             _cfdi = new CFDIController();
-            //List<string> files = _cfdi.GetFiles(@"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
-            List<string> files = _cfdi.GetFiles(@"C:\Users\mefistofeles\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
+            List<string> files = _cfdi.GetFiles(@"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
+            //List<string> files = _cfdi.GetFiles(@"C:\Users\mefistofeles\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
 
             foreach (var item in files)
             {
                 Models.CFDI cfdi = _cfdi.Read(item);
                 if (!_cfdi.Exist(cfdi))
-                    _cfdi.Add(cfdi);
+                    _cfdi.AddAsync(cfdi);
                 else
                     _cfdi.Move(item, @"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase\exist", Path.GetFileName(item));
 

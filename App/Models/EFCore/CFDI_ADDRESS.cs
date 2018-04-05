@@ -33,7 +33,7 @@ namespace Models.EF
             }
         }
 
-        public bool AddSet()
+        public async Task<bool> AddSetAsync()
         {
             bool flag = false;
             try
@@ -43,7 +43,18 @@ namespace Models.EF
                     if (this.Id > 0)
                         context.Entry(this).State = EntityState.Modified;
                     else
+                    {
                         context.Entry(this).State = EntityState.Added;
+
+                        // add new configuration
+                        CodigoPostal codigoPostal = new CodigoPostal();
+                        codigoPostal.d_codigo = this.codigoPostal;
+                        var result = await codigoPostal.Get();
+
+                        var tmp = result.Where(x => x.d_asenta.ToLower().Contains(this.colonia.ToLower())).FirstOrDefault();
+                        this.extra0 = tmp == null ? string.Empty : tmp.id.ToString();
+                        context.SaveChanges();
+                    }
                 }
             }
             catch (Exception ex)

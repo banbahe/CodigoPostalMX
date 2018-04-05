@@ -14,19 +14,22 @@ namespace Models.EF
     {
         public async Task<List<CodigoPostal>> Get()
         {
+            List<CodigoPostal> list = new List<CodigoPostal>();
             try
             {
                 using (CPContext context = new CPContext())
                 {
-                    return await context.CodigoPostals.Where(x => string.IsNullOrEmpty(x.d_x) &&
-                                                             x.id >= 64140 &&
-                                                             x.id < 71444).ToListAsync();
+                    if (this.d_codigo.Length == 5)
+                        list = await context.CodigoPostals.Where(x => x.d_codigo == this.d_codigo).ToListAsync();
+                    if (this.id > 0)
+                        list = await context.CodigoPostals.Where(x => x.id == this.id).ToListAsync();
                 }
             }
             catch (Exception ex)
             {
                 throw;
             }
+            return list;
         }
         public async Task<bool> AddSet()
         {

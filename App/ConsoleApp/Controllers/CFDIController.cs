@@ -108,7 +108,7 @@ namespace ConsoleApp.Controllers
             }
         }
 
-        public bool Add(Models.CFDI arg_cfdi)
+        public async Task<bool> AddAsync(Models.CFDI arg_cfdi)
         {
             bool flag;
             try
@@ -120,7 +120,7 @@ namespace ConsoleApp.Controllers
                     RFC = arg_cfdi.emisor.rfc,
                     Tipo = (int)CFDI_PEOPLE.TipoPersona.EMISOR
                 };
-                _cfdi_people.AddSet();
+                bool emisor = _cfdi_people.AddSet();
 
                 // add receptor
                 _cfdi_people = new CFDI_PEOPLE()
@@ -129,8 +129,10 @@ namespace ConsoleApp.Controllers
                     RFC = arg_cfdi.receptor.rfc,
                     Tipo = (int)CFDI_PEOPLE.TipoPersona.RECEPTOR
                 };
+                bool receptor = _cfdi_people.AddSet();
 
                 // add address emisor
+
                 _cfdi_address = new CFDI_ADDRESS()
                 {
                     calle = arg_cfdi.emisor.domicilio.calle,
@@ -141,6 +143,8 @@ namespace ConsoleApp.Controllers
                     codigoPostal = arg_cfdi.emisor.domicilio.codigoPostal,
                     noExterior = arg_cfdi.emisor.domicilio.noExterior,
                 };
+                var res = await _cfdi_address.AddSetAsync();
+
 
                 // add address receptor
                 _cfdi_address = new CFDI_ADDRESS()

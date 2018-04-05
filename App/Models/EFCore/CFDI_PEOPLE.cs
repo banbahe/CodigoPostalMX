@@ -36,7 +36,10 @@ namespace Models.EF
                 using (CPContext context = new CPContext())
                 {
                     if (this.Id > 0)
+                    {
                         context.Entry(this).State = EntityState.Modified;
+                        flag = true;
+                    }
                     else
                     {
                         if (this.Exist())
@@ -45,13 +48,13 @@ namespace Models.EF
                         }
                         else
                         {
+                            flag = true;
                             context.Entry(this).State = EntityState.Added;
                         }
                     }
 
                     context.SaveChanges();
                 }
-                flag = true;
             }
             catch (Exception ex)
             {
@@ -66,7 +69,9 @@ namespace Models.EF
             {
                 using (CPContext context = new CPContext())
                 {
-                    flag = context.CFDI_PEOPLE.SingleOrDefault(x => x.RFC == this.RFC) == null ? false : true;
+                    flag = context.CFDI_PEOPLE.SingleOrDefault(x =>
+                    x.RFC == this.RFC &&
+                    x.Tipo == this.Tipo) == null ? false : true;
                 }
             }
             catch (Exception ex)
@@ -94,7 +99,6 @@ namespace Models.EF
                     {
                         return null;
                     }
-
                     else
                     {
                         return context.CFDI_PEOPLE.FirstOrDefault(x => x.RFC == this.RFC && x.Tipo == this.Tipo);
