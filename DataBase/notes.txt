@@ -1,0 +1,10 @@
+
+  select * from  [CFDI_PEOPLE]
+  select * from CFDI_ADDRESS
+  select * from CFDI_PeopleAddress
+  select * from CFDI_RECORDS
+
+  delete from [CFDI_PEOPLE]
+    delete from CFDI_ADDRESS
+	  delete from CFDI_PeopleAddress
+	    delete from CFDI_RECORDS

@@ -55,6 +55,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="EFCore\CFDI_ADDRESS.cs" />
     <Compile Include="EFCore\CFDI_PEOPLE.cs" />
+    <Compile Include="EFCore\CFDI_PeopleAddress.cs" />
     <Compile Include="EFCore\CFDI_RECORDS.cs" />
     <Compile Include="EFCore\CodigoPostal.cs" />
     <Compile Include="EF\CFDI_ADDRESS.cs" />

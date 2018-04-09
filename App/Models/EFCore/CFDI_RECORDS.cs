@@ -14,6 +14,7 @@ namespace Models.EF
     {
         public bool AddSet()
         {
+            bool flag = true;
             try
             {
                 using (CPContext context = new CPContext())
@@ -21,11 +22,21 @@ namespace Models.EF
                     if (this.Id > 0)
                         context.Entry(this).State = EntityState.Modified;
                     else
-                        context.Entry(this).State = EntityState.Added;
+                    {
+                        if (!Exist())
+                        {
+                            context.Entry(this).State = EntityState.Added;
+                            context.SaveChanges();
+                            flag = true;
+                        }
+                        else
+                        {
+                            flag =  false;
+                        }
+                    }
 
-                    context.SaveChanges();
                 }
-                return true;
+                return flag;
             }
             catch (Exception ex)
             {

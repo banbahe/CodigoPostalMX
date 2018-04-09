@@ -91,7 +91,7 @@ namespace ConsoleApp.Controllers
                         cfdi.receptor.domicilio.estado = string.IsNullOrEmpty((string)receptorDomicilioElement.Attribute("estado")) ? string.Empty : (string)receptorDomicilioElement.Attribute("estado");
                         cfdi.receptor.domicilio.municipio = string.IsNullOrEmpty((string)receptorDomicilioElement.Attribute("municipio")) ? string.Empty : (string)receptorDomicilioElement.Attribute("municipio");
                         cfdi.receptor.domicilio.pais = string.IsNullOrEmpty((string)receptorDomicilioElement.Attribute("pais")) ? string.Empty : (string)receptorDomicilioElement.Attribute("pais");
-                        cfdi.emisor.domicilio.noExterior = string.IsNullOrEmpty((string)emisorDomicilioElement.Attribute("noExterior")) ? string.Empty : (string)receptorDomicilioElement.Attribute("noExterior");
+                        cfdi.receptor.domicilio.noExterior = string.IsNullOrEmpty((string)receptorDomicilioElement.Attribute("noExterior")) ? string.Empty : (string)receptorDomicilioElement.Attribute("noExterior");
                     }
                 }
                 catch (Exception ex)
@@ -120,7 +120,8 @@ namespace ConsoleApp.Controllers
                     RFC = arg_cfdi.emisor.rfc,
                     Tipo = (int)CFDI_PEOPLE.TipoPersona.EMISOR
                 };
-                bool emisor = _cfdi_people.AddSet();
+                _cfdi_people.AddSet();
+                arg_cfdi.emisor.id = _cfdi_people.Id;
 
                 // add receptor
                 _cfdi_people = new CFDI_PEOPLE()
@@ -129,10 +130,10 @@ namespace ConsoleApp.Controllers
                     RFC = arg_cfdi.receptor.rfc,
                     Tipo = (int)CFDI_PEOPLE.TipoPersona.RECEPTOR
                 };
-                bool receptor = _cfdi_people.AddSet();
+                _cfdi_people.AddSet();
+                arg_cfdi.receptor.id = _cfdi_people.Id;
 
                 // add address emisor
-
                 _cfdi_address = new CFDI_ADDRESS()
                 {
                     calle = arg_cfdi.emisor.domicilio.calle,
@@ -143,9 +144,12 @@ namespace ConsoleApp.Controllers
                     codigoPostal = arg_cfdi.emisor.domicilio.codigoPostal,
                     noExterior = arg_cfdi.emisor.domicilio.noExterior,
                 };
-                var res = await _cfdi_address.AddSetAsync();
+                await _cfdi_address.AddSetAsync();
 
-
+                CFDI_PeopleAddress peopleAddress = new CFDI_PeopleAddress();
+                peopleAddress.Id_Address = _cfdi_address.Id;
+                peopleAddress.Id_People = arg_cfdi.emisor.id;
+                peopleAddress.AddSet();
                 // add address receptor
                 _cfdi_address = new CFDI_ADDRESS()
                 {
@@ -157,25 +161,30 @@ namespace ConsoleApp.Controllers
                     codigoPostal = arg_cfdi.receptor.domicilio.codigoPostal,
                     noExterior = arg_cfdi.receptor.domicilio.noExterior,
                 };
+                await _cfdi_address.AddSetAsync();
+
+                peopleAddress = new CFDI_PeopleAddress();
+                peopleAddress.Id_Address = _cfdi_address.Id;
+                peopleAddress.Id_People = arg_cfdi.receptor.id;
+                peopleAddress.AddSet();
 
                 // add cfdi 
-                _cfdi_records = new CFDI_RECORDS()
-                {
-                    version = arg_cfdi.version,
-                    serie = arg_cfdi.serie,
-                    folio = arg_cfdi.folio,
-                    fecha = DateTime.Parse(arg_cfdi.fecha),
-                    formaDePago = arg_cfdi.formaDePago,
-                    subtotal = Decimal.Parse(arg_cfdi.subTotal),
-                    TipoCambio = Decimal.Parse(arg_cfdi.TipoCambio),
-                    Moneda = arg_cfdi.version,
-                    total = Decimal.Parse(arg_cfdi.total),
-                    tipoDeComprobante = arg_cfdi.tipoDeComprobante,
-                    metodoDePago = arg_cfdi.metodoDePago,
-                    UUID = arg_cfdi.UUID,
-                    Id_Emisor = arg_cfdi.emisor.id,
-                    Id_Receptor = arg_cfdi.receptor.id,
-                };
+                _cfdi_records = new CFDI_RECORDS();
+                _cfdi_records.version = arg_cfdi.version;
+                _cfdi_records.serie = arg_cfdi.serie;
+                _cfdi_records.folio = arg_cfdi.folio;
+                _cfdi_records.fecha = string.IsNullOrEmpty(arg_cfdi.fecha) ? DateTime.Now : DateTime.Parse(arg_cfdi.fecha);
+                _cfdi_records.formaDePago = arg_cfdi.formaDePago;
+                _cfdi_records.subtotal = string.IsNullOrEmpty(arg_cfdi.subTotal) ? 0 : Decimal.Parse(arg_cfdi.subTotal);
+                _cfdi_records.TipoCambio = string.IsNullOrEmpty(arg_cfdi.TipoCambio) ? 0 : Decimal.Parse(arg_cfdi.TipoCambio);
+                _cfdi_records.Moneda = arg_cfdi.version;
+                _cfdi_records.total = string.IsNullOrEmpty(arg_cfdi.total) ? 0 : Decimal.Parse(arg_cfdi.total);
+                _cfdi_records.tipoDeComprobante = arg_cfdi.tipoDeComprobante;
+                _cfdi_records.metodoDePago = arg_cfdi.metodoDePago;
+                _cfdi_records.UUID = arg_cfdi.UUID;
+                _cfdi_records.Id_Emisor = arg_cfdi.emisor.id;
+                _cfdi_records.Id_Receptor = arg_cfdi.receptor.id;
+                _cfdi_records.AddSet();
                 flag = true;
             }
             catch (Exception ex)

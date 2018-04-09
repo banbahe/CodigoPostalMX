@@ -50,9 +50,19 @@ namespace Models.EF
                         CodigoPostal codigoPostal = new CodigoPostal();
                         codigoPostal.d_codigo = this.codigoPostal;
                         var result = await codigoPostal.Get();
+                        if (result.Count() > 1)
+                        {
+                            var tmp = result.Where(x => x.d_asenta.ToLower().Contains(this.colonia.ToLower())).FirstOrDefault();
+                            this.extra0 = tmp == null ? string.Empty : tmp.id.ToString();
+                        }
+                        if (result.Count() == 1)
+                        {
+                            var tmp = result.FirstOrDefault();
+                            this.extra0 = tmp == null ? string.Empty : tmp.id.ToString();
+                        }
+                        if (result.Count() == 0)
+                            this.extra0 = string.Empty;
 
-                        var tmp = result.Where(x => x.d_asenta.ToLower().Contains(this.colonia.ToLower())).FirstOrDefault();
-                        this.extra0 = tmp == null ? string.Empty : tmp.id.ToString();
                         context.SaveChanges();
                     }
                 }
