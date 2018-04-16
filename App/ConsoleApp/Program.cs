@@ -56,11 +56,8 @@ namespace ConsoleApp
         {
             ICFDI _cfdi = new CFDIController();
             //  _cfdi.List();
-
-            // UpdateZipCode();
-            // AutoMapperConfig autoMapperConfig = new AutoMapperConfig();
+ 
             _cfdi = new CFDIController();
-            //List<string> files = _cfdi.GetFiles(@"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
             List<string> files = _cfdi.GetFiles(@"C:\Users\mefistofeles\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
 
             foreach (var item in files)
@@ -69,7 +66,7 @@ namespace ConsoleApp
                 if (!_cfdi.Exist(cfdi))
                     _cfdi.AddAsync(cfdi);
                 else
-                    _cfdi.Move(item, @"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase\exist", Path.GetFileName(item));
+                    _cfdi.Move(item, @"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase\exist\", Path.GetFileName(item));
 
                 Console.WriteLine("");
             }

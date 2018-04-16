@@ -41,35 +41,41 @@ namespace Models.EF
                 using (CPContext context = new CPContext())
                 {
                     if (this.Id > 0)
+                    {
                         context.Entry(this).State = EntityState.Modified;
+                        
+                    }
                     else
                     {
                         context.Entry(this).State = EntityState.Added;
-
-                        // add new configuration
-                        CodigoPostal codigoPostal = new CodigoPostal();
-                        codigoPostal.d_codigo = this.codigoPostal;
-                        var result = await codigoPostal.Get();
-                        if (result.Count() > 1)
-                        {
-                            var tmp = result.Where(x => x.d_asenta.ToLower().Contains(this.colonia.ToLower())).FirstOrDefault();
-                            this.extra0 = tmp == null ? string.Empty : tmp.id.ToString();
-                        }
-                        if (result.Count() == 1)
-                        {
-                            var tmp = result.FirstOrDefault();
-                            this.extra0 = tmp == null ? string.Empty : tmp.id.ToString();
-                        }
-                        if (result.Count() == 0)
-                            this.extra0 = string.Empty;
-
-                        context.SaveChanges();
                     }
+
+                    // add new configuration
+                    CodigoPostal codigoPostal = new CodigoPostal();
+                    codigoPostal.d_codigo = this.codigoPostal;
+                    var result = await codigoPostal.Get();
+
+                    if (result.Count() > 1)
+                    {
+                        var tmp = result.Where(x => x.d_asenta.ToLower().Contains(this.colonia.ToLower())).FirstOrDefault();
+                        this.extra0 = (tmp == null) ? string.Empty : tmp.id.ToString();
+                    }
+                    if (result.Count() == 1)
+                    {
+                        var tmp = result.FirstOrDefault();
+                        this.extra0 = tmp.id.ToString();
+                    }
+                    if (result.Count() == 0)
+                        this.extra0 = string.Empty;
+
+                    context.SaveChanges();
+                    flag = true;
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                flag = false;
             }
             return flag;
         }

@@ -134,6 +134,7 @@ namespace ConsoleApp.Controllers
                 arg_cfdi.receptor.id = _cfdi_people.Id;
 
                 // add address emisor
+
                 _cfdi_address = new CFDI_ADDRESS()
                 {
                     calle = arg_cfdi.emisor.domicilio.calle,
@@ -149,7 +150,10 @@ namespace ConsoleApp.Controllers
                 CFDI_PeopleAddress peopleAddress = new CFDI_PeopleAddress();
                 peopleAddress.Id_Address = _cfdi_address.Id;
                 peopleAddress.Id_People = arg_cfdi.emisor.id;
-                peopleAddress.AddSet();
+                var tmp = await peopleAddress.GetAsync();
+                if (tmp == null)
+                    await peopleAddress.AddSet();
+
                 // add address receptor
                 _cfdi_address = new CFDI_ADDRESS()
                 {
@@ -166,7 +170,9 @@ namespace ConsoleApp.Controllers
                 peopleAddress = new CFDI_PeopleAddress();
                 peopleAddress.Id_Address = _cfdi_address.Id;
                 peopleAddress.Id_People = arg_cfdi.receptor.id;
-                peopleAddress.AddSet();
+                var tmpR = await peopleAddress.GetAsync();
+                if (tmp == null)
+                    await peopleAddress.AddSet();
 
                 // add cfdi 
                 _cfdi_records = new CFDI_RECORDS();

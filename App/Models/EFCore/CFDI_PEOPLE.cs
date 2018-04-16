@@ -59,6 +59,7 @@ namespace Models.EF
             catch (Exception ex)
             {
                 Console.WriteLine(string.Format("CFDI_PEOPLE AddSet {0}  ==> {1}", ex.Message, ex.InnerException));
+                flag = false;
             }
             return flag;
         }
