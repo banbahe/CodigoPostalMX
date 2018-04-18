@@ -25,6 +25,7 @@ namespace Models.EF
             }
             catch (Exception ex)
             {
+                Console.WriteLine("List<CFDI_PEOPLE> List()" + ex.Message);
                 throw;
             }
         }

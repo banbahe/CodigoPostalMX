@@ -31,7 +31,7 @@ namespace Models.EF
                         }
                         else
                         {
-                            flag =  false;
+                            flag = false;
                         }
                     }
 
@@ -57,6 +57,7 @@ namespace Models.EF
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 throw;
             }
             return true;
@@ -69,7 +70,7 @@ namespace Models.EF
             {
                 using (CPContext context = new CPContext())
                 {
-                    flag = context.CFDI_RECORDS.SingleOrDefault(x => x.UUID == this.UUID) == null ? false : true;
+                    flag = context.CFDI_RECORDS.Where(x => x.UUID == this.UUID).FirstOrDefault() == null ? false : true;
                 }
             }
             catch (Exception ex)

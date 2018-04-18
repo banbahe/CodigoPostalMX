@@ -1,4 +1,5 @@
-
+2018.04.18
+registra correctamente  los CFDI xml en su versión 3.2
   select * from  [CFDI_PEOPLE]
   select * from CFDI_ADDRESS
   select * from CFDI_PeopleAddress

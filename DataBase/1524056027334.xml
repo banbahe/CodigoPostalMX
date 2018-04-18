@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="GENC" folio="6026" fecha="2015-04-01T15:29:39" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Credito" subTotal="9293.06" descuento="1146.51" TipoCambio="1.0000" Moneda="MXN" total="9450.00" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA BANCARIA" LugarExpedicion="SALTILLO       COAHUILA" NumCtaPago="No Identificado" SerieFolioFiscalOrig="GENC" FolioFiscalOrig="6026" FechaFolioFiscalOrig="2015-04-01T15:29:39" MontoFolioFiscalOrig="9450.00" noCertificado="00001000000304197309" certificado="MIIEizCCA3OgAwIBAgIUMDAwMDEwMDAwMDAzMDQxOTczMDkwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDA1MjExMzIyMzJaFw0xODA1MjExMzIyMzJaMIHXMSIwIAYDVQQDExlHQVMgTEEgRU5DQU5UQURBIFNBIERFIENWMSIwIAYDVQQpExlHQVMgTEEgRU5DQU5UQURBIFNBIERFIENWMSIwIAYDVQQKExlHQVMgTEEgRU5DQU5UQURBIFNBIERFIENWMSUwIwYDVQQtExxHRU4wMDEyMTExSTkgLyBHQVNKNzcwNTE2SDI4MR4wHAYDVQQFExUgLyBHQVNKNzcwNTE2SE5MUlJTMDMxIjAgBgNVBAsTGUdBUyBMQSBFTkNBTlRBREEgU0EgREUgQ1YwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIRBnvQFYpr727ydzrqnmrU3oaMYNXSQXRm3NmiEXUi83BENudMyWpVvayu9xmta/uGDJTgcoXcN5Px18N7b1NxhYAXs7J6fP9cmlt1dMLZqN/Cf11fnMvssHwWnUSns2eog8jRbLlFXf2YbgYMBzmHbEphBWIa463hGBKFNnRMdAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQDL2yICPxjyZxvvs745D+o3OJmk7ZVLgHI1WFFBgkK2Q85Np7TPl1O3RExq1Kr1FSOw2uq8//mMgyuwe0FNkQFbzyQPoqx+I21xvSIPt2PDuYDlgENEvN7DoGecm5UnrMxC+GSihpqA7cQ53BYaXa8DkXAk9WpdtDEDeyJZp5vTfGQtOdiI724EvpQNTW7jzgoPH3CgA1bjqd4uurfS6N8gSnoy1IINWwhqhoQoEdACKrNSVUe/hVpY82hukAKwsnRLZYM6JzJlQoX9obDg/Zd9yFbg+sQGkNEh9QAPUroDA7oqcjDh5AVFY6pZSHRogPtsqWXsUgVYGGzjusrl3xQM" sello="f3zwv9Im/hbElBJUfKOBHx3pssiATBgK9M7QeZBjkLxZ10dF+wd0Sv+67emdG90L7RTDe0Xrn8IMYeefhvxtzxCcgb6c9gGXUcG85PmO+lHsE+In4rVzNdA1IGArf5sBsbqjSZGz4JV7idNyo7tYOfawZh5qGZ6FDxtXrN+4Wug=">
+  <cfdi:Emisor rfc="GEN0012111I9" nombre="GAS LA ENCANTADA, S.A. DE C.V.">
+    <cfdi:DomicilioFiscal calle="CARRETERA 54  KM 20 SIN NUMERO" colonia="AGUA NUEVA ESTACION" municipio="SALTILLO" estado="COAHUILA" pais="-2" codigoPostal="25320" />
+    <cfdi:ExpedidoEn pais="-2" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY DE PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="WIN070601UX0" nombre="WHIRLPOOL INTERNACIONAL S DE RL DE CV">
+    <cfdi:Domicilio calle="CARRETERA MIGUEL ALEMAN KM-16.13" colonia="EL MILAGRO" municipio="APODACA" estado="NUEVO LEON" pais="México" codigoPostal="66634" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1400.00" unidad="L" descripcion="GAS LP CLAVE DE PRODUCTO 01075." valorUnitario="6.6379" importe="9293.06" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1303.45">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1303.45" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="287FF765-E628-434F-8D7E-A03FFFCA3ABA" FechaTimbrado="2015-04-01T15:29:51" noCertificadoSAT="00001000000301160463" selloCFD="f3zwv9Im/hbElBJUfKOBHx3pssiATBgK9M7QeZBjkLxZ10dF+wd0Sv+67emdG90L7RTDe0Xrn8IMYeefhvxtzxCcgb6c9gGXUcG85PmO+lHsE+In4rVzNdA1IGArf5sBsbqjSZGz4JV7idNyo7tYOfawZh5qGZ6FDxtXrN+4Wug=" selloSAT="hkvR7j8OnwVWDngtrWEAzmQ4tgVu61znygivx7KXuWrYxPcaIkx8zhZklixIhTYrpQ8oxIBsdKGEZCpyojCgJ+oID8ScVEJ6nRYFbzyYIDaD0Y/uVECNmarXCFAdyMFTiTJQd6TwBrTOYpB6tdhgNwFDqHRsKG5+/9sd3SDST8w=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

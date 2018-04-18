@@ -27,6 +27,7 @@ namespace Models.EF
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 throw;
             }
             return list;

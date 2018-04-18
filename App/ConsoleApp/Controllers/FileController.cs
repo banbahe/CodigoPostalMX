@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
-using System.Threading.Tasks;
-using Models.EF;
-using System.Threading;
-using Newtonsoft.Json;
+﻿using Models.EF;
 using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ConsoleApp.Controllers
 {
@@ -42,6 +39,7 @@ namespace ConsoleApp.Controllers
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 throw;
             }
             return list;

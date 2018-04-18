@@ -50,13 +50,12 @@ namespace ConsoleApp
         }
         // TODO
         // READ FILE
-        private static ICFDI _cfdi;
-
+ 
         public static void Main2()
         {
             ICFDI _cfdi = new CFDIController();
-            //  _cfdi.List();
- 
+            //_cfdi.List();
+
             _cfdi = new CFDIController();
             List<string> files = _cfdi.GetFiles(@"C:\Users\mefistofeles\Documents\GitHub\CodigoPostalMX\DataBase", new List<string> { ".xml" });
 
@@ -64,9 +63,9 @@ namespace ConsoleApp
             {
                 Models.CFDI cfdi = _cfdi.Read(item);
                 if (!_cfdi.Exist(cfdi))
-                    _cfdi.AddAsync(cfdi);
+                    _cfdi.AddAsync(cfdi).Wait();
                 else
-                    _cfdi.Move(item, @"C:\Users\inmotion\Documents\GitHub\CodigoPostalMX\DataBase\exist\", Path.GetFileName(item));
+                    _cfdi.Move(item, @"C:\Users\mefistofeles\Documents\GitHub\CodigoPostalMX\DataBase\exist", Path.GetFileName(item));
 
                 Console.WriteLine("");
             }
