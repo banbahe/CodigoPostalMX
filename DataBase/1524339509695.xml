@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" version="3.2" serie="LUBC" folio="3283" fecha="2015-01-13T12:55:45" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Crédito" subTotal="1200.00" TipoCambio="1" Moneda="MXN" total="1344.00" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRONICA DE FONDOS" LugarExpedicion="COAHUILA ARTEAGA" NumCtaPago="1346" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000202138860" certificado="MIIEjjCCA3agAwIBAgIUMDAwMDEwMDAwMDAyMDIxMzg4NjAwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTAxNTE1NDA1MVoXDTE2MTAxNTE1NDA1MVowgc8xJjAkBgNVBAMTHURJU1RSSUJVSURPUkEgTFVCTElOIFNBIERFIENWMSYwJAYDVQQpEx1ESVNUUklCVUlET1JBIExVQkxJTiBTQSBERSBDVjEmMCQGA1UEChMdRElTVFJJQlVJRE9SQSBMVUJMSU4gU0EgREUgQ1YxJTAjBgNVBC0THERMVTg5MDIyMEJONyAvIEdBU0o3NzA1MTZIMjgxHjAcBgNVBAUTFSAvIEdBU0o3NzA1MTZITkxSUlMwMzEOMAwGA1UECxMFVU5JQ0EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMCXQrsrBS3k+K2AQ50K+D64tuh8IEs5rrnhrVhU4ZtT7dNZagE2jwsuU7NXBq5hfe7pq16f2SxcILnsyNE6ncE430dDUGkbPe/88wne/FsnuWW1Fsk6XRiF4gYdVuppsQcpceK5QnKPw6JRCRy19OBZt0KllVlichxoBuF2SvjfAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQA8HT9dGio7U+bYXzy54kIa3qj04aQB7Ph/HlSi1rlcyiSCnCyt4kMDWArE/iqWvXaUaM3+t5t4eNq6Q4CRM2XoKfKwk2wL2Y7NsQR9lTwjxFZvfGZiZinjFT0X2vAfx5APSQc0jYOHyFgszLyHY1cWrD8VYRTcl0oMO8ytRdlnah1luIfHxebec2i8T9Z2SOnIanocdUaH0eohrI6OGlxXJqTHRYn785T7IRormb06LPMw4XFTz4y2ulDhG4TMUe+Skg9yrvw4nZb9LZIM0lU6N0Nx2oKVvycj8pmLTOCwEiyCOYeVA4Z3Sfk1cOCw1IqbMMQitDza1WVwBu0FBqxp" sello="LPoGgB+9Ba+gPPecTLxKNP/9919Lii+D63qAuiQzscjy/q3taT0AcX7XQgQ8/2PJfyGdt425dJURHGfUnp/GJuwukjLjf0YID1s86kVs04xikUxwAg26KM2CsdtUZqCjo8CsYcRFacxBQZ/RnOlCCWdVjFSR99t3yCj85HIHSn0=" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+  <cfdi:Emisor rfc="DLU890220BN7" nombre="DISTRIBUIDORA LUBLIN SA DE CV">
+    <cfdi:DomicilioFiscal calle="MANUEL DOBLADO 105" colonia="PALO BLANCO" municipio="SAN PEDRO GARZA GARCIA" estado="NUEVO LEON" pais="-2" codigoPostal="66236" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY DE PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="MAL050419G62" nombre="MG ALIMENTOS S.A DE C.V.">
+    <cfdi:Domicilio calle="CARRETERA FEDERAL 57 KM. 212 HUACHICHIL  ENTRONQUE" colonia="HUACHICHIL" municipio="ARTEAGA" estado="COAHUILA" pais="México" codigoPostal="25370" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" descripcion="FLETES" valorUnitario="1200.00" importe="1200.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="48.00" totalImpuestosTrasladados="192.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="48.00" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="192.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="2" fecha="2014-08-05T12:51:30" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="36411.32" descuento="0.00" TipoCambio="1" Moneda="MXN" total="42237.13" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRÓNICA DE FONDOS" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300498037" certificado="MIIEXTCCA0WgAwIBAgIUMDAwMDEwMDAwMDAzMDA0OTgwMzcwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA3MTYxNjI5NDVaFw0xNzA3MTYxNjI5NDVaMIGpMRkwFwYDVQQDExBUVVJJTUVYIFNBIERFIENWMRkwFwYDVQQpExBUVVJJTUVYIFNBIERFIENWMRkwFwYDVQQKExBUVVJJTUVYIFNBIERFIENWMSUwIwYDVQQtExxUVVIwODA1MjNOSDIgLyBUT0dHNDYxMTI0UkM4MR4wHAYDVQQFExUgLyBUT0dHNDYxMTI0TURGUlJEMDgxDzANBgNVBAsTBk1FWElDTzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoZOHR4kFjcsBYub6h0vqAsR0JG8IUmnPv/ZstAfUBpn/AGSLvLZexyDVjrW088NjeWWqpeNl4hcrObe33AB2pLiG8ykzUVcecBnQQKQJ7bd9sc/DSWd2kw9bVtv+FPXMU6SwpZg2iD36sJ2T23n9mLc/28S8QCQXVYGy9HblWU8CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGY/6uso2xPHUQ1cTC/HN2sbXXERqlqmAPKus7kKeXdnMHdHOwZfpcfG2ovH6moxYndVXKLdh/GePal9FcijGD4+RItncEHYuhTqBAwdxPBw19BlOnNmCXJwFtoBkOYS6Tf2ykTZDcu/yqC0u8uHlceIpmtThJ79xGOt7QLGfNZiAjN/pCfi8h0WY5ZCtwfY+GNp70Abb8NeG0hKsJap0/FtXs5cvIlQcJCnwbMTuchrsRFZv4w2tR0c50iVg5UhJxTe/jIQnmRE7IX0gIyJn03EEJKuwAmNLGLrL//Ug3Jq8OMjwRM0l1qB7AgLTF/FPiBkuBf5ZcdoJR1cjud90mc=" sello="jumvNKdP/j1KbAHVxhs1MdvO4Te8ck5KUWhoCa+/xZM2MHq10ryQtqeNf10iHaj8nwNUyDCFCdmbRqIcWTfM81WwLpnQ21AStWp2+0yVCe1ZO3XlH2GCwFGE2aBosNulotwRfklECZ+t8nokH9ahbu33orakRRpBZ87FuFtsnb4=">
+  <cfdi:Emisor rfc="TUR080523NH2" nombre="TURIMEX SA DE CV">
+    <cfdi:DomicilioFiscal calle="BLVD. DE LOS VIRREYES 630" colonia="LOMAS DE CHAPULTEPEC" municipio="MIGUEL HIDALGO" estado="MEXICO, D.F." pais="México" codigoPostal="11000" />
+    <cfdi:ExpedidoEn calle="BLVD. DE LOS VIRREYES 630" colonia="LOMAS DE CHAPULTEPEC" localidad="MIGUEL HIDALGO" estado="MEXICO, D.F." pais="México" codigoPostal="11000" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="ASC070703P39" nombre="Alterpraxis Servicios Corporativos, S.C.">
+    <cfdi:Domicilio calle="Tamaulipas 150 Piso 7" colonia="Condesa" municipio="Cuauhtemoc" estado="Distrito Federal" pais="México" codigoPostal="06140" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Consumo de Alimentos y Bebidas" valorUnitario="24091.32" importe="24091.32" />
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Otros servicios" valorUnitario="12320.00" importe="12320.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="5825.81">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="5825.81" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="41B5BB8E-AF49-4DE3-A01F-F24F4724FB17" FechaTimbrado="2014-08-05T12:52:04" noCertificadoSAT="00001000000301160463" selloCFD="jumvNKdP/j1KbAHVxhs1MdvO4Te8ck5KUWhoCa+/xZM2MHq10ryQtqeNf10iHaj8nwNUyDCFCdmbRqIcWTfM81WwLpnQ21AStWp2+0yVCe1ZO3XlH2GCwFGE2aBosNulotwRfklECZ+t8nokH9ahbu33orakRRpBZ87FuFtsnb4=" selloSAT="QQBLb0R7DII8VolpfBP/sfmsIEePqul9dmPUQoiouvB9r1QQ5gw1jn1UMKleZn+PKHSa0e7XLTjXPs45Sxt+9OMZE3tKIxlgtnuJdgNdCQzpwkn0nGUfu3gzf6boZszM35xwGASBORez49DmG3LHHY/lyq64E56qbkij/yZyetE=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

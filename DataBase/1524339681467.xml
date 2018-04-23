@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="3" fecha="2014-09-03T15:04:01" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1856.80" descuento="0.00" TipoCambio="1" Moneda="MXN" total="2153.89" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRÓNICA DE FONDOS" LugarExpedicion="México D.F." NumCtaPago="3091" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301848387" certificado="MIIEZjCCA06gAwIBAgIUMDAwMDEwMDAwMDAzMDE4NDgzODcwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTcyMDE1MjdaFw0xNzEyMTcyMDE1MjdaMIGyMSMwIQYDVQQDExpOSUNPTEFTIFJPRFJJR1VFWiBNQVJUSU5FWjEjMCEGA1UEKRMaTklDT0xBUyBST0RSSUdVRVogTUFSVElORVoxIzAhBgNVBAoTGk5JQ09MQVMgUk9EUklHVUVaIE1BUlRJTkVaMRYwFAYDVQQtEw1ST01ONTEwODE1R0M4MRswGQYDVQQFExJST01ONTEwODE1SFZaRFJDMDkxDDAKBgNVBAsTA1NVUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArVio41gExNkhbyNu/zKr70tL6PP5hBvuNeHHyrxv+jLKf9iV13k/NQXW0f7unr9oG2zTQzCc4qKx3szh5wRrWEec4ce9+pWXHEBJV8sgHa8zM2w+WhEJU1A7DBVwRcNvZ8/IvjPXIZeddYQqD4KUeQPm85QjgmXZZjDLCJeisesCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBALne9JtkC/tJqODNP/IbhOsuwMFerD9rz9f4EyAImjxCc5vNggOWj8zjvPy8GXnUJOoHsEUs8wozZVsUr+8XtDgeEdxWjw5YWaZgrMLWKONCh0Cr+Vnmup+SYIeRQDDkEM6QWa23Yp2Y9vdRN6T2GduKFvDG52g0vn7ITAyiw3aPdMB8dHlYhcQbhv/WOubQLFf0+GSESsL2nCjNQ3Kmuk+aSn4SiBdNGoE9AbJBZSOTt0PL+ATURUp7MApXV+G3KoWiDxjYgRlZmWfleLbtBNveMAkK8AT7vmuhYn7SUHCw7+2egvKmbOEAGgA3rctTuYuJvPWHw9UObOQnzLxgZ1s=" sello="MMgGgEgem79lfSmogkJq80GuWSwcobFaKe6J4w7lokhM+QoahFdCsM/FUQXMLAS9EgplrBsSvxgM2++yhd89IgrLcVX6j+VWbzARKd4cp2S+zigrBUKxrhd6nEQPCBMIAp2P1ygnnmZg2L2fj0Sxbjei/PgM7vJTK3oLugWkl+0=">
+  <cfdi:Emisor rfc="ROMN510815GC8" nombre="NICOLAS RODRIGUEZ MARTINEZ">
+    <cfdi:DomicilioFiscal calle="UNICORNIO 73" colonia="PRADO CHURUBUSCO" municipio="COYOACAN" estado="D.F." pais="México" codigoPostal="04300" />
+    <cfdi:ExpedidoEn calle="UNICORNIO 73" colonia="PRADO CHURUBUSCO" localidad="COYOACAN" estado="D.F." pais="México" codigoPostal="04300" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="ACO340702N80" nombre="Compañía Abastecedora de Combustibles, S.A. de C.V.">
+    <cfdi:Domicilio calle="Primero de Mayo 1220 Oriente" colonia="Reforma Ferrocarriles Nacionales" municipio="Toluca" estado="Mexico" pais="México" codigoPostal="50070" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Gasolina" valorUnitario="478.80" importe="478.80" />
+    <cfdi:Concepto cantidad="2.00" unidad="Caja" noIdentificacion="02060107" descripcion="Peajes super via poniente" valorUnitario="164.00" importe="328.00" />
+    <cfdi:Concepto cantidad="3.00" unidad="Caja" noIdentificacion="02060107" descripcion="Peajes La Venta y estacionamiento" valorUnitario="350.00" importe="1050.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="297.09">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="297.09" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="853EB462-8246-45F4-B671-235D5B88291C" FechaTimbrado="2014-09-03T15:05:02" noCertificadoSAT="00001000000301160463" selloCFD="MMgGgEgem79lfSmogkJq80GuWSwcobFaKe6J4w7lokhM+QoahFdCsM/FUQXMLAS9EgplrBsSvxgM2++yhd89IgrLcVX6j+VWbzARKd4cp2S+zigrBUKxrhd6nEQPCBMIAp2P1ygnnmZg2L2fj0Sxbjei/PgM7vJTK3oLugWkl+0=" selloSAT="evdsnyJtngvy1Bp63JFy9PzDRMc2r2+CFVVLgSQ8qJbV1uUm5HIYkH1w4a5bopA7CRu+R51etw2uHMwqP867wZSAITOTRSHnAa8rOpQvPh2SAGb12x8XYyarTfO2DePiva1Qmuir7upCnOc2exp4+sR8gLfsTQLRzs19Xv/3+IY=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

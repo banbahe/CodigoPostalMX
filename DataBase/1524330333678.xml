@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="4812" fecha="2015-04-01T15:49:04" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="11892.42" TipoCambio="1.0000" Moneda="MXN" total="13795.21" tipoDeComprobante="ingreso" metodoDePago="No Identificado" LugarExpedicion="QUINTANA ROO BENITO JUAREZ" NumCtaPago="No Identificado" noCertificado="00001000000202779716" certificado="MIIEqDCCA5CgAwIBAgIUMDAwMDEwMDAwMDAyMDI3Nzk3MTYwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDExMDE4NDAxOFoXDTE3MDExMDE4NDAxOFowgekxKzApBgNVBAMTIk1BU0tPIEFTRVNPUkVTIElOVEVHUkFMRVMgU0EgREUgQ1YxKzApBgNVBCkTIk1BU0tPIEFTRVNPUkVTIElOVEVHUkFMRVMgU0EgREUgQ1YxKzApBgNVBAoTIk1BU0tPIEFTRVNPUkVTIElOVEVHUkFMRVMgU0EgREUgQ1YxJTAjBgNVBC0THE1BSTEyMDkxMFNDMiAvIENBUlA2ODA1MTlBQjQxHjAcBgNVBAUTFSAvIENBUlA2ODA1MTlIREZIWUQwMTEZMBcGA1UECxMQRElTVFJJVE8gRkVERVJBTDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1gUXv6luSKYtqqSjB8rMr+2KPBKS4uLOEu33IDTYDG1s4Zas96/iOvye4eM3cg2dTtAFQTELffeGBC6SwB4YXwc+Oa4bIYTFH5Ox3NP6dHmLHVYIofKnB1T9P086W/owy59YsiHaM6qtdgDun+ijrf03I7C4v+9txc6/+FeMpbcCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBACxWUsRKqNxjlhPwFyp6qfmYV4SzJzmKVeetVC1FD7M5haWwgBtlFUfRqwChrhulXpfIYzmiOJ1s+avD+3TXHH4Kw8niw7mUhQE0LOUdXIUZhvLvAO4JR24g4T+nOCHW+oyvz9Ffv5xAEtcsk9MR9lqUs8kkQ230EuAALU67b3Y7j6e63Siavbb3tjupYkwT5KRZBqVb3i8TXitPbsnygxrx/xREhqho6NJ26Ja48+haiVGwR87Fn8fn0n2HbSgnEiGNvKsewd2bFKbVpwhNOXZ1mgUfjeI4tQIwEyDydS5m3mvtvDgLqpwxgdnTLGJtd5aU1xxiKfvCUzfshsuY0Zk=" sello="caej88mxf96ug0LfKFFErRLBG5pUZcTeW7BtYQxEoE55CV2P59dbrQlU5VeHJ6ZsuIM9LfdWH/EQyFNQRj++oxXY0jJvS4WXT5XV7od88zfUcOtDDeX1v6EkPELHSAnhD4bl/O056e6w8Ylipvv13nMeaXKWUcafqUEjknMKlWo=">
+  <cfdi:Emisor rfc="MAI120910SC2" nombre="MASKO ASESORES INTEGRALES SA DE CV">
+    <cfdi:DomicilioFiscal calle="INSURGENTES SUR 2376 OFIC 103" colonia="CHIMALISTAC" municipio="ALVARO OBREGON" estado="MEXICO, D.F." pais="México" codigoPostal="01070" />
+    <cfdi:ExpedidoEn calle="AV DEL SOL MZA 1 LTE 16 INT 1" noExterior="AV DEL SOL MZA 1 LTE 16 INT 1" colonia="SMZA 45 CANCUN" localidad="BENITO JUAREZ" estado="QUINTANA ROO" pais="México" codigoPostal="77506" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="GOPM790118VE4" nombre="Maritza Gonzalez Perez">
+    <cfdi:Domicilio calle="Av.Cancun Mza 7 lte 2" colonia="Region 509" municipio="Benito Juarez" estado="Quintana Roo" pais="México" codigoPostal="77536" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="No APLICA" descripcion="Gestion y Control de Operaciones del 30 Mar_05 Abril 2015." valorUnitario="11892.42" importe="11892.42" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1902.79">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1902.79" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="80773D6B-C8EF-4709-8BD1-A5BA5E32C5CD" FechaTimbrado="2015-04-01T15:49:16" noCertificadoSAT="00001000000301160463" selloCFD="caej88mxf96ug0LfKFFErRLBG5pUZcTeW7BtYQxEoE55CV2P59dbrQlU5VeHJ6ZsuIM9LfdWH/EQyFNQRj++oxXY0jJvS4WXT5XV7od88zfUcOtDDeX1v6EkPELHSAnhD4bl/O056e6w8Ylipvv13nMeaXKWUcafqUEjknMKlWo=" selloSAT="X3k60CAFjoRX4nl9Mg3yULpUhdxArW1v2hSiDK4uEy/Q6OSMxYQawA2IeDsAyg8jVg4kWCabgzpq5h+bT1i414n9DLXu968uVCXeh1kAPse58JRWVFZW5Vhp3gPcAhm5vVWfEgLtvh2vkSQVt9dM88EU65SMS5xssJUPdqBBz+g=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="1" fecha="2014-06-30T15:30:56" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="0.95" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000302521909" certificado="MIIEYzCCA0ugAwIBAgIUMDAwMDEwMDAwMDAzMDI1MjE5MDkwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDAxMjAxOTM4MzZaFw0xODAxMjAxOTM4MzZaMIGvMR8wHQYDVQQDExZKT1JHRSBST0RSSUdVRVogTUlMTEFOMR8wHQYDVQQpExZKT1JHRSBST0RSSUdVRVogTUlMTEFOMR8wHQYDVQQKExZKT1JHRSBST0RSSUdVRVogTUlMTEFOMRYwFAYDVQQtEw1ST01KNzEwODI5Qkc1MRswGQYDVQQFExJST01KNzEwODI5SERGRExSMDQxFTATBgNVBAsTDEpPUkdFIE1JTExBTjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtWg4qYfmwUVBVwWAuYDsdMKm/CmnNLSTMtfpJ78bFA+YEZhMTntRBe6kriDPv20fOUnS1hkpQXh/o7vn6VSXgH3HgfTKuMwx7JCnx6asS0d0MO/dhlc7Za8N20IM4ruPlYYh9v6K9wtFVCQipsklLN2zqw3KG6NbWxrclu1/NG0CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBABo0tG6F2/3KEpfoOILdWKEZb0herbNC958KZRWt5ARLTc6KojM4ar/O/WA6nThIpEgMA8SkUhkAvWOATF7jItcqipurW93RkiFWGO/xu8aszgm27ZghQx/t8CwTlMKYv/ddJrRtii8BZb/Iwe7jSd01lTc55kvv+H83s0dThLypPkw+9hdcmo6LYT4kAFgdHhcEan8JULBsmm92J/L2IcslUdP3z5298BQRw9a2rx5xHyWBBCxLE+1a2p06G4tJAHTDTmrXWyU49zU8TIRHUxPHbMQM4knFCvNjEirh3cwDosycwN7nYdtnFIycN1N5QzqcToyzJnS8Ok51qhbh7cw=" sello="VD4+JV+aBHpEkbHo2Zifi3wUWuz2eqTlIRA7+OxOpK154O0GI4C/RDhi1D5HJ8NN2RllLxk6s9dYxlCGxHxjlguLzh9ArKYeYFQxlNcxhMoK+REaHhGPbNUqhdQsoJPlHgvWdUl+AkxwlzOigCYwsBWUfjWOvRJlkZwrRQBk3OE=">
+  <cfdi:Emisor rfc="ROMJ710829BG5" nombre="JORGE RODRIGUEZ MILLAN">
+    <cfdi:DomicilioFiscal calle="DAMASCO 10" colonia="ROMERO RUBIO" municipio="VENUSTIANO CARRANZA" estado="D.F." pais="México" codigoPostal="15400" />
+    <cfdi:ExpedidoEn calle="DAMASCO 10" colonia="ROMERO RUBIO" localidad="VENUSTIANO CARRANZA" estado="D.F." pais="México" codigoPostal="15400" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="DAMASCO 10" colonia="ROMERO RUBIO" municipio="VENUSTIANO CARRANZA" estado="D.F." pais="México" codigoPostal="15400" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="02060107" descripcion="PRUEBAS FACTURACION ELECTRONICA" valorUnitario="1.00" importe="1.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="0.21" totalImpuestosTrasladados="0.16">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="0.11" />
+      <cfdi:Retencion impuesto="ISR" importe="0.10" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="0.16" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="149F0A73-43A6-46DE-AA4A-C695C130F69F" FechaTimbrado="2014-06-30T15:30:58" noCertificadoSAT="00001000000301160463" selloCFD="VD4+JV+aBHpEkbHo2Zifi3wUWuz2eqTlIRA7+OxOpK154O0GI4C/RDhi1D5HJ8NN2RllLxk6s9dYxlCGxHxjlguLzh9ArKYeYFQxlNcxhMoK+REaHhGPbNUqhdQsoJPlHgvWdUl+AkxwlzOigCYwsBWUfjWOvRJlkZwrRQBk3OE=" selloSAT="jYaaZ7V/cce85Mr1nO+XORDgfOPK0mfdbT7vrSTzHz6flYDNQ2TdsKHp4qhLwOcEhHehZpQBvYwLepA4rygIT2/1qYEWFvCH8cZCf2lwFbrqMEUh6SaMy6TnNakW++pgg0WM/wklK4ByJZUbMprc5uQB9BIAENlEPFh3LfB49Mc=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

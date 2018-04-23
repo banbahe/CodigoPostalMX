@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-10-21T15:16:08" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="6896.55" TipoCambio="1.0000" Moneda="MXN" total="8000.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300358825" certificado="MIIEmjCCA4KgAwIBAgIUMDAwMDEwMDAwMDAzMDAzNTg4MjUwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA2MjExNzA2MDNaFw0xNzA2MjExNzA2MDNaMIHmMSowKAYDVQQDEyFWSVAgR09MREVOIE1FWElDTyBUUkFWRUwgU0EgREUgQ1YxKjAoBgNVBCkTIVZJUCBHT0xERU4gTUVYSUNPIFRSQVZFTCBTQSBERSBDVjEqMCgGA1UEChMhVklQIEdPTERFTiBNRVhJQ08gVFJBVkVMIFNBIERFIENWMSUwIwYDVQQtExxWR00wNDAyMDNMQjYgLyBNQU5BNzIwMjA0RUQxMR4wHAYDVQQFExUgLyBOSVhBNzIwMjA0SE5FVFhOMDgxGTAXBgNVBAsTEEFMUiBPUklFTlRFIEQuRi4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqGfFJPjRfgEoSj1cwSmeCxK3MEB43JAcqk1QJGhfmwz9D8uL5gA19cJ5cOAPgfZPuVMe78RvjI9NEyw6+RNHuQtxgzH2z9p2hkDWmoRM0+v6ZgvfyIT1GiaH3UAQnuMoyxt7mmnRtU8mGPZm3pVZg1RyXrKF6Xe7apHADE9ggvAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCsWs0DEBH7fJKgM8hhLZm7m3wU6s4DV2gEZBS/F3Cw59vd33tY/Gscx5+b1MVgirorbdWKMGGL+sVnhuDbefvUUz+eSntSAuIh6BtS2o78SDuNoVnNXnUKu+hRKJXbe7nSq7dLTCxY9P9BuXWpW5xdcM6ktiegl4YwIxTQEX7GAXWY6BmN9GHt0sgxo4nXLTEYUYJd821NZQDMoTC2rYSr5bGwpb1IdtbQkofcdwopkEMf33qGAj80ce/h8EE0S1679qykg7VhcEsAQC3wcMoXM7ibKzL5NzxFhUFSGLd2kluoaKMQT/+Pvk8At0Iwwx0nBsuSccZy69Hp38AgXA3N" sello="fNvExyyzjPIWGsKCOeclltxvRKHKOvQFw6ZKVzZxP/DEbyIrBsl3a4978yAvDmdTVDt7HqNNWh4b10iIsGE89xziPAfDNLZ4LimwO2Gkj2F+L4XDeIkJnCIvBqnRlWDxUpWcLO/Y6QvlK85Vqyi2zeE03iG9PC1mJvUdZStBQ8Y=">
+  <cfdi:Emisor rfc="VGM040203LB6" nombre="VIP GOLDEN MEXICO TRAVEL SA DE CV">
+    <cfdi:DomicilioFiscal calle="AV. LINDAVISTA 299 501" colonia="LINDAVISTA" municipio="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:ExpedidoEn calle="AV. LINDAVISTA 299 501" noExterior="AV. LINDAVISTA 299 501" colonia="LINDAVISTA" localidad="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="ISI9608098S5" nombre="INGENIERIA Y SERVICIOS INDUSTRIALES ORBE SA DE CV">
+    <cfdi:Domicilio calle="SALOMON 385" colonia="LIBERTAD" municipio="AZCAPOTZALCO" estado="D.F." pais="México" codigoPostal="02060" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="No Aplica" descripcion="SERVICIO TURISTICO" valorUnitario="6896.55" importe="6896.55" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1103.45">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1103.45" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="02CAA0B9-F8D3-4E96-A8E3-EEEA9D24C657" FechaTimbrado="2014-10-21T15:16:46" noCertificadoSAT="00001000000301160463" selloCFD="fNvExyyzjPIWGsKCOeclltxvRKHKOvQFw6ZKVzZxP/DEbyIrBsl3a4978yAvDmdTVDt7HqNNWh4b10iIsGE89xziPAfDNLZ4LimwO2Gkj2F+L4XDeIkJnCIvBqnRlWDxUpWcLO/Y6QvlK85Vqyi2zeE03iG9PC1mJvUdZStBQ8Y=" selloSAT="PQLGtY1XSOrFIIuNHWDvJjN/hkdgyl4eCudvFRlBJSFaVyrEqS/CZq8TnULUfRgZdHN7ujBflCWcYxnbjPUW6WzglvqbddeSDBKPQ12eZqv85JN0Xf39ZXlAUhflb6xLfl6eoWUKBMeR3L5BqVi97TR2n4nxUqQol6a13S5LCSY=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

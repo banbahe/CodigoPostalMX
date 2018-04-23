@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" version="3.2" serie="ECOMM" folio="6473319825" fecha="2017-10-02T09:28:00" sello="N0wIQR9q0xDMp+U8oNdjsk/BlTC0qbVnfXkZdYPCCvqM1UPFNWUQXR796ASfXos/Lb+U3UAf4amClIdrbUbOgFD1gMElbT0RsMDOfHXmxPjO/VIyCvVR7QG7Q14GQwR+KDrh1TRzEzFABUB2/UQJVNByd8asZ9dM4E9GYOKrVKU=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000301471024" certificado="MIIEkDCCA3igAwIBAgIUMDAwMDEwMDAwMDAzMDE0NzEwMjQwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzExMjgyMjI1NTVaFw0xNzExMjgyMjI1NTVaMIHcMSIwIAYDVQQDExlBRElEQVMgREUgTUVYSUNPIFNBIERFIENWMSIwIAYDVQQpExlBRElEQVMgREUgTUVYSUNPIFNBIERFIENWMSIwIAYDVQQKExlBRElEQVMgREUgTUVYSUNPIFNBIERFIENWMSUwIwYDVQQtExxBTUU3NTA4MDhENDggLyBUT0FKNjQwMzE3TDY4MR4wHAYDVQQFExUgLyBUT0FKNjQwMzE3SERGUk1OMDQxJzAlBgNVBAsTHkFESURBUyBERSBNRVhJQ08sIFMuQS4gREUgQy5WLjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAiufBP19a1olINCHwMqE5ISwm+aXFvDSJp/85qaZy/qI7fDzzdHr/PDCxSTqLOU8RsszyDure9HeN5sl64RYJMCmOsMrVbiDbHl4XlXWl2HOM3LiT6GNcWOb8F4b5P2IOTDz2bUQr1chVBevBtzPHRiiDieo+KOl8oGJX4iCTRoUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGH/qI8irCHQ4KWSpyC5B7sVlavqhVGJH04QaJXhHty3hxlHso4o268tFrXTYILy3IFXNx3MZR10g1uNOONTgyV+JSO9eNjDqNjkW3wSA0QYJnNBiirQXtfGJ+02B8jzIythewpXnwSWkjP51U8gtxQXn2XwzrPZKUBo0F83EMqnYC4EivXEDRamJ7nRYNgkFjmslrr8V9CgMmKV084qpYW3LgFPmGM+hHN8pppqmXW8fK3XclBMGNCZhiP6M3U0/MccvatO0EuKEf3tGKH9o87vp495BtZNUFBsRiWLqDygXuLZr70gwBooo4LYJ69zbeY02c+M2UrhKGrYnpPnois=" condicionesDePago="Pago en una sola exhibición" subTotal="910.60" descuento="0.00" motivoDescuento="AJ" TipoCambio="1.000" Moneda="MXN" total="1056.30" tipoDeComprobante="ingreso" metodoDePago="99" LugarExpedicion="Del. Alvaro Obregón, Ciudad de Mexico" NumCtaPago="No aplica">
+  <cfdi:Emisor rfc="AME750808D48" nombre="adidas de Mexico, S.A. de C.V.">
+    <cfdi:DomicilioFiscal calle="Blvd. Adolfo Ruiz Cortines" noExterior="3642" noInterior="11o. Piso" colonia="Col. Jardines del Pedregal" localidad="México DF" referencia="ECOMM6473319825" municipio="Del. Alvaro Obregón" estado="CIUDAD DE MEXICO" pais="México" codigoPostal="01900" />
+    <cfdi:ExpedidoEn calle="Blvd. Adolfo Ruiz Cortines" noExterior="3642" noInterior="11o. Piso" colonia="Col. Jardines del Pedregal" estado="CIUDAD DE MEXICO" pais="México" codigoPostal="01900" />
+    <cfdi:RegimenFiscal Regimen="Regimen General de Ley Personas Morales" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="BAHE8810073C9" nombre="BAHE8810073C9">
+    <cfdi:Domicilio calle="Calle 17" noExterior="168" colonia="Col. Las Águilas" localidad="Ciudad Nezahualcoyotl" municipio="Nezahualcóyotl" estado="Estado de México" pais="México" codigoPostal="57900" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.000" unidad="PAR" noIdentificacion="4057283915329" descripcion="supernova m TALLA 7-" valorUnitario="910.60" importe="910.60" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="145.70">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16" importe="145.70" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="1f54be1e-c811-4982-9cd9-6652bd9a77c4" FechaTimbrado="2017-10-02T09:30:28" selloCFD="N0wIQR9q0xDMp+U8oNdjsk/BlTC0qbVnfXkZdYPCCvqM1UPFNWUQXR796ASfXos/Lb+U3UAf4amClIdrbUbOgFD1gMElbT0RsMDOfHXmxPjO/VIyCvVR7QG7Q14GQwR+KDrh1TRzEzFABUB2/UQJVNByd8asZ9dM4E9GYOKrVKU=" noCertificadoSAT="00001000000405999912" selloSAT="rtK0bjbatHD7HWZkkOUu+0p4pRteEh4lp+Vb9/QcOEdJohj9Y5GtPzMEnP8ajVwAASeY4PVjHHR/tPF9nxCUvoI8kYeNEWt23r3D2/JfMTnKNQ27bZeyBpxPmnd5cTCAqi7iSm7TiP59Hf/Llmcp1d9h6n/aF3lo2beayeC+Y+BdbbXcnYBNYqAgLHQ2QUBt0HdaadEwfWbBxdHNybbD0X6HcDvUvedK5rKh05uZzGx5TRT3r+en5HlayOddcBo606+wiVZZfWljtccV6sQ6lSiN6KvZgstLYvk9EwJI3CR3OlnjSKADEAglA6NVIvkShJNOJjGLaaUSh86w+BJCLQ==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+  <cfdi:Addenda xmlns:ecfd="http://www.edxsolutions.com/schemas/strict" xsi:schemaLocation="http://www.edxsolutions.com/schemas/strict http://www.edxsolutions.com/schemas/strict/ecfd.xsd">
+    <ecfd:ECFD version="1.0">
+      <ecfd:Documento ID="T33ECOMM6473319825">
+        <ecfd:Encabezado>
+          <ecfd:IdDoc>
+            <ecfd:NroAprob>796219</ecfd:NroAprob>
+            <ecfd:AnoAprob>2011</ecfd:AnoAprob>
+            <ecfd:Tipo>33</ecfd:Tipo>
+            <ecfd:Serie>ECOMM</ecfd:Serie>
+            <ecfd:Folio>6473319825</ecfd:Folio>
+            <ecfd:Estado>ORIGINAL</ecfd:Estado>
+            <ecfd:NumeroInterno>6473319825</ecfd:NumeroInterno>
+            <ecfd:FechaEmis>2017-10-02T09:28:00</ecfd:FechaEmis>
+            <ecfd:FormaPago>PAGO EN UNA SOLA EXHIBICION</ecfd:FormaPago>
+            <ecfd:MedioPago>99</ecfd:MedioPago>
+            <ecfd:LugarExpedicion>Del. Alvaro Obregón, Ciudad de Mexico</ecfd:LugarExpedicion>
+            <ecfd:NumCtaPago>No aplica</ecfd:NumCtaPago>
+            <ecfd:CondPago>Pago en una sola exhibición</ecfd:CondPago>
+            <ecfd:TermPagoCdg>1</ecfd:TermPagoCdg>
+          </ecfd:IdDoc>
+          <ecfd:ExEmisor>
+            <ecfd:RFCEmisor>AME750808D48</ecfd:RFCEmisor>
+            <ecfd:NmbEmisor>adidas de Mexico, S.A. de C.V.</ecfd:NmbEmisor>
+            <ecfd:CdgGLNEmisor>7504005032019</ecfd:CdgGLNEmisor>
+            <ecfd:CodigoExEmisor>
+              <ecfd:TpoCdgIntEmisor>INT</ecfd:TpoCdgIntEmisor>
+            </ecfd:CodigoExEmisor>
+            <ecfd:Sucursal>MATRIZ</ecfd:Sucursal>
+            <ecfd:DomFiscal>
+              <ecfd:Calle>Blvd. Adolfo Ruiz Cortines</ecfd:Calle>
+              <ecfd:NroExterior>3642</ecfd:NroExterior>
+              <ecfd:NroInterior>11o. Piso</ecfd:NroInterior>
+              <ecfd:Colonia>Col. Jardines del Pedregal</ecfd:Colonia>
+              <ecfd:Localidad>México DF</ecfd:Localidad>
+              <ecfd:Referencia>ECOMM6473319825</ecfd:Referencia>
+              <ecfd:Municipio>Del. Alvaro Obregón</ecfd:Municipio>
+              <ecfd:Estado>CIUDAD DE MEXICO</ecfd:Estado>
+              <ecfd:Pais>México</ecfd:Pais>
+              <ecfd:CodigoPostal>01900</ecfd:CodigoPostal>
+              <ecfd:GLN>7504005032019</ecfd:GLN>
+            </ecfd:DomFiscal>
+            <ecfd:LugarExped>
+              <ecfd:Calle>Blvd. Adolfo Ruiz Cortines</ecfd:Calle>
+              <ecfd:NroExterior>3642</ecfd:NroExterior>
+              <ecfd:NroInterior>11o. Piso</ecfd:NroInterior>
+              <ecfd:Colonia>Col. Jardines del Pedregal</ecfd:Colonia>
+              <ecfd:Estado>CIUDAD DE MEXICO</ecfd:Estado>
+              <ecfd:Pais>México</ecfd:Pais>
+              <ecfd:CodigoPostal>01900</ecfd:CodigoPostal>
+              <ecfd:GLN>7504005032019</ecfd:GLN>
+            </ecfd:LugarExped>
+          </ecfd:ExEmisor>
+          <ecfd:ExReceptor>
+            <ecfd:RFCRecep>BAHE8810073C9</ecfd:RFCRecep>
+            <ecfd:NmbRecep>BAHE8810073C9</ecfd:NmbRecep>
+            <ecfd:CdgGLNRecep>0000000000000</ecfd:CdgGLNRecep>
+            <ecfd:CodigoExReceptor>
+              <ecfd:TpoCdgIntRecep>CdgInt</ecfd:TpoCdgIntRecep>
+              <ecfd:CdgIntRecep>6400000010</ecfd:CdgIntRecep>
+            </ecfd:CodigoExReceptor>
+            <ecfd:CodigoExReceptor>
+              <ecfd:TpoCdgIntRecep>CdgInt</ecfd:TpoCdgIntRecep>
+            </ecfd:CodigoExReceptor>
+            <ecfd:Sucursal>Este-banBlanquel HDZ</ecfd:Sucursal>
+            <ecfd:DomFiscalRcp>
+              <ecfd:Calle>Calle 17</ecfd:Calle>
+              <ecfd:NroExterior>168</ecfd:NroExterior>
+              <ecfd:Colonia>Col. Las Águilas</ecfd:Colonia>
+              <ecfd:Localidad>Ciudad Nezahualcoyotl</ecfd:Localidad>
+              <ecfd:Municipio>Nezahualcóyotl</ecfd:Municipio>
+              <ecfd:Estado>Estado de México</ecfd:Estado>
+              <ecfd:Pais>México</ecfd:Pais>
+              <ecfd:CodigoPostal>57900</ecfd:CodigoPostal>
+            </ecfd:DomFiscalRcp>
+            <ecfd:LugarRecep>
+              <ecfd:Calle>Calle 17</ecfd:Calle>
+              <ecfd:Colonia>Col. Las Águilas</ecfd:Colonia>
+              <ecfd:Localidad>Ciudad Nezahualcoyotl</ecfd:Localidad>
+              <ecfd:Municipio>Nezahualcóyotl</ecfd:Municipio>
+              <ecfd:Estado>Estado de México</ecfd:Estado>
+              <ecfd:Pais>Mexico</ecfd:Pais>
+              <ecfd:CodigoPostal>57900</ecfd:CodigoPostal>
+              <ecfd:GLN>0000000000000</ecfd:GLN>
+            </ecfd:LugarRecep>
+          </ecfd:ExReceptor>
+          <ecfd:Totales>
+            <ecfd:Moneda>MXN</ecfd:Moneda>
+            <ecfd:FctConv>1.000</ecfd:FctConv>
+            <ecfd:SubTotal>910.60</ecfd:SubTotal>
+            <ecfd:MntDcto>0.00</ecfd:MntDcto>
+            <ecfd:PctDcto>0</ecfd:PctDcto>
+            <ecfd:MntBase>910.60</ecfd:MntBase>
+            <ecfd:MntImp>145.70</ecfd:MntImp>
+            <ecfd:VlrPagar>1056.30</ecfd:VlrPagar>
+            <ecfd:VlrPalabras>MIL CINCUENTA Y SEIS PESOS 30 / 100 M.N.</ecfd:VlrPalabras>
+          </ecfd:Totales>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16</ecfd:TasaImp>
+            <ecfd:MontoImp>145.70</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+        </ecfd:Encabezado>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>1</ecfd:NroLinDet>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>EAN</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>4057283915329</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:CdgItem>
+            <ecfd:TpoCodigo>BUYER_ASSIGNED</ecfd:TpoCodigo>
+            <ecfd:VlrCodigo>4057283915329</ecfd:VlrCodigo>
+          </ecfd:CdgItem>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>supernova m TALLA 7-</ecfd:DscItem>
+          <ecfd:QtyItem>1.000</ecfd:QtyItem>
+          <ecfd:UnmdItem>PAR</ecfd:UnmdItem>
+          <ecfd:PrcBrutoItem>2585.34</ecfd:PrcBrutoItem>
+          <ecfd:PrcNetoItem>910.60</ecfd:PrcNetoItem>
+          <ecfd:DescuentoPct>64.78</ecfd:DescuentoPct>
+          <ecfd:DescuentoMonto>1674.74</ecfd:DescuentoMonto>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16</ecfd:TasaImp>
+            <ecfd:MontoImp>145.70</ecfd:MontoImp>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoBrutoItem>2585.34</ecfd:MontoBrutoItem>
+          <ecfd:MontoNetoItem>910.60</ecfd:MontoNetoItem>
+          <ecfd:MontoTotalItem>910.60</ecfd:MontoTotalItem>
+        </ecfd:Detalle>
+        <ecfd:DscRcgGlobal>
+          <ecfd:NroLinDR>1</ecfd:NroLinDR>
+          <ecfd:TpoMov>D</ecfd:TpoMov>
+          <ecfd:CodigoDR>BILL_BACK</ecfd:CodigoDR>
+          <ecfd:GlosaDR>AJ</ecfd:GlosaDR>
+          <ecfd:TpoValor>%</ecfd:TpoValor>
+          <ecfd:ValorDR>0</ecfd:ValorDR>
+        </ecfd:DscRcgGlobal>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>1</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>CLP_SU</ecfd:TpoDocRef>
+          <ecfd:FolioRef>1</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>2</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>CLP_SU_GN</ecfd:TpoDocRef>
+          <ecfd:FolioRef>AME750808D48</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>3</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>CLP_BY_GN</ecfd:TpoDocRef>
+          <ecfd:FolioRef>BAHE8810073C9</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>4</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>CLP_II</ecfd:TpoDocRef>
+          <ecfd:FolioRef>0</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:Referencia>
+          <ecfd:NroLinRef>5</ecfd:NroLinRef>
+          <ecfd:TpoDocRef>CLP_ST</ecfd:TpoDocRef>
+          <ecfd:FolioRef>7133000000001</ecfd:FolioRef>
+        </ecfd:Referencia>
+        <ecfd:TimeStamp>2017-10-02T09:48:18</ecfd:TimeStamp>
+      </ecfd:Documento>
+      <ecfd:Personalizados>
+        <ecfd:campoString name="CLP_BY" />
+        <ecfd:campoString name="CLP_II" />
+        <ecfd:campoString name="CLP_SU" />
+        <ecfd:campoString name="CLP_ST" />
+        <ecfd:campoString name="COD_CLP_SU">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_BY">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_II">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_ST">9</ecfd:campoString>
+        <ecfd:campoString name="SI_ZZZ">MIL CINCUENTA Y SEIS PESOS 30 / 100 M.N.</ecfd:campoString>
+        <ecfd:campoString name="SenderID">AME750808D48:01</ecfd:campoString>
+        <ecfd:campoString name="ReceiverID">925485MX00:8</ecfd:campoString>
+        <ecfd:campoString name="STnombre">Este-banBlanquel HDZ</ecfd:campoString>
+        <ecfd:campoString name="STcalle">Calle 17</ecfd:campoString>
+        <ecfd:campoString name="STnumeroext">168</ecfd:campoString>
+        <ecfd:campoString name="STnumeroint" />
+        <ecfd:campoString name="STcolonia">Col. Las Águilas</ecfd:campoString>
+        <ecfd:campoString name="Stmunicipio">Nezahualcóyotl</ecfd:campoString>
+        <ecfd:campoString name="STestado">Estado de México</ecfd:campoString>
+        <ecfd:campoString name="STpais">Mexico</ecfd:campoString>
+        <ecfd:campoString name="STcp">57900</ecfd:campoString>
+        <ecfd:campoString name="OrdendeC">AMX00810083</ecfd:campoString>
+        <ecfd:campoString name="Ncliente">6400000010</ecfd:campoString>
+        <ecfd:campoString name="STlocalidad">Ciudad Nezahualcoyotl</ecfd:campoString>
+        <ecfd:campoString name="SalesOrder">6470416358</ecfd:campoString>
+        <ecfd:campoString name="MAILBY">edelruhe@gmail.com</ecfd:campoString>
+        <ecfd:campoString name="TICKET" />
+        <ecfd:campoString name="NOMBREBANCO" />
+        <ecfd:campoString name="DIASCREDITO" />
+        <ecfd:campoString name="COMPANYCODE">6400</ecfd:campoString>
+        <ecfd:campoString name="REFTYPE">B</ecfd:campoString>
+        <ecfd:campoString name="FISCALYEAR">2017</ecfd:campoString>
+        <ecfd:campoString name="MAILBY">edelruhe@gmail.com</ecfd:campoString>
+        <ecfd:campoString name="ORIGEN">SAP</ecfd:campoString>
+        <ecfd:campoString name="Leyenda1" />
+        <ecfd:campoString name="Leyenda2" />
+        <ecfd:campoString name="Leyenda3" />
+        <ecfd:campoString name="Leyenda4" />
+        <ecfd:campoString name="Leyenda5" />
+        <ecfd:campoString name="Leyenda6" />
+        <ecfd:campoString name="Leyenda7" />
+        <ecfd:campoString name="Leyenda8" />
+        <ecfd:campoString name="Leyenda9" />
+        <ecfd:campoString name="Leyenda10" />
+        <ecfd:campoString name="Leyenda11" />
+        <ecfd:campoString name="Leyenda12" />
+        <ecfd:campoString name="Leyenda13" />
+        <ecfd:campoString name="Leyenda14" />
+        <ecfd:campoString name="Leyenda15" />
+        <ecfd:campoString name="Leyenda16" />
+        <ecfd:campoString name="Leyenda17" />
+        <ecfd:campoString name="Leyenda18" />
+        <ecfd:campoString name="Leyenda19" />
+        <ecfd:campoString name="Leyenda20" />
+        <ecfd:campoString name="Leyenda21" />
+        <ecfd:campoString name="Leyenda22" />
+        <ecfd:campoString name="Leyenda23" />
+        <ecfd:campoString name="Leyenda24" />
+        <ecfd:campoString name="Leyenda25" />
+        <ecfd:campoString name="Leyenda26" />
+        <ecfd:campoString name="Leyenda27" />
+        <ecfd:campoString name="Leyenda28" />
+        <ecfd:campoString name="Leyenda29" />
+        <ecfd:campoString name="Leyenda30" />
+        <ecfd:campoString name="Leyenda31" />
+        <ecfd:campoString name="Leyenda32" />
+        <ecfd:campoString name="Leyenda33" />
+        <ecfd:campoString name="Leyenda34" />
+        <ecfd:campoString name="Leyenda35" />
+        <ecfd:campoString name="Leyenda36" />
+        <ecfd:campoString name="Leyenda37" />
+        <ecfd:campoString name="Leyenda38" />
+        <ecfd:campoString name="Leyenda39" />
+        <ecfd:campoString name="Leyenda40" />
+        <ecfd:campoString name="Leyenda41" />
+        <ecfd:campoString name="Leyenda42" />
+        <ecfd:campoString name="Leyenda43" />
+        <ecfd:campoString name="Leyenda44" />
+        <ecfd:campoString name="Leyenda45" />
+        <ecfd:campoString name="Leyenda46" />
+        <ecfd:campoString name="Leyenda47" />
+        <ecfd:campoString name="Leyenda48" />
+        <ecfd:campoString name="Leyenda49" />
+        <ecfd:campoString name="Leyenda50" />
+        <ecfd:campoString name="Leyenda51" />
+        <ecfd:campoString name="Leyenda52" />
+        <ecfd:campoString name="Leyenda53" />
+        <ecfd:campoString name="Leyenda54" />
+        <ecfd:campoString name="Leyenda55" />
+        <ecfd:campoString name="Leyenda56" />
+        <ecfd:campoString name="Leyenda57" />
+        <ecfd:campoString name="Leyenda58" />
+        <ecfd:campoString name="Leyenda59" />
+        <ecfd:campoString name="Leyenda60" />
+        <ecfd:campoString name="Leyenda61" />
+        <ecfd:campoString name="Leyenda61" />
+        <ecfd:campoString name="Leyenda62" />
+        <ecfd:campoString name="Leyenda63" />
+        <ecfd:campoString name="Leyenda64" />
+        <ecfd:campoString name="Leyenda65" />
+        <ecfd:campoString name="Leyenda66" />
+        <ecfd:campoString name="Leyenda67" />
+        <ecfd:campoString name="Leyenda68" />
+        <ecfd:campoString name="Leyenda70" />
+        <ecfd:campoString name="Leyenda71" />
+        <ecfd:campoString name="Leyenda72" />
+        <ecfd:campoString name="Leyenda74" />
+        <ecfd:campoString name="Leyenda75" />
+        <ecfd:campoString name="Leyenda76" />
+        <ecfd:campoString name="Leyenda77" />
+        <ecfd:campoString name="Leyenda78" />
+        <ecfd:campoString name="Leyenda79" />
+        <ecfd:campoString name="Leyenda80" />
+        <ecfd:campoString name="Leyenda81" />
+        <ecfd:campoString name="Leyenda82" />
+        <ecfd:campoString name="Leyenda83" />
+        <ecfd:campoString name="Leyenda84" />
+        <ecfd:campoString name="Leyenda85" />
+        <ecfd:campoString name="Leyenda86" />
+        <ecfd:campoString name="Leyenda87" />
+        <ecfd:campoString name="Leyenda88" />
+        <ecfd:campoString name="Leyenda89" />
+        <ecfd:campoString name="Leyenda90" />
+        <ecfd:campoString name="Leyenda91" />
+        <ecfd:campoString name="Leyenda92" />
+        <ecfd:campoString name="Leyenda93" />
+        <ecfd:campoString name="Leyenda94" />
+        <ecfd:campoString name="Leyenda95" />
+        <ecfd:campoString name="Leyenda96" />
+        <ecfd:campoString name="Leyenda97" />
+        <ecfd:campoString name="Leyenda98" />
+        <ecfd:campoString name="Leyenda99" />
+        <ecfd:campoString name="Leyenda100" />
+        <ecfd:campoString name="Leyenda69" />
+        <ecfd:campoString name="RegimenFiscal">Regimen General de Ley Personas Morales</ecfd:campoString>
+        <ecfd:campoString name="CuentaDePago">No aplica</ecfd:campoString>
+        <ecfd:campoString name="LugarDeExpedicion">Del. Alvaro Obregón, Ciudad de Mexico</ecfd:campoString>
+        <ecfd:campoNumero name="TIVA">16</ecfd:campoNumero>
+        <ecfd:campoNumero name="MIVA">145.70</ecfd:campoNumero>
+        <ecfd:CustDetalle>
+          <ecfd:CustDetNroLin>1</ecfd:CustDetNroLin>
+          <ecfd:CustDetAFN_01>BB6037</ecfd:CustDetAFN_01>
+          <ecfd:CustDetNUD_05>64.78</ecfd:CustDetNUD_05>
+        </ecfd:CustDetalle>
+      </ecfd:Personalizados>
+    </ecfd:ECFD>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

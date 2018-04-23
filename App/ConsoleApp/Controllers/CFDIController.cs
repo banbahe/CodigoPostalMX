@@ -253,7 +253,12 @@ namespace ConsoleApp.Controllers
         public List<CFDI_RECORDS> ListDTO()
         {
             _cfdi_records = new CFDI_RECORDS();
-            return _cfdi_records.List();
+            var res = Task.Run(() => _cfdi_records.List());
+            res.Wait();
+            List<CFDI_RECORDS> resultado = new List<CFDI_RECORDS>();
+            resultado = res.Result;
+
+            return resultado;
         }
 
         public List<Models.CFDI> List()
@@ -261,7 +266,13 @@ namespace ConsoleApp.Controllers
             List<Models.CFDI> listRes = new List<Models.CFDI>();
             _cfdi_people = new CFDI_PEOPLE();
             List<CFDI_PEOPLE> listPeople = _cfdi_people.List();
-            List<CFDI_RECORDS> list = this.ListDTO();
+
+            var execute = Task.Run(() => this.ListDTO());
+            execute.Wait();
+
+
+            List<CFDI_RECORDS> list = new List<CFDI_RECORDS>();
+            list = execute.Result;
 
             foreach (var item in list)
             {

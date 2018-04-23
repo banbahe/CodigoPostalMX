@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="2" fecha="2014-07-03T11:06:14" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="0.95" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301899479" certificado="MIIEYDCCA0igAwIBAgIUMDAwMDEwMDAwMDAzMDE4OTk0NzkwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTkwNTM3NDJaFw0xNzEyMTkwNTM3NDJaMIGsMSAwHgYDVQQDExdHSVNFTEEgTU9OVElFTCBFU1BJTk9TQTEgMB4GA1UEKRMXR0lTRUxBIE1PTlRJRUwgRVNQSU5PU0ExIDAeBgNVBAoTF0dJU0VMQSBNT05USUVMIEVTUElOT1NBMRYwFAYDVQQtEw1NT0VHNzcwMzE1MVk5MRswGQYDVQQFExJNT0VHNzcwMzE1TURGTlNTMDMxDzANBgNVBAsTBk1hdHJpejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAkaRi4Z4I7B8nuLdbpxO+eX5kT/SkF7xf/Um0tjtGcLxTnlSgAXSbMqOvDik+iejSMatGcUC8eRcvMWfVIvYmkcpxq4X/RURGm6CAscdw5ei5R8V92ui2TwG6Klijc1LgT14cLgUa+m8sj5KjO1nXPkh5Mk02u1qybji2JIZEc8ECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBADKG94AcBG/syO8TPtAFv++x1e8vcTmscyH4PyzQOJbujwKVzKKYTgWHHzmcEG0XWbppHrD/PlPaATW0KE4WUbptq7Z//mbMNS9arQgLgDRUlkqPkyqkiOZVE2pIW9hAVMDC1UYlOAxENWf43nmjzKVAkJ+kG2p++yFwplR32e7L7knsLWlAlmrsxD2DfyC19CkZXYV4STuN8mrI1Ij9ugpEYVHJHfKLOY6WtSOOciX+VqfVNyvk9AQ/xYtwKb3n/KlQpOLNE+TOfeiJlF5W4RF6d6DxpzbJ6/f2GAJn7FrsPcKhz8zt7xbM3hL6kOBrHeaSo91mwou0y9NzMEQNgTk=" sello="chlqe5x+YhylxCWoV/q6l2hTamw01DLlR1UCvVnsQLhpGhSx0qB0LQHrqoe2gDYHyABI8G9zm8+7mBoISHOgjvdzcjUSk+Jl0FdFPgJ/caJJ5vzffZ6REiuyhoGbaTIS3HMHO5RIRgLrcW4tc431H6wnsr2p1RTg4kjCyFL8Z+M=">
+  <cfdi:Emisor rfc="MOEG7703151Y9" nombre="GISELA MONTIEL ESPINOSA">
+    <cfdi:DomicilioFiscal calle="PASEO DE LAS LOMAS 67" colonia="PARQUE RESIDENCIAL" municipio="COACALCO 1A SECCIÓN" estado="EDO. DE MEXICO" pais="México" codigoPostal="55720" />
+    <cfdi:ExpedidoEn calle="PASEO DE LAS LOMAS 67" colonia="PARQUE RESIDENCIAL" localidad="COACALCO 1A SECCIÓN" estado="EDO. DE MEXICO" pais="México" codigoPostal="55720" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="PASEO DE LAS LOMAS 67" colonia="PARQUE RESIDENCIAL" municipio="COACALCO 1A SECCIÓN" estado="EDO. DE MEXICO" pais="México" codigoPostal="55720" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="02060107" descripcion="PRUEBAS FACTURACION ELECTRONICA" valorUnitario="1.00" importe="1.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="0.21" totalImpuestosTrasladados="0.16">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="0.11" />
+      <cfdi:Retencion impuesto="ISR" importe="0.10" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="0.16" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="10B192BF-5BB4-4A05-8E9F-332010013B80" FechaTimbrado="2014-07-03T11:06:16" noCertificadoSAT="00001000000301160463" selloCFD="chlqe5x+YhylxCWoV/q6l2hTamw01DLlR1UCvVnsQLhpGhSx0qB0LQHrqoe2gDYHyABI8G9zm8+7mBoISHOgjvdzcjUSk+Jl0FdFPgJ/caJJ5vzffZ6REiuyhoGbaTIS3HMHO5RIRgLrcW4tc431H6wnsr2p1RTg4kjCyFL8Z+M=" selloSAT="3b5qGUZH14P7AOkawoMUtGTpUD1NSv+wZpioSuo9SH3BJOCVHCr/N3fMzG4q8VJt5W0KWSulBWv1hh3UMyXAcKwEhi2XCOrPf5aVmFgiPJHQzC6ODXR7dvW1KRlA7cmmu8ICeNytK4ZBftzQ6geo1Jbs5B1mE+fsQVVXKJMTrkA=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

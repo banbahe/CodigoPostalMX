@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="3" fecha="2014-08-13T17:09:06" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="291000.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="337560.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300789902" certificado="MIIEXTCCA0WgAwIBAgIUMDAwMDEwMDAwMDAzMDA3ODk5MDIwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA5MDQxODM2MDFaFw0xNzA5MDQxODM2MDFaMIGpMRkwFwYDVQQDExBMTFVTQU1BIFNBIERFIENWMRkwFwYDVQQpExBMTFVTQU1BIFNBIERFIENWMRkwFwYDVQQKExBMTFVTQU1BIFNBIERFIENWMSUwIwYDVQQtExxMVVMxMzA1MTRRTjkgLyBET0xDNjUwNTI3RTUwMR4wHAYDVQQFExUgLyBET0xDNjUwNTI3TURGTVBDMDExDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwnhR/7T3aG7XSJi+ZXHKjQDo6cCVp/vRodp8f061fWuIEu6KZIMSS41d2B8L5vdUINOckLsIWOqpfX1gIxoVxoVhv6ZGLVUHCjaudgvH17mTz/40xORoxhIFsWwxcKXCxL0bEXTiWz+V+Co/tisyDTILjmj+CIJULh6kEgrp8XUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAA6Uic1wfu1OTACRccmn4pxN2AqxDyAO3KhZzwNd3DZhO4jUfWOfo1AsK/5DrVCYRX+/V/4002z+VXDkpKH+RzlZ9bMwgF/8y0NuhKwtEr+nI9CvDfDJehi1bqL3WDHWpnm3LZYg3cp5T3YUoqDaY9u8qwlwxHex4r1TouPQORAhs2SYwDEjydB9CYlE3PKL5CfXZWYZWqrQCi58mE7kutu1NntCfMpPiVeA/3aSTY8RJdnE7MDvFPVSAUxOAKTe4q9v+/UK50WK5hFcM0hU+CKIwt9yECNqoEqtipjKVnlYhyD4oB3l1y1w9QqunrYWCHu6gxO6bfTyfgFwSTzts8c=" sello="pIYF/CqPbDJSVWPRvQfQ9R26ww1hbRqFAF7JOfpGa8K1ujmfBXe+K78guu4xT+M9ZxHpEhtK1sepJM8OAYbjEd5xJ28yHIVT8MuZ/F8cmhoHV07/U3Gx1k5a/uIx0CX3UvJp9+ynQw+Kf9dLeObMiV0nBWEwHMBpX313y+tTYSY=">
+  <cfdi:Emisor rfc="LUS130514QN9" nombre="LLUSAMA SA DE CV">
+    <cfdi:DomicilioFiscal calle="BLVD. ADOLFO LÓPEZ MATEOS 2930 13" colonia="ERMITA TIZAPÁN" municipio="ÁLVARO OBREGÓN" estado="D.F." pais="México" codigoPostal="01089" />
+    <cfdi:ExpedidoEn calle="BLVD. ADOLFO LÓPEZ MATEOS 2930 13" colonia="ERMITA TIZAPÁN" localidad="ALVARO OBREGÓN" estado="D.F." pais="México" codigoPostal="01089" />
+    <cfdi:RegimenFiscal Regimen="OTRO" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="ECE830923MJ2" nombre="EMPACADORA CELAYA, S.A. DE C.V.">
+    <cfdi:Domicilio calle="AV. MEXICO JAPON 116" colonia="INDUSTRIAL" municipio="CELAYA" estado="GUANAJUATO" pais="México" codigoPostal="38010" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="30.00" unidad="Pieza" noIdentificacion="02060107" descripcion="BOTARGA DE PAVO CAPISTRANO INFLABLE CON MOTOR Y BOLSA DE TRANSPORTACION" valorUnitario="9700.00" importe="291000.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="46560.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="46560.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="D6D879B8-602F-49B4-BEC2-5720CB1A3538" FechaTimbrado="2014-08-13T17:09:08" noCertificadoSAT="00001000000301160463" selloCFD="pIYF/CqPbDJSVWPRvQfQ9R26ww1hbRqFAF7JOfpGa8K1ujmfBXe+K78guu4xT+M9ZxHpEhtK1sepJM8OAYbjEd5xJ28yHIVT8MuZ/F8cmhoHV07/U3Gx1k5a/uIx0CX3UvJp9+ynQw+Kf9dLeObMiV0nBWEwHMBpX313y+tTYSY=" selloSAT="qJOroKZDIfFG9CzjA0qHVXJ1jDooF6u1fIqib24v6myimPAFCpydgK4WmRii3HP4tObURSUZpG0nfg2g10jRKEkJV765Kzk01wdEAJ42MK2jsfX4Vfq3oGkHfnfUmek0aWfQy31zdx4ULqbHyOGLFbNaURQN+RdyXZYluXCTeHI=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

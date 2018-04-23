@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="1" fecha="2014-06-27T18:11:01" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="1.16" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000202275872" certificado="MIIEcTCCA1mgAwIBAgIUMDAwMDEwMDAwMDAyMDIyNzU4NzIwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTEwNTIwMTI0MFoXDTE2MTEwNTIwMTI0MFowgbIxHDAaBgNVBAMTE1ZHTVQgR1JPVVAgU0EgREUgQ1YxHDAaBgNVBCkTE1ZHTVQgR1JPVVAgU0EgREUgQ1YxHDAaBgNVBAoTE1ZHTVQgR1JPVVAgU0EgREUgQ1YxJTAjBgNVBC0THFZHUjA4MDkwMjlFNSAvIE1FTEQ5MDA2MjJLRDkxHjAcBgNVBAUTFSAvIE1FTEQ5MDA2MjJNTUNSUE0wMzEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAR1aVIlmn5Mbt1B6qK8t5N1QoEfX/WrKfnXiXQFwXnBkIJdRw180kMIFw8p8tddUomVXK0Knb/2lTK54QL5vmhxAY92d2NSsI5y4Otvuf8nwfxEcdcCGIH0FCTtQ+JChwEvS06F7ccwVpd2yoRuO+2HJ2ojwr2o/ibhRAmPK4PQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAb5RG3+xIf5etecNtOS3ewfRNwqnZ4w9Sgot7GYiFCZlJnOTE/srIPDlM0nGjzgy9O9bZD2JMI6u3zI3lAwM8ZInXtaLU4DbBhWyqtU1Qqn49+/DCHUdhpt/g3Tg4bfUtW5c0zVEM/isUafyiMwlHa1AsYax/F3SzXIXZEmBgUrlvOCx/D0X7Pk4LYneyzbHNXiJ8v0fsTtWCFLPnwlJYRpFkDj/zYPETVQEuzVevx4WYwYRW/Sn4GR6bP92TpRZzxtdKD10ZkKe7fB3axfwX8AePt/uZM5DUcs8YF9q5Ns1Q44/u3+Olg8Q1DcKp/+A6xlE25SrVGY30/PvSkMiKrA==" sello="ZJtudp4sTT67Yx8gBqhJDEcimIR18BIR8isxeYb2xEOT6gZvfd6FseiE0sj1dX+I51B9jL2KMII/c+vTetHqg0mVe3rTlk4jRVz/JXjHMSyV6Kdw1SX0wKPWPiuh8q2xnr6t1HSHOWfo+eo8W+7LNyoMGY7pxtJ7V5FMqugIzYc=">
+  <cfdi:Emisor rfc="VGR0809029E5" nombre="VGMT GROUP SA DE CV">
+    <cfdi:DomicilioFiscal calle="SALAVERRY 1020" colonia="LINDAVISTA" municipio="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:ExpedidoEn calle="SALAVERRY 1020" colonia="LINDAVISTA" localidad="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN SIMPLIFICADO" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="SALAVERRY 1020" colonia="LINDAVISTA" municipio="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="02060107" descripcion="PRUEBAS FACTURACION ELECTRONICA" valorUnitario="1.00" importe="1.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="0.16">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="0.16" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="1CF21CD9-13A0-4953-BBFA-6CBEB21DECDA" FechaTimbrado="2014-06-27T18:11:03" noCertificadoSAT="00001000000301160463" selloCFD="ZJtudp4sTT67Yx8gBqhJDEcimIR18BIR8isxeYb2xEOT6gZvfd6FseiE0sj1dX+I51B9jL2KMII/c+vTetHqg0mVe3rTlk4jRVz/JXjHMSyV6Kdw1SX0wKPWPiuh8q2xnr6t1HSHOWfo+eo8W+7LNyoMGY7pxtJ7V5FMqugIzYc=" selloSAT="TnZnh7TPhZhiZfXHsh4dugJz7BfHdnGQxuoDq28opQ2U6oThTFoJlxVKbpc4nMQYZLkKCqmq+AsJLNsZt+lJvdH/60eSYVw/Lku+95nckX8SxT2WNjR21fKGuHYe17KJ+dP+JVGPkSJ96RU2fj2wtHFsmffGpt/ex/FcDBneEQc=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

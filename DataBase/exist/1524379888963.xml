@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="1" fecha="2014-06-25T11:54:12" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="1.16" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301272426" certificado="MIIEXTCCA0WgAwIBAgIUMDAwMDEwMDAwMDAzMDEyNzI0MjYwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzExMTExNjUwMzhaFw0xNzExMTExNjUwMzhaMIGpMR8wHQYDVQQDExZDQVJMT1MgUkFNSVJFWiBURU5PUklPMR8wHQYDVQQpExZDQVJMT1MgUkFNSVJFWiBURU5PUklPMR8wHQYDVQQKExZDQVJMT1MgUkFNSVJFWiBURU5PUklPMRYwFAYDVQQtEw1SQVRDNjUxMjExSVIwMRswGQYDVQQFExJSQVRDNjUxMjExSERGTU5SMDExDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAiBIAzOUqDKY+3VQAWoFGC9Kgjn3/gDZsIbFEMhOteUm2OfBxCvdhr3B9juW0cz94pkGNvfi11UO16Xf7aA17lT0HZbesG7WScgJrca4tC8Nz9CdoBnoGKr4LYPR+dFumnTcIa7IUoVjanlJDUPVGUDRZwNV9NddA8Ig5nonAdwkCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGeSdoXpozUg1LCQOZzCoyboA7Hk0QS7T1eYEskzIy9fT4PW2DG6kXjWlrupwy2J08B3Pc3RcLuDcbjUIB4KOncDm/NDwp7mEZCPPaEJNQqnmFQPxHrb7/06uvabGwbagJDXQtGP5ff/3gbD8RmZ/IgiYJfLobY8qXhs3UrNALtC+ur4JTaCP0cEiopp7dsvKyicCMywVtJPml9FJOF8iPiQOSgmmxeh1KgaFnpfxYqGIFJpuOsuozX97BcO2BxyQqvdusk8b0s5LhOeDHOKfnYAmg5PErMJz/yFVVy9Ha8UMqHvzFbet+A5QwLD10YkrkW3PyxjUHjbPYki6SIXnxI=" sello="c4truweH5N5MrG8xgV4Eioqbe4IVUrv9rKlPT2+YhQqIblF218hmpssPr4pcca/LwOGfN8QKFp8Cr0brDmGKBXk+zBvWM182u+mB9sHVm74N8oDHj4letH2zETJ7e7CAHegR3OVF96pG56+ZpBl5yo/VBB9jaaC2vA5099tlopA=">
+  <cfdi:Emisor rfc="RATC651211IR0" nombre="CARLOS RAMIREZ TENORIO">
+    <cfdi:DomicilioFiscal calle="ARENA 53" colonia="ACUEDUCTO DE GUADALUPE" municipio="GUSTAVO A. MADERO" estado="D.F." pais="México" codigoPostal="07279" />
+    <cfdi:ExpedidoEn calle="ARENA 53" colonia="ACUEDUCTO DE GUADALUPE" localidad="GUSTAVO A. MADERO" estado="D.F." pais="México" codigoPostal="07279" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="ARENA 53" colonia="ACUEDUCTO DE GUADALUPE" municipio="GUSTAVO A. MADERO" estado="D.F." pais="México" codigoPostal="07279" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="02060107" descripcion="PRUEBAS FACTURACION ELECTRONICA" valorUnitario="1.00" importe="1.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="0.16">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="0.16" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="59A66EC1-EA4A-4AEB-84EC-1216B1CE645A" FechaTimbrado="2014-06-25T11:54:14" noCertificadoSAT="00001000000301160463" selloCFD="c4truweH5N5MrG8xgV4Eioqbe4IVUrv9rKlPT2+YhQqIblF218hmpssPr4pcca/LwOGfN8QKFp8Cr0brDmGKBXk+zBvWM182u+mB9sHVm74N8oDHj4letH2zETJ7e7CAHegR3OVF96pG56+ZpBl5yo/VBB9jaaC2vA5099tlopA=" selloSAT="OHaZny/5H4KR/wCEQzAD6OwOEReRAaHLFJ0XS6kwJucC3CqFwXlv0yifR0G27mmDNfynicBjhrcss2gtkM+FbGEXl75lJ126/Rn5ddT0YE3Y/ewFhW8GmOKDkcnp4jsbnB7kvU6G2X1c4bnSiaPE/CKrfIwRwcaGc+B8VAb2yAo=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

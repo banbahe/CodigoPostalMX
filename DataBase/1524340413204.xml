@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sat.gob.mx/cfd/2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/2 http://www.sat.gob.mx/sitio_internet/cfd/2/cfdv22.xsd  " version="2.2" serie="ECOMM" folio="3730" fecha="2013-12-01T18:00:00" sello="REN6r+A/8kqFYPQvCdUJ9ND5ZADsqT6tXClh2ZTQySSI5Zqe9TFZwNvb5TIIpo2C1sCWObemObfH5TWTAhUT5dckLZC3IlQXdcTExfQOGkbjJW00hBKYzpBmOOSLsbC/ii65eNAq5Ax4qUO8+E0hrnFNQl96+8ngFlI7E4JiTqU=" noAprobacion="845671" anoAprobacion="2013" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000301462770" certificado="MIIEkDCCA3igAwIBAgIUMDAwMDEwMDAwMDAzMDE0NjI3NzAwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzExMjgxODQyMTZaFw0xNzExMjgxODQyMTZaMIHcMSIwIAYDVQQDExlBRElEQVMgREUgTUVYSUNPIFNBIERFIENWMSIwIAYDVQQpExlBRElEQVMgREUgTUVYSUNPIFNBIERFIENWMSIwIAYDVQQKExlBRElEQVMgREUgTUVYSUNPIFNBIERFIENWMSUwIwYDVQQtExxBTUU3NTA4MDhENDggLyBUT0FKNjQwMzE3TDY4MR4wHAYDVQQFExUgLyBUT0FKNjQwMzE3SERGUk1OMDQxJzAlBgNVBAsTHkFESURBUyBERSBNRVhJQ08sIFMuQS4gREUgQy5WLjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA+oTF7FIMe67YqxYXbX3xWj2Lo/GmV+dMS7Y4i4GUyBnAxIsDwSTmSIeB5ogXGo8H13zUL4G9j6Zx8zJGE03fp4lK3by0gxcCgmHvTGnQoPaLWNCjffZXXg20UcD+rbP3hK0KtgfGDZIU0FDYv7YBIimAj+afj7Z2AXIUTocLziECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBACnXzCMoI0OJ+p9cCCcnCq19CYjXGYdw1bsguB75zejSrARrTH1zoV87ucHZD9p7HoClYnDjRH8MYBI8C31Ldih4hYV6txhw+Cl5xjcguIl2rYuMW0OxwoZNL6SOA9ZcObjx/UyNtI2FHEva9qkyeq8XFmPGAFEHvvWyUa/V6loDa0bJh8u1YPRJHplrssuXaqo8VbW6gFXU03Ai1YuNmc2z6E8fXxC+cr6p8fCezQ8PUtvOy/EQN8ONTsN0gSAtFTfzzxWk7CWwlh0G+IaQvsq6CMhZc/TLwGdna4c5xh7G1WS7OaQdgv7HSFjbZBlV4oXmjJKVQg4zjHMXZWBe7Po=" subTotal="1419.83" descuento="212.97" motivoDescuento="AJ" Moneda="MXN" total="1399.96" tipoDeComprobante="ingreso" metodoDePago="No Identificado" LugarExpedicion="MEXICO, ESTADO DE MEXICO" NumCtaPago="No Identificado">
+  <Emisor rfc="AME750808D48" nombre="ADIDAS DE MEXICO S.A. DE C.V.">
+    <DomicilioFiscal calle="BLVD. ADOLFO RUIZ CORTINEZ" noExterior="3642" noInterior="11 PISO" colonia="JARDINES DEL PEDREGAL" municipio="ALVARO OBREGON" estado="D.F." pais="MEXICO" codigoPostal="01900" />
+    <ExpedidoEn calle="AV. BENITO JUAREZ" noExterior="20" noInterior="EDIFICIO 2" colonia="SAN MATEO CUAUTEPEC" localidad="MEXICO" municipio="TULTITLAN" estado="ESTADO DE MEXICO" pais="MEXICO" codigoPostal="54948" />
+    <RegimenFiscal Regimen="Régimen General de Ley Personas Morales" />
+  </Emisor>
+  <Receptor rfc="WIT060511PHA" nombre="WI-TECH, SA DE CV">
+    <Domicilio calle="17" noExterior="168" colonia="Col. Las Aguilas" municipio="Nezahualcoyotl" estado="MEX" pais="Mexico" codigoPostal="57900" />
+  </Receptor>
+  <Conceptos>
+    <Concepto cantidad="1.00" unidad="PIEZA" descripcion="DRAGON" valorUnitario="860.90" importe="860.90" />
+    <Concepto cantidad="1.00" unidad="PIEZA" descripcion="TREFOIL TEE DIA" valorUnitario="300.17" importe="300.17" />
+    <Concepto cantidad="1.00" unidad="PIEZA" descripcion="ADI TREFOIL TEE" valorUnitario="256.97" importe="256.97" />
+  </Conceptos>
+  <Impuestos totalImpuestosTrasladados="193.10">
+    <Traslados>
+      <Traslado impuesto="IVA" tasa="16.00" importe="193.10" />
+    </Traslados>
+  </Impuestos>
+  <Addenda xmlns:ecfd="http://www.southconsulting.com/schemas/strict" xsi:schemaLocation="http://www.southconsulting.com/schemas/strict http://www.southconsulting.com/schemas/strict/ecfd.xsd">
+    <ecfd:ECFD version="1.0">
+      <ecfd:Documento ID="T33ECOMM3730">
+        <ecfd:Encabezado>
+          <ecfd:IdDoc>
+            <ecfd:NroAprob>845671</ecfd:NroAprob>
+            <ecfd:AnoAprob>2013</ecfd:AnoAprob>
+            <ecfd:Tipo>33</ecfd:Tipo>
+            <ecfd:Serie>ECOMM</ecfd:Serie>
+            <ecfd:Folio>3730</ecfd:Folio>
+            <ecfd:Estado>ORIGINAL</ecfd:Estado>
+            <ecfd:NumeroInterno>ECOMM3730</ecfd:NumeroInterno>
+            <ecfd:FechaEmis>2013-12-01T18:00:00</ecfd:FechaEmis>
+            <ecfd:FormaPago>PAGO EN UNA SOLA EXHIBICION</ecfd:FormaPago>
+            <ecfd:MedioPago>No Identificado</ecfd:MedioPago>
+            <ecfd:LugarExpedicion>MEXICO, ESTADO DE MEXICO</ecfd:LugarExpedicion>
+            <ecfd:NumCtaPago>No Identificado</ecfd:NumCtaPago>
+            <ecfd:TermPagoCdg>1</ecfd:TermPagoCdg>
+          </ecfd:IdDoc>
+          <ecfd:ExEmisor>
+            <ecfd:RFCEmisor>AME750808D48</ecfd:RFCEmisor>
+            <ecfd:NmbEmisor>ADIDAS DE MEXICO S.A. DE C.V.</ecfd:NmbEmisor>
+            <ecfd:CdgGLNEmisor>7504005032019</ecfd:CdgGLNEmisor>
+            <ecfd:CodigoExEmisor>
+              <ecfd:TpoCdgIntEmisor>INT</ecfd:TpoCdgIntEmisor>
+            </ecfd:CodigoExEmisor>
+            <ecfd:Sucursal>ECOMM</ecfd:Sucursal>
+            <ecfd:DomFiscal>
+              <ecfd:Calle>BLVD. ADOLFO RUIZ CORTINEZ</ecfd:Calle>
+              <ecfd:NroExterior>3642</ecfd:NroExterior>
+              <ecfd:NroInterior>11 PISO</ecfd:NroInterior>
+              <ecfd:Colonia>JARDINES DEL PEDREGAL</ecfd:Colonia>
+              <ecfd:Municipio>ALVARO OBREGON</ecfd:Municipio>
+              <ecfd:Estado>D.F.</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>01900</ecfd:CodigoPostal>
+              <ecfd:GLN>7504001186019</ecfd:GLN>
+            </ecfd:DomFiscal>
+            <ecfd:LugarExped>
+              <ecfd:Calle>AV. BENITO JUAREZ</ecfd:Calle>
+              <ecfd:NroExterior>20</ecfd:NroExterior>
+              <ecfd:NroInterior>EDIFICIO 2</ecfd:NroInterior>
+              <ecfd:Colonia>SAN MATEO CUAUTEPEC</ecfd:Colonia>
+              <ecfd:Localidad>MEXICO</ecfd:Localidad>
+              <ecfd:Municipio>TULTITLAN</ecfd:Municipio>
+              <ecfd:Estado>ESTADO DE MEXICO</ecfd:Estado>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:CodigoPostal>54948</ecfd:CodigoPostal>
+              <ecfd:GLN>7504005032019</ecfd:GLN>
+            </ecfd:LugarExped>
+          </ecfd:ExEmisor>
+          <ecfd:ExReceptor>
+            <ecfd:RFCRecep>WIT060511PHA</ecfd:RFCRecep>
+            <ecfd:NmbRecep>WI-TECH, SA DE CV</ecfd:NmbRecep>
+            <ecfd:CodigoExReceptor>
+              <ecfd:TpoCdgIntRecep>CdgInt</ecfd:TpoCdgIntRecep>
+              <ecfd:CdgIntRecep>9999</ecfd:CdgIntRecep>
+            </ecfd:CodigoExReceptor>
+            <ecfd:DomFiscalRcp>
+              <ecfd:Calle>17</ecfd:Calle>
+              <ecfd:NroExterior>168</ecfd:NroExterior>
+              <ecfd:Colonia>Col. Las Aguilas</ecfd:Colonia>
+              <ecfd:Municipio>Nezahualcoyotl</ecfd:Municipio>
+              <ecfd:Estado>MEX</ecfd:Estado>
+              <ecfd:Pais>Mexico</ecfd:Pais>
+              <ecfd:CodigoPostal>57900</ecfd:CodigoPostal>
+            </ecfd:DomFiscalRcp>
+            <ecfd:LugarRecep>
+              <ecfd:Calle>ENTREGAR EN TIENDA</ecfd:Calle>
+              <ecfd:Pais>MEXICO</ecfd:Pais>
+              <ecfd:GLN>9876543212345</ecfd:GLN>
+            </ecfd:LugarRecep>
+          </ecfd:ExReceptor>
+          <ecfd:Totales>
+            <ecfd:Moneda>MXN</ecfd:Moneda>
+            <ecfd:SubTotal>1419.83</ecfd:SubTotal>
+            <ecfd:MntDcto>212.97</ecfd:MntDcto>
+            <ecfd:PctDcto>0</ecfd:PctDcto>
+            <ecfd:MntBase>1206.86</ecfd:MntBase>
+            <ecfd:MntImp>193.1</ecfd:MntImp>
+            <ecfd:VlrPagar>1399.96</ecfd:VlrPagar>
+            <ecfd:VlrPalabras>Recibimos la suma de MIL TRESCIENTOS NOVENTA Y NUEVE PESOS  96/100 M.N.</ecfd:VlrPalabras>
+          </ecfd:Totales>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>IVA</ecfd:TipoImp>
+            <ecfd:TasaImp>16</ecfd:TasaImp>
+            <ecfd:MontoImp>193.1</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+        </ecfd:Encabezado>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>1</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>DRAGON</ecfd:DscItem>
+          <ecfd:QtyItem>1</ecfd:QtyItem>
+          <ecfd:UnmdItem>PIEZA</ecfd:UnmdItem>
+          <ecfd:PrcBrutoItem>860.90</ecfd:PrcBrutoItem>
+          <ecfd:PrcNetoItem>860.90</ecfd:PrcNetoItem>
+          <ecfd:DescuentoPct>0.00</ecfd:DescuentoPct>
+          <ecfd:DescuentoMonto>0.00</ecfd:DescuentoMonto>
+          <ecfd:MontoBrutoItem>860.90</ecfd:MontoBrutoItem>
+          <ecfd:MontoNetoItem>860.90</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>2</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>TREFOIL TEE DIA</ecfd:DscItem>
+          <ecfd:QtyItem>1</ecfd:QtyItem>
+          <ecfd:UnmdItem>PIEZA</ecfd:UnmdItem>
+          <ecfd:PrcBrutoItem>300.17</ecfd:PrcBrutoItem>
+          <ecfd:PrcNetoItem>300.17</ecfd:PrcNetoItem>
+          <ecfd:DescuentoPct>0.00</ecfd:DescuentoPct>
+          <ecfd:DescuentoMonto>0.00</ecfd:DescuentoMonto>
+          <ecfd:MontoBrutoItem>300.17</ecfd:MontoBrutoItem>
+          <ecfd:MontoNetoItem>300.17</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>3</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:DscItem>ADI TREFOIL TEE</ecfd:DscItem>
+          <ecfd:QtyItem>1</ecfd:QtyItem>
+          <ecfd:UnmdItem>PIEZA</ecfd:UnmdItem>
+          <ecfd:PrcBrutoItem>256.97</ecfd:PrcBrutoItem>
+          <ecfd:PrcNetoItem>256.97</ecfd:PrcNetoItem>
+          <ecfd:DescuentoPct>0.00</ecfd:DescuentoPct>
+          <ecfd:DescuentoMonto>0.00</ecfd:DescuentoMonto>
+          <ecfd:MontoBrutoItem>256.97</ecfd:MontoBrutoItem>
+          <ecfd:MontoNetoItem>256.97</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:DscRcgGlobal>
+          <ecfd:NroLinDR>1</ecfd:NroLinDR>
+          <ecfd:TpoMov>D</ecfd:TpoMov>
+          <ecfd:CodigoDR>BILL_BACK</ecfd:CodigoDR>
+          <ecfd:GlosaDR>AJ</ecfd:GlosaDR>
+          <ecfd:TpoValor>%</ecfd:TpoValor>
+          <ecfd:ValorDR>15.00</ecfd:ValorDR>
+        </ecfd:DscRcgGlobal>
+        <ecfd:TimeStamp>2013-12-03T00:11:46</ecfd:TimeStamp>
+      </ecfd:Documento>
+      <ecfd:Personalizados>
+        <ecfd:campoString name="CLP_BY" />
+        <ecfd:campoString name="CLP_II" />
+        <ecfd:campoString name="CLP_SU" />
+        <ecfd:campoString name="CLP_ST" />
+        <ecfd:campoString name="COD_CLP_SU">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_BY">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_II">9</ecfd:campoString>
+        <ecfd:campoString name="COD_CLP_ST">9</ecfd:campoString>
+        <ecfd:campoString name="SI_ZZZ">Recibimos la suma de MIL TRESCIENTOS NOVENTA Y NUEVE PESOS  96/100 M.N.</ecfd:campoString>
+        <ecfd:campoString name="SenderID">AME750808D48:01</ecfd:campoString>
+        <ecfd:campoString name="ReceiverID">925485MX00:8</ecfd:campoString>
+        <ecfd:campoString name="STnombre" />
+        <ecfd:campoString name="STcalle">ENTREGAR EN TIENDA</ecfd:campoString>
+        <ecfd:campoString name="STnumeroext" />
+        <ecfd:campoString name="STnumeroint" />
+        <ecfd:campoString name="STcolonia" />
+        <ecfd:campoString name="Stmunicipio" />
+        <ecfd:campoString name="STestado" />
+        <ecfd:campoString name="STpais">MEXICO</ecfd:campoString>
+        <ecfd:campoString name="STcp" />
+        <ecfd:campoString name="OrdendeC" />
+        <ecfd:campoString name="Ncliente">9999</ecfd:campoString>
+        <ecfd:campoString name="STlocalidad" />
+        <ecfd:campoString name="SalesOrder" />
+        <ecfd:campoString name="MAILBY">iblanquel@gmail.com</ecfd:campoString>
+        <ecfd:campoString name="TICKET" />
+        <ecfd:campoString name="RegimenFiscal">Régimen General de Ley Personas Morales</ecfd:campoString>
+        <ecfd:campoString name="CuentaDePago">No Identificado</ecfd:campoString>
+        <ecfd:campoString name="LugarDeExpedicion">MEXICO, ESTADO DE MEXICO</ecfd:campoString>
+        <ecfd:campoNumero name="TIVA">16</ecfd:campoNumero>
+        <ecfd:campoNumero name="MIVA">193.1</ecfd:campoNumero>
+        <ecfd:CustDetalle>
+          <ecfd:CustDetNroLin>1</ecfd:CustDetNroLin>
+          <ecfd:CustDetAFN_01>G50923</ecfd:CustDetAFN_01>
+          <ecfd:CustDetNUD_05>0.00</ecfd:CustDetNUD_05>
+        </ecfd:CustDetalle>
+        <ecfd:CustDetalle>
+          <ecfd:CustDetNroLin>2</ecfd:CustDetNroLin>
+          <ecfd:CustDetAFN_01>G76747</ecfd:CustDetAFN_01>
+          <ecfd:CustDetNUD_05>0.00</ecfd:CustDetNUD_05>
+        </ecfd:CustDetalle>
+        <ecfd:CustDetalle>
+          <ecfd:CustDetNroLin>3</ecfd:CustDetNroLin>
+          <ecfd:CustDetAFN_01>X41281</ecfd:CustDetAFN_01>
+          <ecfd:CustDetNUD_05>0.00</ecfd:CustDetNUD_05>
+        </ecfd:CustDetalle>
+      </ecfd:Personalizados>
+    </ecfd:ECFD>
+  </Addenda>
+</Comprobante>

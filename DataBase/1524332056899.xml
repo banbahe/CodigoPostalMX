@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" NumCtaPago="6041" LugarExpedicion="Mexico, D.F." metodoDePago="Tarjeta de Crédito" tipoDeComprobante="ingreso" total="1673.52" Moneda="MXN" subTotal="1442.64" condicionesDePago="TARJETA DE CREDITO/DEBITO" certificado="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" noCertificado="00001000000401655817" formaDePago="PAGO EN UNA SOLA EXHIBICION" sello="PPW0CuHKIUEDrozlwU4QlD7Rnr1Ivl8YN4bNvC9WqhysQGRegv3KLGvkMmxw3GFXXIGBOvQzTCWhMTdEr4ERJMjIUy3ROyN1x1qAslAB9OFKLJlO+Mk+PooSpJwU/Zg0c3T0vy6Vy9vW7850WAyImrxnm4/Ccp7OMDrjdIIu6egwwzFZ42iCwUI4tI0j9r/rEqXCh102kUUJKc7XOZNLMIy03fpJlImIQIKQGW5twsnFNdbEcq44UG9jeSMK20I04ULaomzcPTTHcsrOXdEv/LW4ztXA73Fy+4FwQo0wuRK/S9sjyPx55OdcVXlM+mIFECIIlUL2pAyak339ZeEDbg==" fecha="2016-03-15T23:19:17" folio="1010557908" serie="E" version="3.2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.buzonfiscal.com/ns/addenda/bf/2 http://www.buzonfiscal.com/schema/xsd/Addenda_BF_v20.xsd">
+<cfdi:Emisor rfc="DME9204099R6" nombre="DELL MEXICO S.A. DE C.V ">
+<cfdi:DomicilioFiscal calle="AV. PASEO DE LA REFORMA" noExterior="NO. 2620 PISO 11 COL. LOMAS ALTAS" municipio="DELEG MIGUEL HIDALGO" estado="D.F." pais="Mexico" codigoPostal="11950"/>
+<cfdi:RegimenFiscal Regimen="RÉGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+</cfdi:Emisor>
+<cfdi:Receptor rfc="BAHE8810073C9" nombre="ESTEBAN BLANQUEL">
+<cfdi:Domicilio calle="CALLE 17 NUMERO 168 LAS AGUILAS " localidad="NEZAHUALCOYOTL" referencia="107978489-6" estado="MX" pais="Mexico" codigoPostal="57900"/>
+</cfdi:Receptor>
+<cfdi:Conceptos>
+<cfdi:Concepto cantidad="1" unidad="PIEZA(S)" noIdentificacion="460-BBMU" descripcion="Dell 15.6 inch Energy 2.0 Backpack, Customer Kit" valorUnitario="813.82" importe="813.82">
+<cfdi:InformacionAduanera numero="33716000585" fecha="2016-03-11" aduana="COLOMBIANUEVOLEON"/>
+</cfdi:Concepto>
+<cfdi:Concepto cantidad="1" unidad="PIEZA(S)" noIdentificacion="460-BBTI" descripcion="Mochila Dell Tek 15,6&quot; – Color negro" valorUnitario="628.82" importe="628.82">
+<cfdi:InformacionAduanera numero="33716000585" fecha="2016-03-11" aduana="COLOMBIANUEVOLEON"/>
+</cfdi:Concepto>
+</cfdi:Conceptos>
+<cfdi:Impuestos totalImpuestosTrasladados="230.88">
+<cfdi:Traslados>
+<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="230.88"/>
+</cfdi:Traslados>
+</cfdi:Impuestos>
+<cfdi:Complemento>
+<tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloSAT="oJRiqITdFMrIiBDVUbfJKR30L8rHOPEfQ1ppTa7tbRrQ+rU3hthhfMBrGKsh1dOcbmMrvmdGpq7NtuuL7fA8AGt0ohNV7nqKrAFf+015s1PnOuoGymRyzfKP1dZy1l5DhWtqlggWN4ZdL7SWxr5EJDb0RRTg9sdQI764IXnYOXQ=" noCertificadoSAT="00001000000202693892" selloCFD="PPW0CuHKIUEDrozlwU4QlD7Rnr1Ivl8YN4bNvC9WqhysQGRegv3KLGvkMmxw3GFXXIGBOvQzTCWhMTdEr4ERJMjIUy3ROyN1x1qAslAB9OFKLJlO+Mk+PooSpJwU/Zg0c3T0vy6Vy9vW7850WAyImrxnm4/Ccp7OMDrjdIIu6egwwzFZ42iCwUI4tI0j9r/rEqXCh102kUUJKc7XOZNLMIy03fpJlImIQIKQGW5twsnFNdbEcq44UG9jeSMK20I04ULaomzcPTTHcsrOXdEv/LW4ztXA73Fy+4FwQo0wuRK/S9sjyPx55OdcVXlM+mIFECIIlUL2pAyak339ZeEDbg==" FechaTimbrado="2016-03-15T23:19:17" UUID="a2ebf869-9758-44b4-b015-006e39ad0275" version="1.0"/>
+</cfdi:Complemento>
+<cfdi:Addenda>
+<AddendaBuzonFiscal xmlns="http://www.buzonfiscal.com/ns/addenda/bf/2" version="2.0">
+<Emisor telefono="+001877533-6230" web="http://www.dell.com/la/mx"/>
+<Receptor telefono="445-534318486" noCliente="107978489-6"/>
+<Destino nombre="ESTEBAN BLANQUEL" calle="CALLE 17 NUMERO 168 LAS AGUILAS  " ciudad="NEZAHUALCOYOTL" estado="MX" pais="Mexico" codigoPostal="57900"/>
+<TipoDocumento nombreCorto="FAC" descripcion="Factura"/>
+<CFD totalConLetra="MIL SEISCIENTOS SETENTA Y TRES  PESOS 52/100 MXN" refID="150991584"/>
+<Extra atributo="Pedido del Cliente" valor="65312149"/>
+<Extra atributo="Atencion: " valor="ESTEBAN BLANQUEL"/>
+<Extra atributo="Atencion: " valor="ESTEBAN BLANQUEL"/>
+<Extra atributo="Tel: " valor="445-534318486"/>
+<Extra atributo="DiadePago" valor="15/03/2016"/>
+<Extra atributo="No de Orden" valor="522287697"/>
+<Extra atributo="FechaPedido" valor="07/03/2016"/>
+<Extra atributo="SalesRep" valor="CLARKE KENNYS"/>
+<Extra atributo="Transportista" valor="INTERNATIONAL"/>
+<Extra atributo="AMF#" valor="000960922801"/>
+<Extra atributo="OrdenesAsociadas" valor="522287697"/>
+<Extra atributo="eRecPin" valor="4851"/>
+</AddendaBuzonFiscal>
+</cfdi:Addenda>
+</cfdi:Comprobante>

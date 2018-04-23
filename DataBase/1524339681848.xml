@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="3" fecha="2014-08-05T12:23:29" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="14500.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="16820.00" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRÓNICA DE FONDOS" LugarExpedicion="México D.F." NumCtaPago="2495" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301900032" certificado="MIIEZjCCA06gAwIBAgIUMDAwMDEwMDAwMDAzMDE5MDAwMzIwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTkwNjU5MjRaFw0xNzEyMTkwNjU5MjRaMIGyMSIwIAYDVQQDExlKT1NFIEdPTlpBTE8gUk9NRVJPIFJPSkFTMSIwIAYDVQQpExlKT1NFIEdPTlpBTE8gUk9NRVJPIFJPSkFTMSIwIAYDVQQKExlKT1NFIEdPTlpBTE8gUk9NRVJPIFJPSkFTMRYwFAYDVQQtEw1ST1JHNzQwNjIzS1AwMRswGQYDVQQFExJST1JHNzQwNjIzSERGTUpOMDgxDzANBgNVBAsTBk1hdHJpejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmmwmWT8Y/oldzkaeR6oqoVq93HJ08zZZfvS4aN1LeK9jEtryo+nZrPv7HWKYmAJFD1IaA5d5+SnGCBDckQ/iQp/CP2COzty/IH/fZFyM9RvgrrNe1gRmIMh+JOIeLCcntsc49V62y/TfHqkIozZBo79aQyqHPkORRUuKIGKQLqUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGeKt2DxMzG0pYB/MfPPpM8RE5v8P/47PprgHr2Gz8Ibtv4ojWyKgXXh29kpQli7FWNaNvzdztLSfcHgki/JAs1skwacyDHnHmU+i5jN3apuRawF7ATlvSGlq7mS1JvtmUf4C47GJtpUR4dVVPdMOwFH516cEoKCuBlI3fgueRqb/5H81D5eWneFNCUHgzjH+6fvNWvFP9aaUPh/ANc5kRIxc7c57VXzkeRBjtSc5Ln2QwSru4jEpX7oDowdGyc/kERV4sA9XBCM4aukCW4hR1FMQgcy9ijvgyVY2A9okHjXCCfjNnkZSy8jGfJWsCJJ9HiM+1Hqs4KJC17tC4J/jvM=" sello="AECWLqskaf1zNrcUkVK1N/05ZukhRng6px0fFJmyjQO58Elx3nPAo13vvFJtzc7kOustSns28XkaDdM/R7WsnH6c4yqCdPt0YK5wF9/C/PnG6PO51XnNNXcneyM33I6SIgZcFIpsK3ioqe8jPi/qIGK95VKdBipATyCGUIfV+Bc=">
+  <cfdi:Emisor rfc="RORG740623KP0" nombre="JOSE GONZALO ROMERO ROJAS">
+    <cfdi:DomicilioFiscal calle="BAMBUES 75" colonia="VILLA DE LAS FLORES 2A SECC." municipio="COACALCO DEL BERRIOZABAL" estado="EDO. DE MEXICO" pais="México" codigoPostal="55710" />
+    <cfdi:ExpedidoEn calle="BAMBUES 75" colonia="VILLA DE LAS FLORES 2A SECC." localidad="COACALCO DEL BERRIOZABAL" estado="EDO. DE MEXICO" pais="México" codigoPostal="55710" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="ATU861222NN5" nombre="ACEROS TURIA S.A DE C.V">
+    <cfdi:Domicilio calle="JUAN DE DIOS BATIZ 78" colonia="MAGISTERIAL VISTABELLA" municipio="TLALNEPANTLA DE BAZ" estado="MEXICO" pais="México" codigoPostal="54050" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="3.00" unidad="Servicio" noIdentificacion="02060107" descripcion="RENTA DE MULTIFUNCIONAL KYOCERA KM5050" valorUnitario="2700.00" importe="8100.00" />
+    <cfdi:Concepto cantidad="2.00" unidad="Servicio" noIdentificacion="02060107" descripcion="RENTA DE MULTIFUNCIONAL KYOCERA KM3050 (CELAYA)" valorUnitario="3200.00" importe="6400.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="2320.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="2320.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="30A0FC6C-B3B5-48B8-9229-531873CCBF6C" FechaTimbrado="2014-08-05T12:24:03" noCertificadoSAT="00001000000301160463" selloCFD="AECWLqskaf1zNrcUkVK1N/05ZukhRng6px0fFJmyjQO58Elx3nPAo13vvFJtzc7kOustSns28XkaDdM/R7WsnH6c4yqCdPt0YK5wF9/C/PnG6PO51XnNNXcneyM33I6SIgZcFIpsK3ioqe8jPi/qIGK95VKdBipATyCGUIfV+Bc=" selloSAT="MwV2opmapctWuGRNFnYZakg8zcvFEogg3hfbxcnXc7sSNpwbrjI6KZT9GJ3vbXUvY4+gxX3tZndwrcGYTXat0KtYUI7AqgenBew7hsoELcznK73ogH37igh4lB4hZ/t+Hv6/kgCgwYZoqeTLHkQFGXsEAA3R2JdlnpyJeiQVtS8=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

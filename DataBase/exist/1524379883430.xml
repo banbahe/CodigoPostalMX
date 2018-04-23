@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="2" fecha="2014-08-26T15:52:58" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="18617.24" descuento="0.00" TipoCambio="1" Moneda="MXN" total="21596.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301645099" certificado="MIIEwDCCA6igAwIBAgIUMDAwMDEwMDAwMDAzMDE2NDUwOTkwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMDkyMjAwNTZaFw0xNzEyMDkyMjAwNTZaMIIBCzE0MDIGA1UEAxMrR1JVUE8gSU5EVVNUUklBTCBZIENPTUVSQ0lBTCBUT1ZBUiBTQSBERSBDVjE0MDIGA1UEKRMrR1JVUE8gSU5EVVNUUklBTCBZIENPTUVSQ0lBTCBUT1ZBUiBTQSBERSBDVjE0MDIGA1UEChMrR1JVUE8gSU5EVVNUUklBTCBZIENPTUVSQ0lBTCBUT1ZBUiBTQSBERSBDVjElMCMGA1UELRMcR0lDMDMwNDExVFA5IC8gVE9NTTY4MDUwNURWNzEeMBwGA1UEBRMVIC8gVE9NTTY4MDUwNUhERlZSUjEwMSAwHgYDVQQLExdQQVNFTyBERSBHQUxJQVMgTi4xODMgQTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4Nwz3fcxHfHvPn+uQJmKIS07bPq+PAifs79/Y0fGKrgqB/AjfyNjRStSYJ84V4u/WkJIrRACm+BjlGWJFFwCrXzw1n6Y7maZ+AGa1WLSHdwuUMnsHiAbZ/vIZ9qkc+D93UBoqIwwgn5TUwd7L7AR2TGz/fZOZGBEy4Ara7OKQ7ECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAJmXe0dldBEPYjexPZjZE8GvBAieuvLe0EfdC62Mdj1RKnh2fWM/8/yYrJpWwgR+0tAB2kbfoFlRkHGFUVZHwRGTw4PXcCPhzqbJXVIcIiUFRzIp1hBIta088oCs6wdgaU3mL7LQxuZbOJD0SnC8yzTkz+fyt11MVg8ecw988Haij+fb7t5dqCQ3QjyHbbAiS6zx7glYoQ/e9EYfbpxgkKQESc9SfIzzPwy65P3c+eHj5BqCcVxn5O/02Rlb/Xyc7GzffPvHZuC7narMhi0A9qcgWwz+fuCkxxKa/PtczcoHr0ZCdxMNeiEAeVW2tMfKNZrSL4m0Qs+H+MmYkbWZbs0=" sello="f545e+8Ysym+MPv6nwwd2QQQDUmmweaSrDTMxxZlFVT2N7BQnDvBrozGTYSqj5njG7KpcT+4yXXBdgIPSCotSC9B0Moyb2gHOmjSRGiuQmxCpbzkd2ZQkxI/IAlaqp7bc3y5KVPDADY9CVXTFDwUf5AtX6RQD67KTr0O0p8vVgM=">
+  <cfdi:Emisor rfc="GIC030411TP9" nombre="GRUPO INDUSTRIAL Y COMERCIAL TOVAR SA DE CV">
+    <cfdi:DomicilioFiscal calle="PASE GALIAS 183 A" colonia="LOMAS ESTRELLA 2A SECC." municipio="IZTAPALAPA" estado="D.F." pais="México" codigoPostal="09890" />
+    <cfdi:ExpedidoEn calle="PASE GALIAS 183 A" colonia="LOMAS ESTRELLA 2A SECC." localidad="IZTAPALAPA" estado="D.F." pais="México" codigoPostal="09890" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="IQS130125U9A" nombre="I.T. QUALITY SERVICES">
+    <cfdi:Domicilio calle="AVENIDA CHAPULTEPEC Nº 473 PISO:2" colonia="JUAREZ" municipio="CUAUHTEMOC" estado="DISTRITO FEDERAL" pais="México" codigoPostal="06600" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="SERVICIOS DE DISEÑO GRÁFICO" valorUnitario="18617.24" importe="18617.24" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="2978.76">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="2978.76" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="6225FA22-3AEC-4A54-BDB0-8CCA17654237" FechaTimbrado="2014-08-26T15:53:19" noCertificadoSAT="00001000000301160463" selloCFD="f545e+8Ysym+MPv6nwwd2QQQDUmmweaSrDTMxxZlFVT2N7BQnDvBrozGTYSqj5njG7KpcT+4yXXBdgIPSCotSC9B0Moyb2gHOmjSRGiuQmxCpbzkd2ZQkxI/IAlaqp7bc3y5KVPDADY9CVXTFDwUf5AtX6RQD67KTr0O0p8vVgM=" selloSAT="Fuss55jc2FFcQyxxxle73/AsZREKI1W61YRpcd4w7lFd61kB8hA7oxMCM5zcCLzeycnoTRQ9Un61KGfKgZYUa6x7yw+wAjR9tM1VUiTlYGndPICuMQIvSpopV5nKfKY2GjJEZTonBHu+CShpEjnO+4YOczMsHXQG9WSr2nXd/DQ=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

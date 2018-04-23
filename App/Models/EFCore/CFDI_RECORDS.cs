@@ -6,11 +6,11 @@ using System.Data.Entity.Spatial;
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Models.I;
 namespace Models.EF
 {
 
-    partial class CFDI_RECORDS
+    partial class CFDI_RECORDS : ICFDI_RECORDS
     {
         public bool AddSet()
         {
@@ -81,13 +81,13 @@ namespace Models.EF
             return flag;
         }
 
-        public List<CFDI_RECORDS> List()
+        public async Task<List<CFDI_RECORDS>> List()
         {
             try
             {
                 using (CPContext context = new CPContext())
                 {
-                    return context.CFDI_RECORDS.ToList<CFDI_RECORDS>();
+                    return await context.CFDI_RECORDS.ToListAsync<CFDI_RECORDS>();
                 }
 
             }
@@ -124,5 +124,21 @@ namespace Models.EF
             }
         }
 
+        async Task<List<CFDI_RECORDS>> ICFDI_RECORDS.Get()
+        {
+            try
+            {
+                using (CPContext context = new CPContext())
+                {
+                    return await context.CFDI_RECORDS.ToListAsync<CFDI_RECORDS>();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw;
+            }
+        }
     }
 }

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-08-29T19:01:21" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="31034.48" descuento="0.00" TipoCambio="1" Moneda="MXN" total="36000.00" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRÓNICA DE FONDOS" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000201535068" certificado="MIIEtjCCA56gAwIBAgIUMDAwMDEwMDAwMDAyMDE1MzUwNjgwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDcxMTIxMzcyNFoXDTE2MDcxMTIxMzcyNFowgfcxMjAwBgNVBAMTKU1PQklMSUFSSU8gQVJRVUlURUNUVVJBIFkgQ09OU1RSVUNDSU9OIFNDMTIwMAYDVQQpEylNT0JJTElBUklPIEFSUVVJVEVDVFVSQSBZIENPTlNUUlVDQ0lPTiBTQzEyMDAGA1UEChMpTU9CSUxJQVJJTyBBUlFVSVRFQ1RVUkEgWSBDT05TVFJVQ0NJT04gU0MxJTAjBgNVBC0THE1BQzAzMDEzMFFVMyAvIEdPU0g2MDExMTRKWjcxHjAcBgNVBAUTFSAvIEdPU0g2MDExMTRIREZNTkMwMDESMBAGA1UECxMJTk8gQVBMSUNBMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmi3uXAFL7ANjPmskzwfkiwYNWrDZtMlLnQnfXCiv1JZ9/xskvLCNS5sSJYxM0w4B7VcO4AFUw3/vnZawj1ts8BHxpaYjE4mAkcl+V+oKVuH41a32PxLRKdvmjoBUSSVUgFFA51RY1SQdwnR2cp/rz7dqmCkWQ/GIlWf27EfGzvQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAKCQN95lJTVVxAnZU1FS46BvLwXF8dL83OwpDzgpzCVEbcXFCXWBeqz7SupvaTGcatugeIQUGtaLhfHUPqM6g+cr4QjvYdF2JW87NdrA+FkMj89hlYJh0K9bRVBOpJz47PY2lEKeJ4VoToQOM/3Shc9loQw8Vnny0Uc1tNngjQwEcA8upMokeXLrQrVTxsSCvYYyUaH+vIsZRHew3H8xN46JkyVj6EVa9vGb/pSKHU0ZN9lzxL3m4P2W7ZrAZGy4DzXItBZhtRLmfy2ErTPjF+fz57TKKZnoD85bszMxYguCFDiyqU43HMeRsNAR97wTrzdl0T9thDoCswYAx0etphA==" sello="W9vzZObJNeQVCU7qoqSttNPISZriAY0c634FzgxcI3IU9OuVnBzuNSFrwAQ6+F8lruwMTOtdRMbCZcgIz105gyf9KjGaJW5g9yYqaJEOBHSRscm5m35KkCaN7tWk/DTG7k8m1/xJA5pSPt3lNBSOXSsfyUe7047kiMlxwE6SvMg=">
+  <cfdi:Emisor rfc="MAC030130QU3" nombre="MOBILIARIO ARQUITECTURA Y CONSTRUCCION SC">
+    <cfdi:DomicilioFiscal calle="CALZADA VALLEJO 1045 LOCAL 3" colonia="NUEVA VALLEJO" municipio="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07750" />
+    <cfdi:ExpedidoEn calle="CALZADA VALLEJO 1045 LOCAL 3" colonia="NUEVA VALLEJO" localidad="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07750" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="GCR9902089RA" nombre="GRUPO CRISGA SA DE CV">
+    <cfdi:Domicilio calle="CALZADA VALLEJO 1045 LOCAL 3" colonia="NUEVA VALLEJO" municipio="GUSTAVO A. MADERO" estado="D.F" pais="México" codigoPostal="07750" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="DESARROLLO DE PROYECTO" valorUnitario="31034.48" importe="31034.48" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="4965.52">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="4965.52" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="0313843F-6A1D-44E7-A382-BB76618FF611" FechaTimbrado="2014-08-29T19:01:55" noCertificadoSAT="00001000000301160463" selloCFD="W9vzZObJNeQVCU7qoqSttNPISZriAY0c634FzgxcI3IU9OuVnBzuNSFrwAQ6+F8lruwMTOtdRMbCZcgIz105gyf9KjGaJW5g9yYqaJEOBHSRscm5m35KkCaN7tWk/DTG7k8m1/xJA5pSPt3lNBSOXSsfyUe7047kiMlxwE6SvMg=" selloSAT="wdIsm7YzCW2u3aCdOiJFNJbfEuiAlaPsYgi5q/RTlnLCRgHNV0jWxSdhOreWMsFWsYlALRTiBqYTScOODFHgyLBG4awEX73XDSh/QxZ4I53XtVy+tn8G8l30i99UXHJ2uIsXW+j7x1HP7yhkFZxVhZi9U+3KtoBXIEshM2A3uas=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

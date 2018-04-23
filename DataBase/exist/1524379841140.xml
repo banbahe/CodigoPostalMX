@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="4" fecha="2014-08-21T15:06:52" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="18518.52" descuento="0.00" TipoCambio="1" Moneda="MXN" total="21481.48" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300789902" certificado="MIIEXTCCA0WgAwIBAgIUMDAwMDEwMDAwMDAzMDA3ODk5MDIwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA5MDQxODM2MDFaFw0xNzA5MDQxODM2MDFaMIGpMRkwFwYDVQQDExBMTFVTQU1BIFNBIERFIENWMRkwFwYDVQQpExBMTFVTQU1BIFNBIERFIENWMRkwFwYDVQQKExBMTFVTQU1BIFNBIERFIENWMSUwIwYDVQQtExxMVVMxMzA1MTRRTjkgLyBET0xDNjUwNTI3RTUwMR4wHAYDVQQFExUgLyBET0xDNjUwNTI3TURGTVBDMDExDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwnhR/7T3aG7XSJi+ZXHKjQDo6cCVp/vRodp8f061fWuIEu6KZIMSS41d2B8L5vdUINOckLsIWOqpfX1gIxoVxoVhv6ZGLVUHCjaudgvH17mTz/40xORoxhIFsWwxcKXCxL0bEXTiWz+V+Co/tisyDTILjmj+CIJULh6kEgrp8XUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAA6Uic1wfu1OTACRccmn4pxN2AqxDyAO3KhZzwNd3DZhO4jUfWOfo1AsK/5DrVCYRX+/V/4002z+VXDkpKH+RzlZ9bMwgF/8y0NuhKwtEr+nI9CvDfDJehi1bqL3WDHWpnm3LZYg3cp5T3YUoqDaY9u8qwlwxHex4r1TouPQORAhs2SYwDEjydB9CYlE3PKL5CfXZWYZWqrQCi58mE7kutu1NntCfMpPiVeA/3aSTY8RJdnE7MDvFPVSAUxOAKTe4q9v+/UK50WK5hFcM0hU+CKIwt9yECNqoEqtipjKVnlYhyD4oB3l1y1w9QqunrYWCHu6gxO6bfTyfgFwSTzts8c=" sello="jRR5nay2+3A7eOda/rXoN6U24X8hFCuK2u0WSexRRpBKPKTPi+Z99317IwhNGDOKAxOMjlZJxOSt10GCEok0jNfwJ27nOtEANPDALv3ZUNwPWiJ/YrPlH+moTWHHjubA7XVRCp8c5EC8tf/9TGq3HPabMOZFISm3+ASO11Rdi9I=">
+  <cfdi:Emisor rfc="LUS130514QN9" nombre="LLUSAMA SA DE CV">
+    <cfdi:DomicilioFiscal calle="BLVD. ADOLFO LÓPEZ MATEOS 2930 13" colonia="ERMITA TIZAPÁN" municipio="ÁLVARO OBREGÓN" estado="D.F." pais="México" codigoPostal="01089" />
+    <cfdi:ExpedidoEn calle="BLVD. ADOLFO LÓPEZ MATEOS 2930 13" colonia="ERMITA TIZAPÁN" localidad="ALVARO OBREGÓN" estado="D.F." pais="México" codigoPostal="01089" />
+    <cfdi:RegimenFiscal Regimen="OTRO" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="SBD080219GP1" nombre="SMART BUYING DECISIONS DE MEXICO, S.C.">
+    <cfdi:Domicilio calle="PASEO DE LA REFORMA 342 PISO 26" colonia="JUAREZ" municipio="CUAUHTEMOC" estado="DISTRITO FEDERAL" pais="México" codigoPostal="06600" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="CAPACITACION EN RETARGETTING FACEBOOK" valorUnitario="18518.52" importe="18518.52" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="2962.96">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="2962.96" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="644AD01C-D959-419A-9CB7-96B44ED9312F" FechaTimbrado="2014-08-21T15:07:22" noCertificadoSAT="00001000000301160463" selloCFD="jRR5nay2+3A7eOda/rXoN6U24X8hFCuK2u0WSexRRpBKPKTPi+Z99317IwhNGDOKAxOMjlZJxOSt10GCEok0jNfwJ27nOtEANPDALv3ZUNwPWiJ/YrPlH+moTWHHjubA7XVRCp8c5EC8tf/9TGq3HPabMOZFISm3+ASO11Rdi9I=" selloSAT="fTvM5+OTdfNSoHHg7eR/Di/tU7Ud1eC3VREuP2rkOPQy563pRtcDXd7pHjqOVLWCiGTVMU9wiPAM3lej53VFKN/V8WTsMA0hrTFxxiK5l2SlcEXQosKBiR2YivW5dVKrf2MZNAVPvgXyES9xkNiTY6fMs/4iM+HeM+Gjw9no+pE=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

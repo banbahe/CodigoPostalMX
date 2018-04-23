@@ -64,6 +64,7 @@
     <Compile Include="EF\CFDI_RECORDS.cs" />
     <Compile Include="EF\CodigoPostal.cs" />
     <Compile Include="EF\CPContext.cs" />
+    <Compile Include="I\ICFDI_RECORDS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
