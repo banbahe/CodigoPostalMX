@@ -130,7 +130,27 @@ namespace Models.EF
             {
                 using (CPContext context = new CPContext())
                 {
-                    return await context.CFDI_RECORDS.ToListAsync<CFDI_RECORDS>();
+                    var res = await context.CFDI_RECORDS.ToListAsync<CFDI_RECORDS>();
+                    return res;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw;
+            }
+        }
+ 
+
+        async Task<CFDI_RECORDS> ICFDI_RECORDS.GetPerId(int id)
+        {
+            try
+            {
+                using (CPContext context = new CPContext())
+                {
+                    var res = await context.CFDI_RECORDS.Where( x=> x.Id == id).FirstOrDefaultAsync<CFDI_RECORDS>();
+                    return res;
                 }
 
             }

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 using Models.EF;
 namespace Models.I
 {
-    interface ICFDI_RECORDS
+    public interface ICFDI_RECORDS
     {
           Task<List<CFDI_RECORDS>> Get();
+          Task<CFDI_RECORDS> GetPerId(int id);
+
     }
 }

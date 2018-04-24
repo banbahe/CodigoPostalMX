@@ -13,7 +13,7 @@ namespace ServicesApp.Controllers
 {
     public class CFDIController : ApiController
     {
-       // private ICFDI_RECORDS ctrl;
+        private ICFDI_RECORDS ctrl;
 
 
         public CFDIController()
@@ -22,21 +22,30 @@ namespace ServicesApp.Controllers
         }
 
         // GET: api/CFDI
-        public IEnumerable<string> Get()
+        [HttpGet, Route("apples")]
+        public async Task<IEnumerable<string>> Get()
+        //public async Task<string> Get()
         {
-            ctrl.
-            return new string[] { "value1", "value2" };
+            //Task task = new Task(() => ctrl.Get());
+            //task.Start();
+            //task.Wait();
+            //var result = Task.FromResult(task);
+
+            var list = await ctrl.Get();
+
+            var res = JsonConvert.SerializeObject(list, Formatting.Indented);
+            List<string> result = new List<string>();
+            result.Add(res);
+            return result;
         }
 
-     
-        /// <summary>
-        ///  
-        /// </summary>
-        /// <param name="id"> </param>
-        /// <returns></returns>
-        public string Get(int id)
+
+        [HttpGet, Route("apples")]
+        public async Task<string> Get(int id)
         {
-            return "value";
+            var item = await ctrl.GetPerId(id);
+            var res = JsonConvert.SerializeObject(item, Formatting.Indented);
+            return res;
         }
 
         // POST: api/CFDI
