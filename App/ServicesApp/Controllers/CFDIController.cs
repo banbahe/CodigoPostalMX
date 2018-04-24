@@ -22,7 +22,7 @@ namespace ServicesApp.Controllers
         }
 
         // GET: api/CFDI
-        [HttpGet, Route("apples")]
+     
         public async Task<IEnumerable<string>> Get()
         //public async Task<string> Get()
         {
@@ -39,11 +39,11 @@ namespace ServicesApp.Controllers
             return result;
         }
 
-
-        [HttpGet, Route("apples")]
-        public async Task<string> Get(int id)
+ 
+        public async Task<string> Get(string id)
         {
-            var item = await ctrl.GetPerId(id);
+
+            var item = await ctrl.GetPerId(int.Parse(id));
             var res = JsonConvert.SerializeObject(item, Formatting.Indented);
             return res;
         }
