@@ -7,10 +7,17 @@ var map;
 var markers = [];
 var geocoder;
 
+var btnEmisor = document.getElementById('btnEmisor');
+
+btnEmisor.addEventListener('click',btnEmisor_Click);
+
+
+function btnEmisor_Click(){
+    alert('test');
+}
 
 $(document).ready(function () {
 });
-
 
 function CFDIGet() {
     $.ajax({
