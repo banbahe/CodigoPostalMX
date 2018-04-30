@@ -22,7 +22,10 @@ namespace ServicesApp.Controllers
         }
 
         // GET: api/CFDI
-     
+        /// <summary>
+        /// Obtiene facturas
+        /// </summary>
+        /// <returns></returns>
         public async Task<IEnumerable<string>> Get()
         //public async Task<string> Get()
         {
@@ -39,7 +42,7 @@ namespace ServicesApp.Controllers
             return result;
         }
 
- 
+
         public async Task<string> Get(string id)
         {
 
