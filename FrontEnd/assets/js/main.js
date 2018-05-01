@@ -7,6 +7,11 @@ var map;
 var markers = [];
 var geocoder;
 
+var btnEmisor = document.getElementById('btnEmisor');
+btnEmisor.addEventListener('click',function(event){
+    console.dir(event);
+    alert('emisor');
+});
 
 $(document).ready(function () {
 });
