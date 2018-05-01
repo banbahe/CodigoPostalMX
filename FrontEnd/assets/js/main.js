@@ -8,21 +8,24 @@ var markers = [];
 var geocoder;
 
 var btnEmisor = document.getElementById('btnEmisor');
-btnEmisor.addEventListener('click',function(event){
+
+btnEmisor.addEventListener('click',btnEmisor_Click);
+
+
+function btnEmisor_Click(event){
     console.dir(event);
-    alert('emisor');
-});
+	alert('test');
+}
 
 $(document).ready(function () {
 });
-
 
 function CFDIGet() {
     $.ajax({
         url: 'http://localhost:8888/cfdi.json',
         method: 'GET',
         async: true,
-        cache: false,
+        cache: true,
         dataType: 'json',
         success: function (data, textStatus, jqXHR) {
             // console.log('data');
@@ -30,7 +33,7 @@ function CFDIGet() {
 
             data.map(item => {
                 // function Domicilio(tipo, rfc, nombre,calle,colonia,municipio, estado, pais,codigoPostalnoExterior){
-                // debugger;
+                debugger;
                 let CFDIobj = new Domicilio(1,
                     item.receptor.rfc,
                     item.receptor.nombre,
@@ -51,29 +54,26 @@ function CFDIGet() {
                               item.emisor.domicilio.estado,
                               item.emisor.domicilio.codigoPostal);
 
-                ListReceptor.push(CFDIobj);
+                 ListEmisor.push(CFDIobj);
             });
 
 
         },
         complete: function (jqXHR, textStatus) {
-            // console.log(ListReceptor.length);
-            // var unique = ListReceptor.filter( onlyUnique ); 
-            // console.dir(unique);
-            // console.log(unique.length);
+             
             let arrayTmp  = [];
             ListReceptor.map(item => {
                 // debugger;
                 if (item.calle.length > 0) {
-                    arrayTmp.push(item.calle + ' ' + item.municipio);
+                    arrayTmp.push(item.calle + ' ' + item.municipio + ' ' + item.estado);
                     // setTimeout(`CFDIAddressGet('${item.calle}')`, 12000); 
                 }
             });
 
-            var unique = arrayTmp.filter(onlyUnique);
+            let unique = arrayTmp.filter(onlyUnique);
            //  console.dir(unique);
            unique.map(item => {
-               setTimeout(`CFDIAddressGet('${item}')`, 18000); 
+               setTimeout(`CFDIAddressGet('${item}')`, 800); 
            });
 
         }
@@ -151,5 +151,6 @@ function sleep(ms) {
 }
 
 function onlyUnique(value, index, self) { 
+    debugger;
    return self.indexOf(value) === index;
  }
