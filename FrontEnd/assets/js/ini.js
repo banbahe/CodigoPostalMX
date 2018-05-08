@@ -15,7 +15,7 @@ $(document).ready(function () {
         if (button.data('confirm') != undefined)
         {
             if (button.data('confirm') == '') {
-                if (!confirm('Â¿Esta seguro de realizar esta acciÃ³n?')) return false;
+                if (!confirm('¿Esta seguro de realizar esta acciÃ³n?')) return false;
             } else {
                 if (!confirm(button.data('confirm'))) return false;
             }

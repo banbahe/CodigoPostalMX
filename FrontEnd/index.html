@@ -11,16 +11,22 @@
 <body>
     <div id='map' style="width: 720px;height: 350px;"></div>
     <div id="divMenu">
-        <input type="button" id="btnEmisor" value="Emisor" data-ajax=”true” />
-        <input type="button" id="btnReceptor" value="Receptor" />
+        <form method="POST" >
+
+            <input type="button" id="btnEmisor" value="Emisor" data-ajax=”true” data-confirm="¿Test?"/>
+            <input type="button" id="btnReceptor" value="Receptor" />
+        </form>
+
     </div>
     <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/jquery.form.min.js"></script>    
+    <script src="./assets/js/ini.js"></script>
     <script src="./assets/js/GeoClass.js"></script>
     <script src="./assets/js/Domicilio.js"></script>
     <script src="./assets/js/main.js"></script>
 
 
-  
+
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSRUW5pYvODm4xuX6_gZC2EcPbxm9kdjQ&callback=initMap" async
         defer></script>
