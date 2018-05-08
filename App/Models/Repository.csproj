@@ -65,6 +65,11 @@
     <Compile Include="EF\CodigoPostal.cs" />
     <Compile Include="EF\CPContext.cs" />
     <Compile Include="I\ICFDI_RECORDS.cs" />
+    <Compile Include="Models\CFDI.cs" />
+    <Compile Include="Models\Domicilio.cs" />
+    <Compile Include="Models\Emisor.cs" />
+    <Compile Include="Models\Receptor.cs" />
+    <Compile Include="Models\Util.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

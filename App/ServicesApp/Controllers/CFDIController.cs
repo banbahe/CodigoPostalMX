@@ -27,7 +27,6 @@ namespace ServicesApp.Controllers
         /// </summary>
         /// <returns></returns>
         public async Task<IEnumerable<string>> Get()
-        //public async Task<string> Get()
         {
             //Task task = new Task(() => ctrl.Get());
             //task.Start();
@@ -36,18 +35,17 @@ namespace ServicesApp.Controllers
 
             var list = await ctrl.Get();
 
-            var res = JsonConvert.SerializeObject(list, Formatting.Indented);
+            var res = JsonConvert.SerializeObject(list, Formatting.None);
             List<string> result = new List<string>();
             result.Add(res);
             return result;
         }
 
 
-        public async Task<string> Get(string id)
+        public async Task<string> Get(int id)
         {
-
-            var item = await ctrl.GetPerId(int.Parse(id));
-            var res = JsonConvert.SerializeObject(item, Formatting.Indented);
+            var item = await ctrl.GetPerId(id);
+            var res = JsonConvert.SerializeObject(item, Formatting.None);
             return res;
         }
 

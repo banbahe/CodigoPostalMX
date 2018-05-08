@@ -7,6 +7,8 @@ using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using Models.I;
+using Models;
+
 namespace Models.EF
 {
 
@@ -142,7 +144,6 @@ namespace Models.EF
             }
         }
  
-
         async Task<CFDI_RECORDS> ICFDI_RECORDS.GetPerId(int id)
         {
             try
@@ -151,6 +152,36 @@ namespace Models.EF
                 {
                     var res = await context.CFDI_RECORDS.Where( x=> x.Id == id).FirstOrDefaultAsync<CFDI_RECORDS>();
                     return res;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw;
+            }
+        }
+
+        public async Task<List<CFDI>> List()
+        {
+            try
+            {
+                using (CPContext context = new CPContext())
+                {
+                    var result = await context.CFDI_RECORDS.ToListAsync<CFDI_RECORDS>();
+                    foreach (var item in result)
+                    {
+                        CFDI cfdi = new CFDI();
+                        cfdi.id = item.Id;
+                        cfdi.version = item.version;
+                        cfdi.serie = item.serie;
+                        cfdi.folio = item.folio;
+                        cfdi.fecha = Util.ConvertToDate(item.fecha);
+
+
+                    }
+
+
                 }
 
             }
