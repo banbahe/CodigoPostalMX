@@ -177,8 +177,24 @@ namespace Models.EF
                         cfdi.serie = item.serie;
                         cfdi.folio = item.folio;
                         cfdi.fecha = Util.ConvertToDate(item.fecha);
+                        cfdi.formaDePago = item.formaDePago;
+                        cfdi.subTotal = item.formaDePago;
+                        cfdi.TipoCambio = item.TipoCambio.ToString();
+                        cfdi.Moneda = item.Moneda;
+                        cfdi.total = item.total.ToString();
+                        cfdi.metodoDePago = item.metodoDePago;
+                        cfdi.UUID = item.UUID;
 
+                        // Emisor
+                        cfdi.emisor = new Emisor();
 
+                        if (item.Id_Emisor > 0 )
+                        {
+                            CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
+                            objCFDI_PEOPLE.Id = item.Id_Emisor;
+                            objCFDI_PEOPLE.Get();
+
+                        }
                     }
 
 
