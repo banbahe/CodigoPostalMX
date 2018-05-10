@@ -33,6 +33,9 @@ namespace ServicesApp.Controllers
             //task.Wait();
             //var result = Task.FromResult(task);
 
+            var taskCFDIList = await ctrl.CFDIList();
+            
+
             var list = await ctrl.Get();
 
             var res = JsonConvert.SerializeObject(list, Formatting.None);

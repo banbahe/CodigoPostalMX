@@ -91,7 +91,9 @@ namespace Models.EF
                     if (this.Id > 0)
                     {
                         return context.CFDI_PEOPLE
-                          .FirstOrDefault(x => x.Id == this.Id);
+                            .Include("CFDI_PeopleAddress")
+                            .Include("CFDI_ADDRESS")
+                            .FirstOrDefault(x => x.Id == this.Id);
                     }
                     if (string.IsNullOrEmpty(this.RFC))
                     {

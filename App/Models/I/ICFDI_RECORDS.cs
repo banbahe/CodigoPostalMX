@@ -8,8 +8,8 @@ namespace Models.I
 {
     public interface ICFDI_RECORDS
     {
-          Task<List<CFDI_RECORDS>> Get();
-          Task<CFDI_RECORDS> GetPerId(int id);
-
+        Task<List<CFDI_RECORDS>> Get();
+        Task<CFDI_RECORDS> GetPerId(int id);
+        Task<List<CFDI>> CFDIList();
     }
 }

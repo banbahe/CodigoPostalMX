@@ -8,7 +8,7 @@ namespace Models
 {
     public static class Util
     {
-        public static DateTime ConvertToDate(string date, DateTime? date2)
+        public static DateTime ConvertToDate(string date, DateTime fecha)
         {
             try
             {
@@ -20,9 +20,6 @@ namespace Models
             }
         }
 
-        internal static string ConvertToDate(DateTime? fecha)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

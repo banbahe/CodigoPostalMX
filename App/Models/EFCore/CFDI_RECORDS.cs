@@ -143,14 +143,14 @@ namespace Models.EF
                 throw;
             }
         }
- 
+
         async Task<CFDI_RECORDS> ICFDI_RECORDS.GetPerId(int id)
         {
             try
             {
                 using (CPContext context = new CPContext())
                 {
-                    var res = await context.CFDI_RECORDS.Where( x=> x.Id == id).FirstOrDefaultAsync<CFDI_RECORDS>();
+                    var res = await context.CFDI_RECORDS.Where(x => x.Id == id).FirstOrDefaultAsync<CFDI_RECORDS>();
                     return res;
                 }
 
@@ -162,8 +162,9 @@ namespace Models.EF
             }
         }
 
-        public async Task<List<CFDI>> List()
+        public async Task<List<CFDI>> CFDIList()
         {
+            List<CFDI> listCFDI = new List<CFDI>();
             try
             {
                 using (CPContext context = new CPContext())
@@ -176,7 +177,7 @@ namespace Models.EF
                         cfdi.version = item.version;
                         cfdi.serie = item.serie;
                         cfdi.folio = item.folio;
-                        cfdi.fecha = Util.ConvertToDate(item.fecha);
+                        cfdi.fecha = item.fecha.Value.ToString();
                         cfdi.formaDePago = item.formaDePago;
                         cfdi.subTotal = item.formaDePago;
                         cfdi.TipoCambio = item.TipoCambio.ToString();
@@ -188,18 +189,24 @@ namespace Models.EF
                         // Emisor
                         cfdi.emisor = new Emisor();
 
-                        if (item.Id_Emisor > 0 )
+                        if (item.Id_Emisor > 0)
                         {
                             CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
                             objCFDI_PEOPLE.Id = item.Id_Emisor;
-                            objCFDI_PEOPLE.Get();
+                            // test
+                            objCFDI_PEOPLE = objCFDI_PEOPLE.Get();
+                            cfdi.emisor.id = objCFDI_PEOPLE.Id;
+                            cfdi.emisor.nombre = objCFDI_PEOPLE.Nombre;
+                            cfdi.emisor.rfc = objCFDI_PEOPLE.RFC;
+                            // get address to emisor
+                            cfdi.emisor.domicilio = new Domicilio();
 
                         }
+
+                        listCFDI.Add(cfdi);
                     }
-
-
                 }
-
+                return listCFDI;
             }
             catch (Exception ex)
             {
