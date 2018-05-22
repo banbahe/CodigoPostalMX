@@ -203,6 +203,19 @@ namespace Models.EF
 
                         }
 
+                        if (item.Id_Receptor > 0)
+                        {
+                            CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
+                            objCFDI_PEOPLE.Id = item.Id_Emisor;
+                            // test
+                            objCFDI_PEOPLE = objCFDI_PEOPLE.Get();
+                            cfdi.emisor.id = objCFDI_PEOPLE.Id;
+                            cfdi.emisor.nombre = objCFDI_PEOPLE.Nombre;
+                            cfdi.emisor.rfc = objCFDI_PEOPLE.RFC;
+                            // get address to emisor
+                            cfdi.emisor.domicilio = new Domicilio();
+                        }
+
                         listCFDI.Add(cfdi);
                     }
                 }

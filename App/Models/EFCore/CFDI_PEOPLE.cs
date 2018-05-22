@@ -90,10 +90,7 @@ namespace Models.EF
                 {
                     if (this.Id > 0)
                     {
-                        return context.CFDI_PEOPLE
-                            .Include("CFDI_PeopleAddress")
-                            .Include("CFDI_ADDRESS")
-                            .FirstOrDefault(x => x.Id == this.Id);
+                        return context.CFDI_PEOPLE.Include("CFDI_PeopleAddress").Where(x => x.Id == this.Id).Single();
                     }
                     if (string.IsNullOrEmpty(this.RFC))
                     {
