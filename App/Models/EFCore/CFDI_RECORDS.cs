@@ -191,10 +191,19 @@ namespace Models.EF
 
                         if (item.Id_Emisor > 0)
                         {
+                            CFDI_PeopleAddress objCFDI_PeopleAddress = new CFDI_PeopleAddress();
+                            objCFDI_PeopleAddress.Id_People = item.Id_Emisor;
+
+
+                            Task<CFDI_PeopleAddress> taskCFDI_PeopleAddress = objCFDI_PeopleAddress.GetAsync();
+                           // taskCFDI_PeopleAddress.Start();
                             CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
-                            objCFDI_PEOPLE.Id = item.Id_Emisor;
-                            // test
-                            objCFDI_PEOPLE = objCFDI_PEOPLE.Get();
+
+                            await taskCFDI_PeopleAddress;
+
+                            var resCFDI_PeopleAddress = taskCFDI_PeopleAddress.Result;
+
+                            objCFDI_PEOPLE = resCFDI_PeopleAddress.CFDI_PEOPLE;
                             cfdi.emisor.id = objCFDI_PEOPLE.Id;
                             cfdi.emisor.nombre = objCFDI_PEOPLE.Nombre;
                             cfdi.emisor.rfc = objCFDI_PEOPLE.RFC;
