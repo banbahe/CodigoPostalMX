@@ -186,8 +186,10 @@ namespace Models.EF
                         cfdi.metodoDePago = item.metodoDePago;
                         cfdi.UUID = item.UUID;
 
-                        // Emisor
+                        // Emisor / Receptor
                         cfdi.emisor = new Emisor();
+                        cfdi.receptor = new Receptor();
+
 
                         if (item.Id_Emisor > 0)
                         {
@@ -196,7 +198,7 @@ namespace Models.EF
 
 
                             Task<CFDI_PeopleAddress> taskCFDI_PeopleAddress = objCFDI_PeopleAddress.GetAsync();
-                           // taskCFDI_PeopleAddress.Start();
+                            // taskCFDI_PeopleAddress.Start();
                             CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
 
                             await taskCFDI_PeopleAddress;
@@ -209,20 +211,40 @@ namespace Models.EF
                             cfdi.emisor.rfc = objCFDI_PEOPLE.RFC;
                             // get address to emisor
                             cfdi.emisor.domicilio = new Domicilio();
-
+                            cfdi.emisor.domicilio.calle = resCFDI_PeopleAddress.CFDI_ADDRESS.calle;
+                            cfdi.emisor.domicilio.codigoPostal = resCFDI_PeopleAddress.CFDI_ADDRESS.codigoPostal;
+                            cfdi.emisor.domicilio.colonia = resCFDI_PeopleAddress.CFDI_ADDRESS.colonia;
+                            cfdi.emisor.domicilio.estado = resCFDI_PeopleAddress.CFDI_ADDRESS.estado;
+                            cfdi.emisor.domicilio.municipio = resCFDI_PeopleAddress.CFDI_ADDRESS.municipio;
+                            cfdi.emisor.domicilio.noExterior = resCFDI_PeopleAddress.CFDI_ADDRESS.noExterior;
                         }
 
                         if (item.Id_Receptor > 0)
                         {
+                            CFDI_PeopleAddress objCFDI_PeopleAddress = new CFDI_PeopleAddress();
+                            objCFDI_PeopleAddress.Id_People = item.Id_Receptor;
+
+
+                            Task<CFDI_PeopleAddress> taskCFDI_PeopleAddress = objCFDI_PeopleAddress.GetAsync();
+                            // taskCFDI_PeopleAddress.Start();
                             CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
-                            objCFDI_PEOPLE.Id = item.Id_Emisor;
-                            // test
-                            objCFDI_PEOPLE = objCFDI_PEOPLE.Get();
-                            cfdi.emisor.id = objCFDI_PEOPLE.Id;
-                            cfdi.emisor.nombre = objCFDI_PEOPLE.Nombre;
-                            cfdi.emisor.rfc = objCFDI_PEOPLE.RFC;
+
+                            await taskCFDI_PeopleAddress;
+
+                            var resCFDI_PeopleAddress = taskCFDI_PeopleAddress.Result;
+
+                            objCFDI_PEOPLE = resCFDI_PeopleAddress.CFDI_PEOPLE;
+                            cfdi.receptor.id = objCFDI_PEOPLE.Id;
+                            cfdi.receptor.nombre = objCFDI_PEOPLE.Nombre;
+                            cfdi.receptor.rfc = objCFDI_PEOPLE.RFC;
                             // get address to emisor
-                            cfdi.emisor.domicilio = new Domicilio();
+                            cfdi.receptor.domicilio = new Domicilio();
+                            cfdi.receptor.domicilio.calle = resCFDI_PeopleAddress.CFDI_ADDRESS.calle;
+                            cfdi.receptor.domicilio.codigoPostal = resCFDI_PeopleAddress.CFDI_ADDRESS.codigoPostal;
+                            cfdi.receptor.domicilio.colonia = resCFDI_PeopleAddress.CFDI_ADDRESS.colonia;
+                            cfdi.receptor.domicilio.estado = resCFDI_PeopleAddress.CFDI_ADDRESS.estado;
+                            cfdi.receptor.domicilio.municipio = resCFDI_PeopleAddress.CFDI_ADDRESS.municipio;
+                            cfdi.receptor.domicilio.noExterior = resCFDI_PeopleAddress.CFDI_ADDRESS.noExterior;
                         }
 
                         listCFDI.Add(cfdi);
