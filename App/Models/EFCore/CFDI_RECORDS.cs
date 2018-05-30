@@ -189,17 +189,16 @@ namespace Models.EF
                         // Emisor / Receptor
                         cfdi.emisor = new Emisor();
                         cfdi.receptor = new Receptor();
-
+                        CFDI_PeopleAddress objCFDI_PeopleAddress = new CFDI_PeopleAddress();
+                        CFDI_PEOPLE objCFDI_PEOPLE;
 
                         if (item.Id_Emisor > 0)
                         {
-                            CFDI_PeopleAddress objCFDI_PeopleAddress = new CFDI_PeopleAddress();
                             objCFDI_PeopleAddress.Id_People = item.Id_Emisor;
-
 
                             Task<CFDI_PeopleAddress> taskCFDI_PeopleAddress = objCFDI_PeopleAddress.GetAsync();
                             // taskCFDI_PeopleAddress.Start();
-                            CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
+                            objCFDI_PEOPLE = new CFDI_PEOPLE();
 
                             await taskCFDI_PeopleAddress;
 
@@ -221,7 +220,7 @@ namespace Models.EF
 
                         if (item.Id_Receptor > 0)
                         {
-                            CFDI_PeopleAddress objCFDI_PeopleAddress = new CFDI_PeopleAddress();
+                           objCFDI_PeopleAddress = new CFDI_PeopleAddress();
                             objCFDI_PeopleAddress.Id_People = item.Id_Receptor;
 
 
