@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="35" fecha="2014-10-13T14:01:40" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1695.54" descuento="0.00" TipoCambio="1" Moneda="MXN" total="1966.83" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300641551" certificado="MIIETjCCAzagAwIBAgIUMDAwMDEwMDAwMDAzMDA2NDE1NTEwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA4MDgxODU5MDdaFw0xNzA4MDgxODU5MDdaMIGaMRowGAYDVQQDFBFFRFVBUkRPIFBF0UEgTEVPTjEaMBgGA1UEKRQRRURVQVJETyBQRdFBIExFT04xGjAYBgNVBAoUEUVEVUFSRE8gUEXRQSBMRU9OMRYwFAYDVQQtEw1QRUxFNzkwMTE5REs2MRswGQYDVQQFExJQRUxFNzkwMTE5SERGWE5EMDMxDzANBgNVBAsTBk1FWElDTzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxcGa55wX9XfKJtt+wPwmLgWia6bHW5rGdpsveOiGgOqnf9s8HWPwXc9gDYa1RBILrennvHLZBiCyih8fPJ3jHP6sLVkeSEvyJak+UVFSPOhcwKryy50bjnL00d3RCF9bhC0uZLhk6QLDnjZiusOtUto73jaQwVuJ3PSog8W+2ZECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAG6+Fq48z99uvh3jVkkgWHOnbn114QS8rdiHLReH+GrFRlrpEaogavCFNdteEM5PnmYoil+G6OHIG4SuE8g5iMU2m2BqSrjylZ5iaq1/i0N28LKTPf8mgGKCU+i9IqO/BzJcyyleolGL+QGpZn0wLYimf4MMChdWXxA6Qx9snbZOn72f4qIe9p4tq96KgZEJiPiCZb3jwVx0EKymnV9WWc1UPxJ4wmn/9W3umj1RXrHIbZPRPwFcCJbk7WY62ICvX1ASIgRAxroPLfXw+V49rMZvWDGqoaoX4hHDpy58MY5+c1rvSOQ30OFjw8r0CWF4PHn+O4BReVhUcEvCtbX5MzE=" sello="V8o/RIeJ6+U6IFacc3rcYZHqzCtQtIn/mRnkIwjygquTys6KLTNSxjSLT+nWFNLemSrkfa7KmaMZVorZa5RfFFaXBZLptwTKSGOg/BXbECdN1MYkhyQ5VX0DgOmJzU+B95iYs8OpKXi4mnwNSm9Ll05hOWn2tA4TBnWpm6kZXE0=">
+  <cfdi:Emisor rfc="PELE790119DK6" nombre="EDUARDO PEÑA LEON">
+    <cfdi:DomicilioFiscal calle="PROLONGACIÓN JUAREZ 120" colonia="SAN MATEO TECOLOAPAN" municipio="ATIZAPAN DE ZARAGOZA" estado="EDO. DE MEXICO" pais="México" codigoPostal="52920" />
+    <cfdi:ExpedidoEn calle="PROLONGACIÓN JUAREZ 120" colonia="SAN MATEO TECOLOAPAN" localidad="ATIZAPAN DE ZARAGOZA" estado="EDO. DE MEXICO" pais="México" codigoPostal="52920" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="EIIA7801082P5" nombre="Alejandro Alberto Espinosa Iñiquez">
+    <cfdi:Domicilio calle="Tulipanes 215 1" colonia="Tabachines" municipio="Corregidora" estado="Queretaro" pais="México" codigoPostal="76902" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="66.00" unidad="Pieza" noIdentificacion="No Aplica" descripcion="Alimento Nutec" valorUnitario="25.69" importe="1695.54" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="271.29">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="271.29" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="E590ED9B-9ADF-41EA-990E-67471DF5A254" FechaTimbrado="2014-10-13T14:02:11" noCertificadoSAT="00001000000301160463" selloCFD="V8o/RIeJ6+U6IFacc3rcYZHqzCtQtIn/mRnkIwjygquTys6KLTNSxjSLT+nWFNLemSrkfa7KmaMZVorZa5RfFFaXBZLptwTKSGOg/BXbECdN1MYkhyQ5VX0DgOmJzU+B95iYs8OpKXi4mnwNSm9Ll05hOWn2tA4TBnWpm6kZXE0=" selloSAT="bD0FCwnwCMplgZxetQl+M2KtvK69hFGRU/7nMh2cPRkOPDd8lbk290khWI0D/Ix/3Hg34yUGk39qnTokF97t00RM5+eOjRAt/WH/c/oLfQDNMa1jNysaI1S3j05MRaW6t7tnCgIX3DFzvXc/P4e5eUZ6K54qv8vO4woXAs6Hbcw=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -175,7 +175,7 @@ namespace Models.EF
                         CFDI cfdi = new CFDI();
                         cfdi.id = item.Id;
                         cfdi.version = item.version;
-                        cfdi.serie = item.serie;
+                        cfdi.serie = item.serie ;
                         cfdi.folio = item.folio;
                         cfdi.fecha = item.fecha.Value.ToString();
                         cfdi.formaDePago = item.formaDePago;
@@ -220,13 +220,13 @@ namespace Models.EF
 
                         if (item.Id_Receptor > 0)
                         {
-                           objCFDI_PeopleAddress = new CFDI_PeopleAddress();
+                            objCFDI_PeopleAddress = new CFDI_PeopleAddress();
                             objCFDI_PeopleAddress.Id_People = item.Id_Receptor;
 
 
                             Task<CFDI_PeopleAddress> taskCFDI_PeopleAddress = objCFDI_PeopleAddress.GetAsync();
                             // taskCFDI_PeopleAddress.Start();
-                            CFDI_PEOPLE objCFDI_PEOPLE = new CFDI_PEOPLE();
+                            objCFDI_PEOPLE = new CFDI_PEOPLE();
 
                             await taskCFDI_PeopleAddress;
 
