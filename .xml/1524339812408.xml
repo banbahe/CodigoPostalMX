@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="3" fecha="2014-08-19T12:30:42" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1180.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="1368.80" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="EDO. DE MEXICO COACALCO DEL BERRIOZABAL" NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301899737" certificado="MIIEYDCCA0igAwIBAgIUMDAwMDEwMDAwMDAzMDE4OTk3MzcwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTkwNjEwMzRaFw0xNzEyMTkwNjEwMzRaMIGsMSAwHgYDVQQDExdGUk9ZTEFOIFBBQ0hFQ08gUEFDSEVDTzEgMB4GA1UEKRMXRlJPWUxBTiBQQUNIRUNPIFBBQ0hFQ08xIDAeBgNVBAoTF0ZST1lMQU4gUEFDSEVDTyBQQUNIRUNPMRYwFAYDVQQtEw1QQVBGNjIwNTEyS1JBMRswGQYDVQQFExJQQVBGNjIwNTEySERGQ0NSMDkxDzANBgNVBAsTBk1hdHJpejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAp6L/cTGjyTC7DoLYbJ7dLsbEns3nd9jdD7X+3OSE9A6HpmSOzz+08t5Tbn9HN397dDbNgN9tU3WnkzQMWVX/tXGlrZeAKlHhWkokpfrMhtZgRqS8iVyYXPE/vuW7ELhxKXbP3dsYu2GRAhs1ps9eArvYfjgG1pyEDCsVpN4lNL0CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBACTPXHtHQ8q2iX2/pW7y8QgpNskxf0YTHLd69TdCG54OvoZuWLau+3sB4H2NZUw7sGO3XDpIbLimlPFOl3dO8Hlqn/XW0kaPFg/5dCVE57/FXtRfkPPBvKLZgBTIe2SEbuqX+8cT2eyyxBswyRvfIDEFVq4hfhxNFec78SJBCRHQKFE5ETtuWncdNhPycvRVO0PVnwIHHQnbGfLiDbECL0looS8GKVmwcWcDGe0lmGxSk8gOCgZu+6fv8u7NLUrgLVmfs+t1fytussGH5+X69Z1gGU4k11M5prvvP51aaEmOOfFRhbvbq4R4Rreu063JjpzIudHLAcw0kx6SKgumEnY=" sello="exRnT5v9n8OoIU3AfZXjdcrM/sJIwO8Ql6gDPjZ1xfdYrW3Z5xUyU8XkP5zKP7ZH3dL7eYeA6Jv9fCngFtqM++IK25ED8o4OSqnBIxLyGh/bkk7h3R/PKnhwPLZKQ7IXEFkIsmHGfMJ5034ZRU9hsEmgOYKB+B7OQaoCrhEWQwY=">
+  <cfdi:Emisor rfc="PAPF620512KRA" nombre="FROYLAN PACHECO PACHECO">
+    <cfdi:DomicilioFiscal calle="AV. HIDALGO 38" colonia="SAN LORENZO TETLIXTAC" municipio="COACALCO DEL BERRIOZABAL" estado="EDO. DE MEXICO" pais="México" codigoPostal="55714" />
+    <cfdi:ExpedidoEn calle="AV. HIDALGO 38" colonia="SAN LORENZO TETLIXTAC" localidad="COACALCO DEL BERRIOZABAL" estado="EDO. DE MEXICO" pais="México" codigoPostal="55714" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="ISC8306274T8" nombre="INHUMACIONES Y SERVICIOS CONEXOS S.A. DE C.V.">
+    <cfdi:Domicilio calle="AV.CIRCUNVALACION ORIENTE N°8-204" colonia="SATELITE" municipio="NAUCALPAN DE JUAREZ" estado="MEXICO" pais="México" codigoPostal="53100" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Pieza" noIdentificacion="02060107" descripcion="BOBINA DE IGNICION" valorUnitario="330.00" importe="330.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="Pieza" noIdentificacion="02060107" descripcion="MODULO DE ENCENDIDO" valorUnitario="380.00" importe="380.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="MANO DE OBRA" valorUnitario="250.00" importe="250.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="Caja" noIdentificacion="02060107" descripcion="ACEITE DE MOTOR" valorUnitario="220.00" importe="220.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="188.80">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="188.80" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="FF465FE5-CB6C-448D-BD7C-3EA8AE8E5D48" FechaTimbrado="2014-08-19T12:31:08" noCertificadoSAT="00001000000301160463" selloCFD="exRnT5v9n8OoIU3AfZXjdcrM/sJIwO8Ql6gDPjZ1xfdYrW3Z5xUyU8XkP5zKP7ZH3dL7eYeA6Jv9fCngFtqM++IK25ED8o4OSqnBIxLyGh/bkk7h3R/PKnhwPLZKQ7IXEFkIsmHGfMJ5034ZRU9hsEmgOYKB+B7OQaoCrhEWQwY=" selloSAT="ps6r+CKua+4Xfsy2mmjNGWn3QfRP9/zkGy6/L83z0s7xBaTmPxtgXxEgq/WNfeRjDXVhzVar7Jdl6vc7BK/QrSlSaqZ/vel8GQFZ+q5VH3DnoCL9LfYCGHZidu9Kks+fHLHYAwckvAi3AiWaYFWoc2hVoctrgqktVQi/jRiFrlk=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

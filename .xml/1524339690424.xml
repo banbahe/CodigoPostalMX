@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="4" fecha="2014-09-24T14:07:10" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="15500.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="14776.67" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000203502957" certificado="MIIEZTCCA02gAwIBAgIUMDAwMDEwMDAwMDAyMDM1MDI5NTcwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDQxODE3NTgzMFoXDTE3MDQxODE3NTgzMFowgaYxHjAcBgNVBAMTFURVTkFISSBBUVVJTk8gSElEQUxHTzEeMBwGA1UEKRMVRFVOQUhJIEFRVUlOTyBISURBTEdPMR4wHAYDVQQKExVEVU5BSEkgQVFVSU5PIEhJREFMR08xFjAUBgNVBC0TDUFVSEQ3MjA2MjhITTcxGzAZBgNVBAUTEkFVSEQ3MjA2MjhNREZRRE4wMTEPMA0GA1UECxMGTWF0cml6MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvNSXRi1VpFDkG+IubeogBGuiamwW66sRDVZDqjHThD20uP907safeb56OqpsT/NelXjPRlMqpOcXlIZW8jHUyGos7d0jV9FW696sStb9VI2RabfvywNmyrUiVS+6LxQ0yubxiTTufvg1cl5t1pqePzE22ob6IGorayvaVREQsxwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAGFKBsaIC6fED7hitiIz78tjr4khcVsW55GF6uy/jaJG8FtV06YBLbrcst0mYwvZynSXWtusfcvtnlBNhYZw6WD1n7eZtJDaTUVk9fWL88kfOUeSedyTXMXu/SoRnqfasMNgddHDimE9ga8AhFRAl2SqczguR8Ats0webvMy1PSEdi9qa46Ax2LoHzC3xgr9QwJwyUFt9MUGgQsAlRR8RLyTT4ndtqWssYtbq5uulUbharT5VE5WyiD7yvXdnIBM36X1dPyFXGGZ1HTCsT31VOA3vlHSGdbPjhc8KVOPtnxNsRmABU3nKS6IwF+OP4MVQ6aS+LoeRcn3AfwSAnOwnNw==" sello="rZfRRVUFvCiQ+8oKIVKL0aDN9YyvYPgklHlCzGdpwgyh0JKaeG0O2aZ038JdX/zJmGzRSAdEFH8LXOyhEouMaDRIJ4wbfaLngpAnhxHoOhm5vPJXXBw9GiswYwIJo4vG9EttdJIRH+5GwUGq/v22vG2bYcv2LpTXiSCQyXmXrV8=">
+  <cfdi:Emisor rfc="AUHD720628HM7" nombre="DUNAHI AQUINO HIDALGO">
+    <cfdi:DomicilioFiscal calle="AREQUIPA 624" colonia="LINDAVISTA" municipio="G.A.MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:ExpedidoEn calle="AREQUIPA 624" colonia="LINDAVISTA" localidad="G.A.MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="INB470101FA5" nombre="Instituto Nacional de Bellas Artes y Literatura">
+    <cfdi:Domicilio calle="Avenida Juárez 101, Int. Piso 20" colonia="Centro" municipio="Cuauhtémoc" estado="Distrito Federal" pais="México" codigoPostal="06040" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Diseño, diagramación, acopio de información, cuidado de la edición y corrección de estilo de publicaciones. Mes de agosto 2014. CONTRATO CPR28/CSPA/0544/2014" valorUnitario="15500.00" importe="15500.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="3203.33" totalImpuestosTrasladados="2480.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="1653.33" />
+      <cfdi:Retencion impuesto="ISR" importe="1550.00" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="2480.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="20534DF2-7AD2-4828-AA69-3D2289F0C126" FechaTimbrado="2014-09-24T14:07:12" noCertificadoSAT="00001000000301160463" selloCFD="rZfRRVUFvCiQ+8oKIVKL0aDN9YyvYPgklHlCzGdpwgyh0JKaeG0O2aZ038JdX/zJmGzRSAdEFH8LXOyhEouMaDRIJ4wbfaLngpAnhxHoOhm5vPJXXBw9GiswYwIJo4vG9EttdJIRH+5GwUGq/v22vG2bYcv2LpTXiSCQyXmXrV8=" selloSAT="M794kZZnZ5kn21f/MaNubhflyG2MyvWIUGXs+3od11OPr6zgyZ6x0nQkRoow/V9EnPDzNLkPPo44B3YE+K5MzCjzQyy3lSB09ac4sGA/pVahnoRWlQB4yVlTOYUKOtAoGsQDtG08gwKjvv/kFhzM20TZy1wdMp0ePQWJ4wR1J2Q=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

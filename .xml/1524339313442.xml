@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:wf="http://www.wf.com.mx/wfactura/cfd/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LugarExpedicion="CUAJIMALPA DE MORELOS, DISTRITO FEDERAL" Moneda="MXN" certificado="MIIFAjCCA+qgAwIBAgIUMDAwMDEwMDAwMDAzMDI1MzgxOTEwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDAxMjExNjI3MDVaFw0xODAxMjExNjI3MDVaMIHKMSQwIgYDVQQDExtNT1RPUk9MQSBDT01FUkNJQUwgU0EgREUgQ1YxJDAiBgNVBCkTG01PVE9ST0xBIENPTUVSQ0lBTCBTQSBERSBDVjEkMCIGA1UEChMbTU9UT1JPTEEgQ09NRVJDSUFMIFNBIERFIENWMSUwIwYDVQQtExxNQ085NTA5MTRBMzQgLyBNT0JFNzQwOTI1QlUxMR4wHAYDVQQFExUgLyBNT0JFNzQwOTI1SERGUlJEMDExDzANBgNVBAsTBlVOSURBRDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKhGdhavxEHaokf628Ei2yZG/sdLeqVfl7NzY/+EAltjxx5nFqgrRFR1FgfB3ERyqT123mEFL/nJkj/tOqDRgOyZUgskuav1DNdw53f+SbCfmFU8YwbGpmilXxKpKVyqO538FAXGu0UzgkweJovQa++s0A5EigSizlP6Phfik+5Vvi77xa4+uSl/Bz/2di5rh+G19WfrFMSlv5S32PoErynI38KICDx+qzTx9i6v5ZqzvhFsHJsoSu/vfZO9bYoSdLT1mpTl162+GomMRftrUK9147G0DsfmQTnCxRCddIvjErnbkhWpEb7eKR1lC588U7Rr/tvg8ZsdjapazUfKJBECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAEiARHvQS9nBzCKqo2d791ZE8oXWb25+tZE3gb6zpjDBo7Bjw4y00kZNObnGmxH0AGeQqMQtB+QhPkzlFVoJxS8rtIgTxfNIX0Lj9epnmI0Qi/EItsauxOGmVXPPuh1OWuuiGNtQqThVnvQYpNNyJODDBG4EjEVrll3b9Q/HjOue+bWH4ACyWSerC2qaGDTXGrt0mAIas8s4wsfEnIf/0Ny2PbT2s5yGexPDy/w21jq3nrnt02cX3H7Gn5yWqq4jpj1fwcbO1oTDHSgxJrWt9djJBzReEjl9YVWHo8Lm/AbsqPuqQjxYOTcqYPqg1vHwHspM9L5TSxgX15xTQH3elgs=" condicionesDePago="Credit Card" fecha="2015-06-23T12:05:00" folio="2110014473" formaDePago="Pago en una sola exhibición" metodoDePago="No identificado" noCertificado="00001000000302538191" sello="cEVCxmVAdSmFolkdhU/jgh01XOtNzlqlnStjwMUoQBTHqLMgVIshE5UI2PetMPamJg4McoYRSlbN6H0DzfvbDza/HbRb/jWn5ujtM66XdCBRa/dvqlv8Vbhl3tPQyfRKZLmsF7H5mY2UV4qlHlRiGMLAqOIbG5MnOx1MLdx4B+3W/dKohx104igHwRJYjFKRmvHzELVS/a+H8ThWmrV2F2PrR1tHi7FAPegVzbUv9sHii9npGrpSsBSxePyjrdrH+xQhRPtCzEW49CtUJqOPJZ05Q2HEtq5Q/vtYZoP2kyEBHG20QYYbHcAFYdUWDeOIrnlLeEBHSQbtz3mzcbT3OQ==" serie="D" subTotal="1723.28" tipoDeComprobante="ingreso" total="1999.00" version="3.2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd">
+  <cfdi:Emisor nombre="MOTOROLA COMERCIAL SA DE CV" rfc="MCO950914A34">
+    <cfdi:DomicilioFiscal calle="PASEO DE LOS TAMARINDOS" codigoPostal="05120" colonia="BOSQUES DE DE LAS LOMAS" estado="DISTRITO FEDERAL" municipio="CUAJIMALPA DE MORELOS" noExterior="100" noInterior=" PISO 1, OFICINA 101" pais="MEXICO"/>
+    <cfdi:ExpedidoEn calle="PASEO DE LOS TAMARINDOS" codigoPostal="05120" colonia="BOSQUES DE DE LAS LOMAS" estado="DISTRITO FEDERAL" municipio="CUAJIMALPA DE MORELOS" noExterior="100" noInterior=" PISO 1, OFICINA 101" pais="MEXICO"/>
+    <cfdi:RegimenFiscal Regimen="Regimen de ley Personas Morales"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor nombre="Esteban blanquel" rfc="BAHE8810073C9">
+    <cfdi:Domicilio calle="calle 17 #168 colonia las Aguilas" codigoPostal="57900" estado="MEX" municipio="Nezahualcóyotl" noExterior="S/N" pais="Mexico"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" descripcion="MOTOROLA,XT1511,MEXI RETAIL BL" importe="1723.28" noIdentificacion="86937LZESA" unidad="Each" valorUnitario="1723.28">
+      <cfdi:InformacionAduanera aduana="650" fecha="2015-06-18" numero="156536995136709"/>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="275.72">
+    <cfdi:Traslados>
+      <cfdi:Traslado importe="275.72" impuesto="IVA" tasa="16.00"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  
+<cfdi:Complemento><tfd:TimbreFiscalDigital FechaTimbrado="2015-06-23T20:16:03" UUID="7A43545F-7A60-47FF-B6F2-B05EC520B518" noCertificadoSAT="00001000000200005634" selloCFD="cEVCxmVAdSmFolkdhU/jgh01XOtNzlqlnStjwMUoQBTHqLMgVIshE5UI2PetMPamJg4McoYRSlbN6H0DzfvbDza/HbRb/jWn5ujtM66XdCBRa/dvqlv8Vbhl3tPQyfRKZLmsF7H5mY2UV4qlHlRiGMLAqOIbG5MnOx1MLdx4B+3W/dKohx104igHwRJYjFKRmvHzELVS/a+H8ThWmrV2F2PrR1tHi7FAPegVzbUv9sHii9npGrpSsBSxePyjrdrH+xQhRPtCzEW49CtUJqOPJZ05Q2HEtq5Q/vtYZoP2kyEBHG20QYYbHcAFYdUWDeOIrnlLeEBHSQbtz3mzcbT3OQ==" selloSAT="B3WQDcYaYOFzB6zDuXORtiqorWnOi4/lOSc0QE5Znl5KK4TgadEyI6M3KMtva5QOezuFS+YenexGKXnnmfKqZpVW7lEloDWmZynu0NoOM38Y5o0ibGiq29XHT1gE067kvQXX/96G/OCTrvertKvuLdCiSuluqYt4T1OQH/Mines=" version="1.0" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"/>
+
+</cfdi:Complemento>
+<cfdi:Addenda>
+    <wf:wfactura Extra1="MX00274217" Extra10="1" Extra12="R12" Extra13="56059395" Extra14="2015-06-18" Extra15="156536995136709" Extra16="650" Extra17="102773949" Extra18="R1256059395" Extra19="1723.28" Extra2="2015-06-14" Extra3="2240576" Extra4="Esteban blanquel,calle 17 #168 colonia las Aguilas," Extra6="57900,Nezahualcóyotl" Extra7="MEX,Mexico" Extra8="16.0" Extra9="2110014473" Idemisor="205000" Moneda="MXN" ReceptorCalle="calle 17 #168 colonia las Aguilas" ReceptorCodigoPostal="57900" ReceptorEstado="MEX" ReceptorMunicipio="Nezahualcóyotl" ReceptorNoExterior="S/N" ReceptorNombre="Esteban blanquel" ReceptorPais="Mexico" ReceptorRFC="BAHE8810073C9" condicionesDePago="Credit Card" fecha="2015-06-23T12:05:00" folio="2110014473" formaDePago="Pago en una sola exhibición" metodoDePago="No identificado" montoLetra="MIL NOVECIENTOS NOVENTA Y NUEVE PESOS CON 00/100 M.N." serie="D" subTotal="1723.28" tipoDeComprobante="ingreso" total="1999.00" totalImpuestosTrasladados="275.72">
+      <wf:conceptos>
+        <wf:concepto ExtraDetalle4="1" ExtraDetalle5="86937LZESA" InformacionAduaneraAduana="650" InformacionAduaneraFecha="2015-06-18" InformacionAduaneraNumeroPedimento="156536995136709" cantidad="1.00" descripcion="MOTOROLA,XT1511,MEXI RETAIL BL" importe="1723.28" noIdentificacion="86937LZESA" trasladoIVAimporte="275.72" trasladoIVAtasa="16.00" unidad="Each" valorUnitario="1723.28"/>
+      </wf:conceptos>
+    </wf:wfactura>
+  </cfdi:Addenda>
+</cfdi:Comprobante>
+

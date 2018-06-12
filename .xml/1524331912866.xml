@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:implocal="http://www.sat.gob.mx/implocal"
+xmlns:notariospublicos="http://www.sat.gob.mx/notariospublicos"
+xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd http://www.sat.gob.mx/notariospublicos http://www.sat.gob.mx/sitio_internet/cfd/notariospublicos/notariospublicos.xsd"
+version="3.2"
+folio="1651"
+fecha="2016-09-13T14:58:06"
+formaDePago="PAGO EN UNA SOLA EXHIBICION"
+subTotal="2857.76"
+TipoCambio="1.0000"
+Moneda="MXN"
+total="3315.00"
+metodoDePago="01"
+LugarExpedicion="HUICHAPAN"
+tipoDeComprobante="ingreso"
+noCertificado="00001000000301719203"
+certificado="MIIEgTCCA2mgAwIBAgIUMDAwMDEwMDAwMDAzMDE3MTkyMDMwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTIwNTAyMTZaFw0xNzEyMTIwNTAyMTZaMIHNMSswKQYDVQQDEyJSSUdPQkVSVE8gRkFCUklDRSBST0RSSUdVRVogQ09VU09OMSswKQYDVQQpEyJSSUdPQkVSVE8gRkFCUklDRSBST0RSSUdVRVogQ09VU09OMSswKQYDVQQKEyJSSUdPQkVSVE8gRkFCUklDRSBST0RSSUdVRVogQ09VU09OMRYwFAYDVQQtEw1ST0NSNzYxMjIzVElBMRswGQYDVQQFExJST0NSNzYxMjIzSEhHRFNHMDIxDzANBgNVBAsTBlVOSURBRDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyKfsnEryHVUGnNXIKm+3+80lYnQSrp3NO/s+dODJhxpreo3VwZXQuW2Z0GsJIhqHj18rvCx2TFqMww+pLdqJftuWoihIm72o3qWfF1LqKJNbjgU96J/T5DU4H0SHz/mP7Ipnf+Pvw2wa4Jxbm4SEa2J6bUgQAikmNpv1YmH3GVcCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBACVikHlJqu3n7vypEunCAD+QhGIJJGQy0F8L4X3nPuGkhPW8t6DBn/JMdRbGzY9YdLpQdC/e0M4PWtIgNxSaUgg4f0urscWi9MVt6liGR8c0r5rHWq2lf4b5JquEgOgATiLbLFfZSASuYKsOQ95ZFqcHW/WfciXE0wkTrSJvGKs4QD8dJL/bckWGH1CnzCRBolxWO38Cw6P5gwDrDcYHxZUjIeangawlKaCMMCgYJ+gy8C+JWOUXaICJRurt4JzACpK7EvdIioAPI5jcENkhNtdXJB9Eb+jI7nOnzHdm1Mft6awLDarCcmadmIc3FT0BE1Yd2NpIYLQOhvv9JU08TnM="
+sello="W5fd1xwhPmhEX0xkC5zpLVmtMbrbK4ddnN3WGLreKElcCOiqB0yqgKnndCBteyNrAz62cMpR61pk9qbX+hVcZSXJlhRdkGfkz+2vIUzVRagizq/KRR6LEjKo+FivEW79AzvpSMtdy+s8e+Dpa9+cn+04RBsgkxhPchnP7nyHPMU=">
+<cfdi:Emisor rfc="ROCR761223TIA" nombre="RIGOBERTO FABRICE RODRIGUEZ COUSON">
+<cfdi:DomicilioFiscal calle="BENITO JUAREZ" noExterior="12" colonia="CENTRO" localidad="HUICHAPAN" municipio="HUICHAPAN" estado="HIDALGO" pais="MEXICO" codigoPostal="42400" />
+<cfdi:RegimenFiscal Regimen="PERSONA FISICA CON ACTIVIDAD EMPRESARIAL Y PROFESIONAL" />
+</cfdi:Emisor>
+<cfdi:Receptor rfc="HEAF6006033W1" nombre="HERNANDEZ ARANZOLO FRANCISCA">
+<cfdi:Domicilio calle="17" noExterior="168" colonia="LAS AGUILAS NEZAHUALCOYOTL" localidad="ESTADO DE MÉXICO" municipio="NEZAHUALCOYOTL" estado="ESTADO DE MEXICO" pais="MÉXICO" codigoPostal="57900" />
+</cfdi:Receptor>
+<cfdi:Conceptos>
+<cfdi:Concepto cantidad="1" unidad="SERVICIOS" descripcion="PAGO DE HONORARIOS DE ESCRITURACIÓN DE COMPRA VENTA" valorUnitario="2857.76" importe="2857.76" />
+</cfdi:Conceptos>
+<cfdi:Impuestos totalImpuestosTrasladados="457.24">
+<cfdi:Traslados>
+<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="457.24" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+<cfdi:Complemento>
+<implocal:ImpuestosLocales version="1.0" TotaldeRetenciones="0.00" TotaldeTraslados="3185.00">
+<implocal:TrasladosLocales ImpLocTrasladado="Rpp" TasadeTraslado="0.00" Importe="1821.00" />
+<implocal:TrasladosLocales ImpLocTrasladado="Isai" TasadeTraslado="0.00" Importe="364.00" />
+<implocal:TrasladosLocales ImpLocTrasladado="Otros" TasadeTraslado="0.00" Importe="1000.00" />
+</implocal:ImpuestosLocales>
+<notariospublicos:NotariosPublicos Version="1.0">
+<notariospublicos:DescInmuebles>
+<notariospublicos:DescInmueble TipoInmueble="01" Calle="SIN NOMBRE" Localidad="BOYE" Municipio="HUICHAPAN" Estado="13" Pais="MEX" CodigoPostal="42434" />
+</notariospublicos:DescInmuebles>
+<notariospublicos:DatosOperacion NumInstrumentoNotarial="32280" FechaInstNotarial="2016-09-12" MontoOperacion="15500.00" Subtotal="15500.00" IVA="0.00" />
+<notariospublicos:DatosNotario CURP="ROCR761223HHGDSG02" NumNotaria="2" EntidadFederativa="13" />
+<notariospublicos:DatosEnajenante CoproSocConyugalE="No">
+<notariospublicos:DatosUnEnajenante Nombre="ROMAN" ApellidoPaterno="URIBE" ApellidoMaterno="SOTO" RFC="UISR390809NN2" CURP="UISR390809HHGRTM07" />
+</notariospublicos:DatosEnajenante>
+<notariospublicos:DatosAdquiriente CoproSocConyugalE="No">
+<notariospublicos:DatosUnAdquiriente Nombre="FRANCISCA" ApellidoPaterno="HERNANDEZ" ApellidoMaterno="ARANZOLO" RFC="HEAF6006033W1" CURP="HEAF600603MHGRRR07" />
+</notariospublicos:DatosAdquiriente>
+</notariospublicos:NotariosPublicos>
+<tfd:TimbreFiscalDigital version="1.0" UUID="BF41ABA2-2D23-4438-9278-093A354074F3" FechaTimbrado="2016-09-13T14:58:18" selloCFD="W5fd1xwhPmhEX0xkC5zpLVmtMbrbK4ddnN3WGLreKElcCOiqB0yqgKnndCBteyNrAz62cMpR61pk9qbX+hVcZSXJlhRdkGfkz+2vIUzVRagizq/KRR6LEjKo+FivEW79AzvpSMtdy+s8e+Dpa9+cn+04RBsgkxhPchnP7nyHPMU=" noCertificadoSAT="00001000000403498740" selloSAT="i3FanFHIsB/WeKyTTOwOxmCfZLSiZ8A+U6Cv33+SoTXaL7uqsVGImlK+Q8I0KwPs4ibsjWAiTt4oVxgIXdh272CDO9I7p6nMaqJMVlHXu3cSROjZBb75GOodGdixjYBNdbaxSHSB/YjQPuQHMntpwuCchgR8j7tSKqGKWw8h+fUIUPKtlZSHcuearFpZZOZDLJm1oEscNxbFWQk5pCLtnUGlSTOu+tJR1bJNAbqsNKPeQ/3k6pRAe9xRJZRdoEhPYkj3eEEPLuPgKeX6iYCA+xEP7kUY1MaRsnJwfZJzXvtouUlQr9AsJB5CYxJKv6/TGqieciZVDnvO5KScepP1kw==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+</cfdi:Complemento>
+</cfdi:Comprobante>

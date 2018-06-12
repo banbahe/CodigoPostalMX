@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="2" fecha="2014-08-31T19:01:24" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="2369546.53" descuento="0.00" TipoCambio="1" Moneda="MXN" total="2369546.53" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRÓNICA DE FONDOS" LugarExpedicion="México D.F." NumCtaPago="3277" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000201274221" certificado="MIIEgDCCA2igAwIBAgIUMDAwMDEwMDAwMDAyMDEyNzQyMjEwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDYwNTE4MDYwM1oXDTE2MDYwNTE4MDYwM1owgcExITAfBgNVBAMTGEhFUlNPIEFMSU1FTlRPUyBTQSBERSBDVjEhMB8GA1UEKRMYSEVSU08gQUxJTUVOVE9TIFNBIERFIENWMSEwHwYDVQQKExhIRVJTTyBBTElNRU5UT1MgU0EgREUgQ1YxJTAjBgNVBC0THEhBTDEwMTIxN1JOMyAvIFNPQko4MzAzMjgyRjgxHjAcBgNVBAUTFSAvIFNPQko4MzAzMjhITUNTTk4wODEPMA0GA1UECxMGTWF0cml6MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSOM0nSLnotE9e4gBfjIqtk/1nLlfUJt8JXA7b3t3YVa+sepqWYwR1D0nAZc3YWRKNQzHQfn3y4FKmaerlIIfLYUFlHiLYoQ6MlvoGJn6bTsfUd7W7gYHW7ibWrLhot3KI0mgQZDHw9KgOwzm303U+/oZq3ljpNzcF6MrzVBJjPQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAGtU577UBhvX710EBnLsBkZCmnDO2K2lBPYQN/ZkmmnArmBnSoHBGbZqSQCSCcn+rjqc3O3Bu5toMJj72o5l3411FeXN6agq1Bx8cvugO3MPTYHhDIiOy/szprkWuCnxXKrbbrBZEKugiEToAY9+ZrqIiiBqcS0tpka77x0Z1iSoftp34k7ZREF9IPQooxmkD5RpPOAvlpwtUfMflTfgOsfriv9Hf7is51ZPF0eJqcQFV0Htd6L7GZqj7UnWXGHZavjHPFe32VnPeqsDrfm9zOh0BuA9+0JVtNE4V8cp0d37f6Dzx4moddZceyWJkLEC0OnnP4q7h5WVE790qRf9Ipw==" sello="Fuh8P1CsLI2b+TEuQMxFmuiImO/FfwcZjwRABYPmrMnRGZ+qVdeLi5uA/2ZXv2gMeAdiDvzCwDeGqSH5nej8oOeTpe6LuBZsidNwbJKFIJ2EIxrX4hJqhPAn1kOoxPvYOhaxfcidp3BUFVZETOjIia8g1nexDObE6TrMMQyYpdo=">
+  <cfdi:Emisor rfc="HAL101217RN3" nombre="HERSO ALIMENTOS SA DE CV">
+    <cfdi:DomicilioFiscal calle="MANUEL GUTIERREZ NAJERA 237" colonia="TRANSITO" municipio="CUAUHTÉMOC" estado="D.F." pais="México" codigoPostal="06820" />
+    <cfdi:ExpedidoEn calle="MANUEL GUTIERREZ NAJERA 237" colonia="TRANSITO" localidad="CUAUHTÉMOC" estado="D.F." pais="México" codigoPostal="06820" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="BUGM530511BR3" nombre="MAXIMA ESTELA BUENDIA GUTIERREZ">
+    <cfdi:Domicilio calle="PROLONGACION PALMA NORTE 98" colonia="MORELOS" municipio="CUAUHTEMOC" estado="MEXICO DF" pais="México" codigoPostal="06200" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="89416.85" unidad="Pieza" noIdentificacion="02060107" descripcion="ALA NATURAL TYSON" valorUnitario="26.50" importe="2369546.53" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="8B3830ED-B325-44D1-9923-1266DADB170E" FechaTimbrado="2014-08-31T19:02:21" noCertificadoSAT="00001000000301160463" selloCFD="Fuh8P1CsLI2b+TEuQMxFmuiImO/FfwcZjwRABYPmrMnRGZ+qVdeLi5uA/2ZXv2gMeAdiDvzCwDeGqSH5nej8oOeTpe6LuBZsidNwbJKFIJ2EIxrX4hJqhPAn1kOoxPvYOhaxfcidp3BUFVZETOjIia8g1nexDObE6TrMMQyYpdo=" selloSAT="gWNAOCgAnMOw7N0g3n2+DTryRtg0D1GMTCH7oS6xGQsYjTOCf59RoDteKMUvi89KkUIBAs7e8nDZNgnz9igZjoj6pwOTwfQMn6CEUIgmm+2EF3f/287S8FqdkND17VNE4zlG2oUT8L5w+OZ2MkDQIET4xjzFVaaGv0/Bk+AdeEQ=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

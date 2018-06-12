@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="15" fecha="2014-10-22T17:14:25" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="7100.00" TipoCambio="1.0000" Moneda="MXN" total="6768.67" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301272426" certificado="MIIEXTCCA0WgAwIBAgIUMDAwMDEwMDAwMDAzMDEyNzI0MjYwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzExMTExNjUwMzhaFw0xNzExMTExNjUwMzhaMIGpMR8wHQYDVQQDExZDQVJMT1MgUkFNSVJFWiBURU5PUklPMR8wHQYDVQQpExZDQVJMT1MgUkFNSVJFWiBURU5PUklPMR8wHQYDVQQKExZDQVJMT1MgUkFNSVJFWiBURU5PUklPMRYwFAYDVQQtEw1SQVRDNjUxMjExSVIwMRswGQYDVQQFExJSQVRDNjUxMjExSERGTU5SMDExDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAiBIAzOUqDKY+3VQAWoFGC9Kgjn3/gDZsIbFEMhOteUm2OfBxCvdhr3B9juW0cz94pkGNvfi11UO16Xf7aA17lT0HZbesG7WScgJrca4tC8Nz9CdoBnoGKr4LYPR+dFumnTcIa7IUoVjanlJDUPVGUDRZwNV9NddA8Ig5nonAdwkCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGeSdoXpozUg1LCQOZzCoyboA7Hk0QS7T1eYEskzIy9fT4PW2DG6kXjWlrupwy2J08B3Pc3RcLuDcbjUIB4KOncDm/NDwp7mEZCPPaEJNQqnmFQPxHrb7/06uvabGwbagJDXQtGP5ff/3gbD8RmZ/IgiYJfLobY8qXhs3UrNALtC+ur4JTaCP0cEiopp7dsvKyicCMywVtJPml9FJOF8iPiQOSgmmxeh1KgaFnpfxYqGIFJpuOsuozX97BcO2BxyQqvdusk8b0s5LhOeDHOKfnYAmg5PErMJz/yFVVy9Ha8UMqHvzFbet+A5QwLD10YkrkW3PyxjUHjbPYki6SIXnxI=" sello="TWmjDcsF4wnlwwBMKLZN/DWQCe5wnsEOozNO+g4v6DshLux3kDIMPCm0LRKpusxpNCtAZyHvLRzS3YDyc+TL+4s9+fGk+9SneleIMfowPu4M0P6vvqULReAZ4OU1xAaAOw68jxdGpu8cNP/y5EBTYnC2CoWB9lSbPPDaNaJeYq0=">
+  <cfdi:Emisor rfc="RATC651211IR0" nombre="CARLOS RAMIREZ TENORIO">
+    <cfdi:DomicilioFiscal calle="ARENA 53" colonia="ACUEDUCTO DE GUADALUPE" municipio="GUSTAVO A. MADERO" estado="D.F." pais="México" codigoPostal="07279" />
+    <cfdi:ExpedidoEn calle="ARENA 53" noExterior="ARENA 53" colonia="ACUEDUCTO DE GUADALUPE" localidad="GUSTAVO A. MADERO" estado="D.F." pais="México" codigoPostal="07279" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="SIL0610268I0" nombre="SERVICIOS DE INSPECCIÓN Y LOGÍSTICA, S.A. DE C.V.">
+    <cfdi:Domicilio calle="CAMINO VIEJO A MEDRANO NÚMERO 2005" colonia="ALTAMIRA" municipio="ALTAMIRA" estado="TAMAULIPAS" pais="México" codigoPostal="89600" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="No Aplica" descripcion="CONCEPTO DE GASTOS Y VIATICOS A LA CIUDAD DE TAMPICO TAMAULIPAS" valorUnitario="7100.00" importe="7100.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="1467.33" totalImpuestosTrasladados="1136.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="757.33" />
+      <cfdi:Retencion impuesto="ISR" importe="710.00" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1136.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="DDF9FBF6-6F65-44D4-BC8E-3E9543DDA318" FechaTimbrado="2014-10-22T17:15:13" noCertificadoSAT="00001000000301160463" selloCFD="TWmjDcsF4wnlwwBMKLZN/DWQCe5wnsEOozNO+g4v6DshLux3kDIMPCm0LRKpusxpNCtAZyHvLRzS3YDyc+TL+4s9+fGk+9SneleIMfowPu4M0P6vvqULReAZ4OU1xAaAOw68jxdGpu8cNP/y5EBTYnC2CoWB9lSbPPDaNaJeYq0=" selloSAT="Ckm3ZmSZdHMHQh537nezjfuI3YvgFVSKJtNykMfdZr0vO9lmpdm72bX7mSKnejlW5YtSZkij+z6IDI6yqe67jnhI17iKbQN1c7uWF/6sPA7aqVEv+2AEp/icXQXIyPsTQzXTyP7tGZQx3IYsa3kJsxy/CQvkkhNOlqL+vzaXvDI=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

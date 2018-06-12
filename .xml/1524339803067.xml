@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="2" fecha="2014-09-01T14:42:30" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="76551.72" descuento="0.00" TipoCambio="1" Moneda="MXN" total="88800.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000202275872" certificado="MIIEcTCCA1mgAwIBAgIUMDAwMDEwMDAwMDAyMDIyNzU4NzIwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTEwNTIwMTI0MFoXDTE2MTEwNTIwMTI0MFowgbIxHDAaBgNVBAMTE1ZHTVQgR1JPVVAgU0EgREUgQ1YxHDAaBgNVBCkTE1ZHTVQgR1JPVVAgU0EgREUgQ1YxHDAaBgNVBAoTE1ZHTVQgR1JPVVAgU0EgREUgQ1YxJTAjBgNVBC0THFZHUjA4MDkwMjlFNSAvIE1FTEQ5MDA2MjJLRDkxHjAcBgNVBAUTFSAvIE1FTEQ5MDA2MjJNTUNSUE0wMzEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAR1aVIlmn5Mbt1B6qK8t5N1QoEfX/WrKfnXiXQFwXnBkIJdRw180kMIFw8p8tddUomVXK0Knb/2lTK54QL5vmhxAY92d2NSsI5y4Otvuf8nwfxEcdcCGIH0FCTtQ+JChwEvS06F7ccwVpd2yoRuO+2HJ2ojwr2o/ibhRAmPK4PQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAb5RG3+xIf5etecNtOS3ewfRNwqnZ4w9Sgot7GYiFCZlJnOTE/srIPDlM0nGjzgy9O9bZD2JMI6u3zI3lAwM8ZInXtaLU4DbBhWyqtU1Qqn49+/DCHUdhpt/g3Tg4bfUtW5c0zVEM/isUafyiMwlHa1AsYax/F3SzXIXZEmBgUrlvOCx/D0X7Pk4LYneyzbHNXiJ8v0fsTtWCFLPnwlJYRpFkDj/zYPETVQEuzVevx4WYwYRW/Sn4GR6bP92TpRZzxtdKD10ZkKe7fB3axfwX8AePt/uZM5DUcs8YF9q5Ns1Q44/u3+Olg8Q1DcKp/+A6xlE25SrVGY30/PvSkMiKrA==" sello="dXI8Qj1P4hdmPespmCVQrtAe/SHhKDDQSGF4fe0/JJS3LF09ezhKdWtDAXUs8Y4LJqmJI1lBXL0cohV4wvEGKqmigFfMe7UZhAtl0Axa9zKnhqNeoHX0ymqt2S/o05ihGuGqqt/a890hcy8KDSQ7ZONXD1Ph9XOJWd4YnsnO6lM=">
+  <cfdi:Emisor rfc="VGR0809029E5" nombre="VGMT GROUP SA DE CV">
+    <cfdi:DomicilioFiscal calle="SALAVERRY 1020" colonia="LINDAVISTA" municipio="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:ExpedidoEn calle="SALAVERRY 1020" colonia="LINDAVISTA" localidad="G.A. MADERO" estado="D.F." pais="México" codigoPostal="07300" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN SIMPLIFICADO" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="MAM080818BD4" nombre="MENTOR ASSET MANAGEMENT SA DE CV">
+    <cfdi:Domicilio calle="AVENIDA PASEO DE LAS PALMAS 330 PISO 1" colonia="LOMAS DE CHAPULTEPEC I SECCION" municipio="MIGUEL HIDALGO" estado="D.F." pais="México" codigoPostal="11000" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="SERVICIO DE TRANSPORTACION" valorUnitario="76551.72" importe="76551.72" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="12248.28">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="12248.28" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="F4B5B15D-5DE1-40B9-8014-E53894427A3E" FechaTimbrado="2014-09-01T14:43:28" noCertificadoSAT="00001000000301160463" selloCFD="dXI8Qj1P4hdmPespmCVQrtAe/SHhKDDQSGF4fe0/JJS3LF09ezhKdWtDAXUs8Y4LJqmJI1lBXL0cohV4wvEGKqmigFfMe7UZhAtl0Axa9zKnhqNeoHX0ymqt2S/o05ihGuGqqt/a890hcy8KDSQ7ZONXD1Ph9XOJWd4YnsnO6lM=" selloSAT="UWBvFkKXVahQfDI2ev+OOHXWduanJqvB34woGmHL0oHerNtLwvworttnXw+L8AC5vDIG9QvMjdX7TehGjW+43KUKhcCFpKvJL3d+szCvF5G7pUwgGnjOFgaPCHeXaSB3yVPV4ZKEFh7T9kOgnMwwH/uM+NM4uEtpiTqgqogfapc=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="1" fecha="2014-06-27T18:41:41" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="1.16" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300154122" certificado="MIIEYzCCA0ugAwIBAgIUMDAwMDEwMDAwMDAzMDAxNTQxMjIwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA1MjMxNTQ2NDhaFw0xNzA1MjMxNTQ2NDhaMIGvMRowGAYDVQQDExFIWURSQURPVCBTQSBERSBDVjEaMBgGA1UEKRMRSFlEUkFET1QgU0EgREUgQ1YxGjAYBgNVBAoTEUhZRFJBRE9UIFNBIERFIENWMSUwIwYDVQQtExxIWUQxMzAzMTFSVDQgLyBTSVJFNzExMDIxSjVBMR4wHAYDVQQFExUgLyBTSVJFNzExMDIxSERGUFFEMDgxEjAQBgNVBAsTCUFMUiBOb3J0ZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAq164rcpO3s1nKcTeh6toakaAxtOotuTS+TdTwFLSJJodaDqEIwesudlocbszFSNzYUaUteyWxrxxcopDn44srNgHBYU4Uh9puEBmRZDjul5EizRKNv88628nHxex7ItzwCWo6Uc8mKnpK9tcoZvrk2PSaDU4SApYh+rOzxaKm50CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAJLKAlu5Iv+rSPWgf59024Bde86WuliiRzj2PliV3W/thgWAl6Hf6HRzSsUZX/Cvs6BgFi/KqIcmMUSNPZWgGxeumo7HLMTYEc0Mat0jcCg2SICIeqMQPPJKpNNswic00/Hin1ijBIU/5pAxvgisMH98ok4fOmj8eFqnOeJNXpNxf8Q1iolI3R31bBOu6eq9rIG1DjCzUQf1CCInj2HIHGENNc/hBIghDWxdOsEWVkng1Cmz5lJTI1tSq4Z0wKP0Kz3kZ9KGubsSZIFcvoc/rB/nMl1o6+c/OAv5M8poPiW8aZ7NBzGO3bDodzEcz69LgLxx7bYG40MCY2R2J4n0cnQ=" sello="jIBvUOolm18RxggeOfIz/76Mu/KRfcpZIIO4UO6NIMwO1+cV/VkvqzqMVKY8Vrcrk3uo61FBYx8rm8Ld8RBT5Yo4LR8WPQXvqehZKPgoT/9OO70R2uwZ27QFmMVA9ZwH29QXjbH7pK7z14rZ4rFWWHQXzXjW63inWAtrDlAsQ/Y=">
+  <cfdi:Emisor rfc="HYD130311RT4" nombre="HYDRADOT SA DE CV">
+    <cfdi:DomicilioFiscal calle="AV. HORACIO 124 503" colonia="POLANCO" municipio="MIGUEL HIDALGO" estado="D.F." pais="México" codigoPostal="11560" />
+    <cfdi:ExpedidoEn calle="AV. HORACIO 124 503" colonia="POLANCO" localidad="MIGUEL HIDALGO" estado="D.F." pais="México" codigoPostal="11560" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="AV. HORACIO 124 503" colonia="POLANCO" municipio="MIGUEL HIDALGO" estado="D.F." pais="México" codigoPostal="11560" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="02060107" descripcion="PRUEBAS FACTURACION ELECTRONICA" valorUnitario="1.00" importe="1.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="0.16">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="0.16" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="76DB00A1-0A11-4C41-96CE-C29BE70EE5E0" FechaTimbrado="2014-06-27T18:41:43" noCertificadoSAT="00001000000301160463" selloCFD="jIBvUOolm18RxggeOfIz/76Mu/KRfcpZIIO4UO6NIMwO1+cV/VkvqzqMVKY8Vrcrk3uo61FBYx8rm8Ld8RBT5Yo4LR8WPQXvqehZKPgoT/9OO70R2uwZ27QFmMVA9ZwH29QXjbH7pK7z14rZ4rFWWHQXzXjW63inWAtrDlAsQ/Y=" selloSAT="nWC3/PW/c0bh/nCxfgM7UTuP4WlEzdtlq1sqDY+7VO9fgRxFzXJWHYT555sEpLwqorqwsFomCpxUWIFG2Ggo4e6wCaPHfAlzB9nFUIhhYjKF+aOrsWZD4vgYjuulT69iDJm1uVDHo4EVAD4x9ZQRzlXnKuIFMBOE0xUxqKq+fFY=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="3" fecha="2014-08-05T09:51:47" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1200.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="1392.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000201553062" certificado="MIIEeDCCA2CgAwIBAgIUMDAwMDEwMDAwMDAyMDE1NTMwNjIwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDcxMzE4MjkxOFoXDTE2MDcxMzE4MjkxOFowgbkxITAfBgNVBAMTGExBVVJPIEdVVElFUlJFWiBNQVJUSU5FWjEhMB8GA1UEKRMYTEFVUk8gR1VUSUVSUkVaIE1BUlRJTkVaMSEwHwYDVQQKExhMQVVSTyBHVVRJRVJSRVogTUFSVElORVoxFjAUBgNVBC0TDUdVTUw1NjEwMTlGSjkxGzAZBgNVBAUTEkdVTUw1NjEwMTlIREZUUlIwNDEZMBcGA1UECxMQTEFVUk8gR1VUSUVSUkVaIDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA6HI2ioLPiq5hIbQKaDCgRZw3t73+zG/92LeCmoSQJRHOs91rAMxH9hyb2W3XkIW2bGVbggHMIRbZZ3O2qcXqAqTSRhqo9Juwy7D+L3R52+H+5sJL91Pk/DJpRc0rCgZEKKAnOEzifWGauyXAVsUOMX8jsTVwSr4GLzcUYz1a4fECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAJuheX7VdParKpF5Fy+fmYz18ylOyweIi1yMvh50dTMjgJRCqtYYFLolvv4Llb55PWF02QjqIP4O2iiAgYiIMw4DVJbna2dbIHOYDzxRWDnEJqAQnZTejHq6LcpPMddZKxnU1sOisbOfnHewvJHOmYyU+XVDMn5P94nnnoQEkyo5/d1ZuGHvLR4RkwHJW0zd3Kyzk4Ds7v2nFRUZ1UI4dBN+ep906ZHHoLxQhb1GnJXlBpmyYsS77ga8BNs50azMeCWsIcUFGneNcxWMHaABwcODh70QRCs/0iFZCkYGCkdbP6sw1ljopQ9P16joiD9n/wSHIkAvApCoggcl9qpoEqA=" sello="dqrAwyvvZIyHm4qe4/r8Hx4D9XKeTCSSYvXTqERRMPGWv2SWN6CLNHs/VRZy2iNuStwHhDmq309WOhLpkG4lpXl0CuU6CRarKOxkuGsRBmvWgpnhKEcy06t5cTe/Ay25ZbqRRpe+/VE05SHMN5ouuZl6a3XTadPx9RrfqOjZIkw=">
+  <cfdi:Emisor rfc="GUML561019FJ9" nombre="LAURO GUTIERREZ MARTINEZ">
+    <cfdi:DomicilioFiscal calle="311 No. 918" colonia="NUEVA ATZACOALCO" municipio="G.A.MADERO" estado="D.F." pais="México" codigoPostal="07420" />
+    <cfdi:ExpedidoEn calle="311 No. 918" colonia="NUEVA ATZACOALCO" localidad="G.A.MADERO" estado="D.F." pais="México" codigoPostal="07420" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="CFI751103IX1" nombre="COLEGIO FRANCO INGLES A.C.">
+    <cfdi:Domicilio calle="ANTIGUO CAMINO A TECAMACHALCO 686" colonia="LOMAS DE VISTA HERMOSA" municipio="CUAJIMALPA" estado="DISTRITO FEDERAL" pais="México" codigoPostal="05100" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Pieza" noIdentificacion="02060107" descripcion="TELEFONO DIGITAL PANASONIC KXT 7565 SEMINUEVO" valorUnitario="1200.00" importe="1200.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="192.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="192.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="47CEC3E4-41F1-4D7F-8B8F-6F198F98CE6B" FechaTimbrado="2014-08-05T09:52:20" noCertificadoSAT="00001000000301160463" selloCFD="dqrAwyvvZIyHm4qe4/r8Hx4D9XKeTCSSYvXTqERRMPGWv2SWN6CLNHs/VRZy2iNuStwHhDmq309WOhLpkG4lpXl0CuU6CRarKOxkuGsRBmvWgpnhKEcy06t5cTe/Ay25ZbqRRpe+/VE05SHMN5ouuZl6a3XTadPx9RrfqOjZIkw=" selloSAT="utUJvB9drOuUmucGqnYCUMRBZNq5HYbyeG/CHBTzuSfx5RO1xPTWTFqySRo1+iRlH8sTyz/d7ENFgGHFJgjRmLGUWHfUJh3E/SVC6f8VUqgyjdjYGsmSOWyYw3yliT/mCgOk2hVMFLuVMKPS5qC28Jl02/Vj36ai2nTPzYXbo98=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

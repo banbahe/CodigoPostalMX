@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="E" folio="1863" fecha="2014-10-21T11:14:52" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="9.52" TipoCambio="1.0000" Moneda="MXN" total="10.99" tipoDeComprobante="ingreso" metodoDePago="No Identificado" LugarExpedicion="SAN PEDRO GARZA GARCIA NUEVO LEON" NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000202138860" certificado="MIIEjjCCA3agAwIBAgIUMDAwMDEwMDAwMDAyMDIxMzg4NjAwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTAxNTE1NDA1MVoXDTE2MTAxNTE1NDA1MVowgc8xJjAkBgNVBAMTHURJU1RSSUJVSURPUkEgTFVCTElOIFNBIERFIENWMSYwJAYDVQQpEx1ESVNUUklCVUlET1JBIExVQkxJTiBTQSBERSBDVjEmMCQGA1UEChMdRElTVFJJQlVJRE9SQSBMVUJMSU4gU0EgREUgQ1YxJTAjBgNVBC0THERMVTg5MDIyMEJONyAvIEdBU0o3NzA1MTZIMjgxHjAcBgNVBAUTFSAvIEdBU0o3NzA1MTZITkxSUlMwMzEOMAwGA1UECxMFVU5JQ0EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMCXQrsrBS3k+K2AQ50K+D64tuh8IEs5rrnhrVhU4ZtT7dNZagE2jwsuU7NXBq5hfe7pq16f2SxcILnsyNE6ncE430dDUGkbPe/88wne/FsnuWW1Fsk6XRiF4gYdVuppsQcpceK5QnKPw6JRCRy19OBZt0KllVlichxoBuF2SvjfAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQA8HT9dGio7U+bYXzy54kIa3qj04aQB7Ph/HlSi1rlcyiSCnCyt4kMDWArE/iqWvXaUaM3+t5t4eNq6Q4CRM2XoKfKwk2wL2Y7NsQR9lTwjxFZvfGZiZinjFT0X2vAfx5APSQc0jYOHyFgszLyHY1cWrD8VYRTcl0oMO8ytRdlnah1luIfHxebec2i8T9Z2SOnIanocdUaH0eohrI6OGlxXJqTHRYn785T7IRormb06LPMw4XFTz4y2ulDhG4TMUe+Skg9yrvw4nZb9LZIM0lU6N0Nx2oKVvycj8pmLTOCwEiyCOYeVA4Z3Sfk1cOCw1IqbMMQitDza1WVwBu0FBqxp" sello="qcbBi48/VEh4w/K4YGz73+fQuFyP5AyQuNQXsuF4I6KjhjcuBoVjTmI7ieT2gSyhxS/Ixfs0VoLoQqU0G8uCFK9dViTtHvaIxn/CGCS5XNSgt3f9CSYGAzMQfukj90GMy0lybDGDl/TooHeIJ56wveJW2Jv7lx3yKdFSBxUhyOw=">
+  <cfdi:Emisor rfc="DLU890220BN7" nombre="DISTRIBUIDORA LUBLIN SA DE CV">
+    <cfdi:DomicilioFiscal calle="MANUEL DOBLADO 105" colonia="PALO BLANCO" municipio="SAN PEDRO GARZA GARCIA" estado="NUEVO LEON" pais="México" codigoPostal="66236" />
+    <cfdi:ExpedidoEn pais="México" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY DE PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="AFI980403RP2" nombre="CATERPILLAR RAMOS ARIZPE S DE RL DE CV.">
+    <cfdi:Domicilio pais="México" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="0" descripcion="-" valorUnitario="0.00" importe="0.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1.47">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="1.47" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="7AB5A5EA-5DC3-43DE-8C89-DFBDB086AF0E" FechaTimbrado="2014-10-21T11:15:24" noCertificadoSAT="00001000000301160463" selloCFD="qcbBi48/VEh4w/K4YGz73+fQuFyP5AyQuNQXsuF4I6KjhjcuBoVjTmI7ieT2gSyhxS/Ixfs0VoLoQqU0G8uCFK9dViTtHvaIxn/CGCS5XNSgt3f9CSYGAzMQfukj90GMy0lybDGDl/TooHeIJ56wveJW2Jv7lx3yKdFSBxUhyOw=" selloSAT="0K5CYKmkkYSfUyzZzn41TeG/FA1M/I0Av18G45+E9AJJC7XbFjFG8UdQzBvAN9rFFoIsar+lc9TZwN/fhXbeE7iqIzeMvRO7Gwm5PbnPhlwjGras2rtcjeRgi9hCIg03zTzpnyaO5qeBN2GXw/Y94fMu30SPd14hugDKsmWH/H8=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

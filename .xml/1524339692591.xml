@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="4" fecha="2014-09-12T10:41:08" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="14570.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="16901.20" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000201546925" certificado="MIIEZTCCA02gAwIBAgIUMDAwMDEwMDAwMDAyMDE1NDY5MjUwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDcxMzEzMTY0OVoXDTE2MDcxMzEzMTY0OVowgaYxGDAWBgNVBAMTD0NFU1RTQSBTQSBERSBDVjEYMBYGA1UEKRMPQ0VTVFNBIFNBIERFIENWMRgwFgYDVQQKEw9DRVNUU0EgU0EgREUgQ1YxJTAjBgNVBC0THENFUzEwMDEwNk1KOSAvIE1BU000NjExMTVQWTYxHjAcBgNVBAUTFSAvIE1BU000NjExMTVITlRMTk4wNTEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN1aKCprh5eNO1mnCtvF5SnFvwaioyavu9+OYL+fDhfBXxC6CobQFu6rmym4AHNobB/H62EejssGmX7uAz4c74kn9yI1xxllNPlgGUBfxloL61ZVeF+RdWc0h8h4lpLl/lFNFjVGvEJOoU96Y+OKBlfdH7lPetwIyUHj+c7/S/cQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAZCkz7kt7mD1ukzFUsXts/pd1Yy8lneqlHz2brJW2x06zh7mqtv9khRIZpA54GkvUX07IDjX+mpf6XwR1IgPcpxkyHoEmLM5RQWUoN+MPI7Kk4uoW/HxhP1gEm3LrWVu7dXmRilm/P33445oFYQ/92YhnW4ih4O/Xr9C+MbGYsTK3RcmY1uDKCT5p4MRydjv7kIbXYtxWwQj4KbcLhLvNc/7mRE8sr1AnW4ZBW9FTjNDuG6ZhR6p3pmoyDvtWUHQHWcvOH1pjBf+MwyTRywpRE1a97oli7aY7pnkRz8NVuG8jeAEjVrqD5JXHv5PXWHeYJ4JaT+y8Tj7P5CDWeUHDKA==" sello="GWgBZTOjVWnWa9ODMS9fpWiUAwhH+4lpldRYNMt343wg+uc4hVsPYAdtnCCvbzs7rqIsq0hy2ejh4Vtero9+ZM07B9N8ayx1Rc+epgUrdd/MtpEgc4xmtoczlG7YDuJq2SZBqbjbZsS/Qz6QIr0uZ/2n8jF6NtLW1ou29a4bc84=">
+  <cfdi:Emisor rfc="CES100106MJ9" nombre="CESTSA SA DE CV">
+    <cfdi:DomicilioFiscal calle="AUTOPISTA QUERETARO-MÉXICO KM.45.8" colonia="TEPOTZOTLAN" municipio="TEPOTZOTLAN" estado="D.F." pais="México" codigoPostal="54600" />
+    <cfdi:ExpedidoEn calle="AUTOPISTA QUERETARO-MÉXICO KM.45.8" colonia="TEPOTZOTLAN" localidad="TEPOTZOTLAN" estado="D.F." pais="México" codigoPostal="54600" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="TCA020213AT2" nombre="TRANSPORTES CABRAL Y ASOCIADOS, S.A. DE C.V.">
+    <cfdi:Domicilio calle="1a. CERRADA AGUSTIN ITURBIDE S/N" colonia="COL. SAN FRANCISCO TEPOJACO" municipio="CUAUTITLAN IZCALLI" estado="ESTADO DE MEXICO" pais="México" codigoPostal="54745" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="52.00" unidad="Servicio" noIdentificacion="02060107" descripcion="INSPECCION FISICO MECANICA FEDERAL MOTRIZ" valorUnitario="235.00" importe="12220.00" />
+    <cfdi:Concepto cantidad="10.00" unidad="Servicio" noIdentificacion="02060107" descripcion="INSPECCION FISICO MECANICA FEDERAL ARRASTRE" valorUnitario="235.00" importe="2350.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="2331.20">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="2331.20" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="27EF928C-E6C9-42B6-878C-C4D4E8D0C2BE" FechaTimbrado="2014-09-12T10:41:17" noCertificadoSAT="00001000000301160463" selloCFD="GWgBZTOjVWnWa9ODMS9fpWiUAwhH+4lpldRYNMt343wg+uc4hVsPYAdtnCCvbzs7rqIsq0hy2ejh4Vtero9+ZM07B9N8ayx1Rc+epgUrdd/MtpEgc4xmtoczlG7YDuJq2SZBqbjbZsS/Qz6QIr0uZ/2n8jF6NtLW1ou29a4bc84=" selloSAT="xLXM85pdmRCWZ5rdxvWe+VHqXLYi4BjkahIj55adXp5H1YZj03PjWlRqinJjAD1CrE6ew586lAC180ii1WkTTiJ5xscfL4F28iqfqmZhVpdSb+g3YypIGncagEo66zHsRHSl9tRF9LpNh7lOA4JgOXDe7Ig3I3Weg1TYNUqnSRg=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

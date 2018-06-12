@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="FIN" folio="117" fecha="2014-10-10T11:58:25" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="12000.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="13920.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000302704063" certificado="MIIEyjCCA7KgAwIBAgIUMDAwMDEwMDAwMDAzMDI3MDQwNjMwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDAxMjkxNzEwMDVaFw0xODAxMjkxNzEwMDVaMIIBFTE9MDsGA1UEAxM0QURNSU5JU1RSQURPUkEgWSBERVNBUlJPTExBRE9SQSBGSU5WRVIgUyBBIFAgSSBERSBDVjE9MDsGA1UEKRM0QURNSU5JU1RSQURPUkEgWSBERVNBUlJPTExBRE9SQSBGSU5WRVIgUyBBIFAgSSBERSBDVjE9MDsGA1UEChM0QURNSU5JU1RSQURPUkEgWSBERVNBUlJPTExBRE9SQSBGSU5WRVIgUyBBIFAgSSBERSBDVjElMCMGA1UELRMcQURGMTMxMDIxNjEwIC8gQ0FNRTc4MDMxNUExOTEeMBwGA1UEBRMVIC8gQ0FNRTc4MDMxNUhHUlNMRDA4MQ8wDQYDVQQLEwZNQVRSSVowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKDR0aUmULqmtRN1LPIjqYz3cUkAW7jgHFMgDn/v/fBkwgyFasZR/49dOa72U7yBzf1GGmuB30Fy4gdiNpRDplJ+MDYKx1/VwN5atVXkpch9SgwnOlmzrkIHVlrQHe/k4oHGiJStQmZvrZhh96NxACCeweVDN//OixjHlWO9XPx7AgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQBRmoIcZwRbeGeyfX6PLJnpqCnuiTM8YAxpgVIyEW9TSPhtWJr9G2bn+abEjusCavnkHnXP8U7BqaKUKdX1YGQ9x3qHABwuyCJIguCdNvV4JZfSRtL7/UIfS8QJt2rZ/CmMHHS4HYyB+8+TiybreeGDvP1Crdx4f4SVv62wtQKfI/E4Wcv35DodSNNaWBxSdpKX55pCALPwFiYm1fhBJ1/ZhrIhCeVWZqCaccMDIZvp74jolI2koc4LQ+KlU4FLkovMXQJyikvATc/sFMpcz+Z1i9FeFdPLpvS+RA5rwC7eRfHEpRDsrBgUmMt/1CGU1Y8GE4M033ExclnCJNAypm98" sello="jvLG7ZlmmZ5ecvvvHvtyg9kQ9oW3qEKTEffyzSSynqEaZEBjEvPITYaKGH3gBYQPof+kIFNt/HkmSAUAbfdWu7WdZbJripIBcAvuQgSQtwVJ1aBDFaBklMf5UgsVb4tfPmSKTjUTvNzyyRwrnAljpMpq6kLnKANZoPlDwb5VFC8=">
+  <cfdi:Emisor rfc="ADF131021610" nombre="ADMINISTRADORA Y DESARROLLADORA FINVER, S.A.P.I. DE C.V.">
+    <cfdi:DomicilioFiscal calle="CUAUHTEMOC 75" colonia="DEL CARMEN" municipio="COYOACAN" estado="DISTRITO FEDERAL" pais="México" codigoPostal="04100" />
+    <cfdi:ExpedidoEn calle="CUAUHTEMOC 75" colonia="DEL CARMEN" localidad="COYOACAN" estado="DISTRITO FEDERAL" pais="México" codigoPostal="04100" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="CEM100924KFA" nombre="CREADORES DE EXITOS MEXICO S. DE R.L. DE C.V.">
+    <cfdi:Domicilio calle="CUAUHTÉMOC 75" colonia="DEL CARMEN" municipio="COYOACAN" estado="DISTRITO FEDERAL" pais="México" codigoPostal="04100" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="No Aplica" descripcion="INTERESES ORDINARIOS CONTRATOS 20022014 Y 24022014" valorUnitario="12000.00" importe="12000.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1920.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1920.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="254197C0-05CE-436D-948A-5D6258C785BD" FechaTimbrado="2014-10-10T11:59:27" noCertificadoSAT="00001000000301160463" selloCFD="jvLG7ZlmmZ5ecvvvHvtyg9kQ9oW3qEKTEffyzSSynqEaZEBjEvPITYaKGH3gBYQPof+kIFNt/HkmSAUAbfdWu7WdZbJripIBcAvuQgSQtwVJ1aBDFaBklMf5UgsVb4tfPmSKTjUTvNzyyRwrnAljpMpq6kLnKANZoPlDwb5VFC8=" selloSAT="SWIKlL9FWEWAcyZxpYCRsrQNw/AEFNY+aE7VXWg1WvOc7C15oAhgWgUgKdpcb1Wg0V8w/GtV6u6PiC0W+lAKLsl2CM65Caa3FV9xAfugrZn0bFNqjgr9ESqO9oQxz6unFzwewcoYdWxhzt6JfCUXTyp7nlzKqRzdK0VqMf9BIAs=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

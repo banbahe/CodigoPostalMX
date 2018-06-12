@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-08-07T15:30:10" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="2399.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="2782.84" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRÓNICA DE FONDOS" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000201613691" certificado="MIIEwDCCA6igAwIBAgIUMDAwMDEwMDAwMDAyMDE2MTM2OTEwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDcyMzIxNDIwOFoXDTE2MDcyMzIxNDIwOFowggEAMTQwMgYDVQQDEytDUkFTSCBNRVhJQ08gU09MVUNJT05FUyBJTlRFR1JBTEVTIFNBIERFIENWMTQwMgYDVQQpEytDUkFTSCBNRVhJQ08gU09MVUNJT05FUyBJTlRFR1JBTEVTIFNBIERFIENWMTQwMgYDVQQKEytDUkFTSCBNRVhJQ08gU09MVUNJT05FUyBJTlRFR1JBTEVTIFNBIERFIENWMSUwIwYDVQQtExxDTVMxMjA2MjZRQjkgLyBUT0JINzkxMTIyUkcyMR4wHAYDVQQFExUgLyBUT0JINzkxMTIySERGUk5DMDMxFTATBgNVBAsTDFBPUiBJTlRFUk5FVDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAweSzOuQ2nJGAhsjnQ5F7MSAro/SBUPSIR1ReUgx8P6vO7xU8oBcg1cL3grVTIVenj2QbWyfWzNiqq/S631mJkdvAze33oL4qEDmiZ1FtCAIHMSJIev7VC/nPZ/jLWZB5jkVxvamzaHp65NKZ2qJCyv+i/ubun96j/7/VdBPpoGECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBACFYhvqySrxWaUweNGckwkJu7EANceDuMWEj9dZLUM5I2gDC+ToVWidYre3vRfEnZCuZdpgRR6YsCZg0kmIaG9MVoaCcYtcWtvaH8ZJfT7TeMQoMyBOnxjM4EgCyLsyvR3nRluUgiEfP27dsQZqQgu6PNbVg3xzjMnds81CENLEA3Ob6/bL6q6Vzioa2cjGso4mclwSxwSpSnruNodjSar26FrSnX+npBp9g5p1U0BtH4JlLGmEfPHluJ7fzprNyOyNyZV0hsxbe628wq63gl1yGF4cNaTHVPXPQn5UjBUuMYj7If/e0+V1pQYe5bTQRxXqkc8YwTwgg0KPFvZNnoZA=" sello="Lzon5WixQ8LSdBglzIGkg2zwYr2HMA2S2tIbsmKGcWaSPNfxpgAnXGfVW3VE+CjX02GajsZ77sj3AhPQhH8Y5b38jQL6os0+HSoiWXabC3GltspSDLf7z4VcHjftXcsR0yTuwhi8MFnZTVG9wdsymst46nSuv9FOA6X9YO4t1Og=">
+  <cfdi:Emisor rfc="CMS120626QB9" nombre="CRASH MEXICO SOLUCIONES INTEGRALES SA DE CV">
+    <cfdi:DomicilioFiscal calle="LAGO CONSTANZA 155, INT. EDIFICIO G 601" colonia="ANAHUAC I SECCION" municipio="MIGUEL HIDALGO" estado="MEXICO, D.F." pais="México" codigoPostal="11320" />
+    <cfdi:ExpedidoEn calle="LAGO CONSTANZA 155, INT. EDIFICIO G 601" colonia="ANAHUAC I SECCION" localidad="MIGUEL HIDALGO" estado="MEXICO, D.F." pais="México" codigoPostal="11320" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="MCA061110JK4" nombre="Moltto Caffe, SA de CV">
+    <cfdi:Domicilio calle="Boulevard López Mateos 2 Int 5" colonia="Mixcoac" municipio="Benito Juarez" estado="DF" pais="México" codigoPostal="11860" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="17.00" unidad="Pieza" noIdentificacion="02060107" descripcion="Playera algodon chifon pre-encogido tipo Polo talla S,M y G con logo Moltto Caffe" valorUnitario="97.00" importe="1649.00" />
+    <cfdi:Concepto cantidad="10.00" unidad="Pieza" noIdentificacion="02060107" descripcion="Gorras negras y blancas con logo Moltto Caffe" valorUnitario="75.00" importe="750.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="383.84">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="383.84" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="80E0CC93-6E2A-4FD2-BD40-1F484E7D1556" FechaTimbrado="2014-08-07T15:30:12" noCertificadoSAT="00001000000301160463" selloCFD="Lzon5WixQ8LSdBglzIGkg2zwYr2HMA2S2tIbsmKGcWaSPNfxpgAnXGfVW3VE+CjX02GajsZ77sj3AhPQhH8Y5b38jQL6os0+HSoiWXabC3GltspSDLf7z4VcHjftXcsR0yTuwhi8MFnZTVG9wdsymst46nSuv9FOA6X9YO4t1Og=" selloSAT="hAdX4MmRz56XfOQ3OKJZGUHwjNkGqs3oG1L4anWckUNTV6xhsTUFjm53qHe5uPIM861OlMIM02kabkGPtlY+hiZLyYCu/RLG7sFIMJwk6X7ae482SomghNxkK2G6oPeBMqm4m3G3AyXAEZeEsTAgni6wDm/4bWr3gN3TzdfyPdM=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

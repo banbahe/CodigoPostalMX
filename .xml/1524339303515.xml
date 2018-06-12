@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante LugarExpedicion="9448-Mexico-Calle PONIENTE 146-730-S/N-INDUSTRIAL VALLEJO-MEXICO---DISTRITO FEDERAL-MEXICO-02300-P&amp;B0108104K7-PULL &amp; BEAR MEXICO SA DE CV" NumCtaPago="No Identificado" certificado="MIIEjDCCA3SgAwIBAgIUMDAwMDEwMDAwMDAyMDIxNzkzMTYwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTAxOTIwMTY1M1oXDTE2MTAxOTIwMTY1M1owgc0xJDAiBgNVBAMUG1BVTEwgJiBCRUFSIE1FWElDTyBTQSBERSBDVjEkMCIGA1UEKRQbUFVMTCAmIEJFQVIgTUVYSUNPIFNBIERFIENWMSQwIgYDVQQKFBtQVUxMICYgQkVBUiBNRVhJQ08gU0EgREUgQ1YxJTAjBgNVBC0UHFAmQjAxMDgxMDRLNyAvIEZJSEo2MTAzMDVHQTExHjAcBgNVBAUTFSAvIEZJSEo2MTAzMDVITUNSUk4wOTESMBAGA1UECxMJT0ZJQ0lOQVMgMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp1v01qPiXsOrDxtK57U+QA11xB2heLrvpUBdV9/wuRT0CXpY75q+oLyzwYclUYF6FMc01pB9WjqS79mGsHlgvpaXJmqIuJ2YRxpqqJeNmiW502cCLlb7Y8U12HCJa9vo6sX5cjS1taqx0ee0yUVUHMA/qhH92NUskeCYrk7WIqQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAZVBM7z4oml+8UNb8cVkHyuvM9sqJFRzA4iuElPVjQF08xPVVSBVXx3rWyFdsNCr5uhTI8uo5PrjU/Z1ApmQLtANadqctXC9Lbd9cWNpSn7uRLdEco4fWMAVdZS+B6FITKQ99gnkKvuYW2LBKYKmET582K+4Nvy0P8DyVGO3GhrMQXUSIRLAhKt/YF7caDAWpmAme/G8QsKz2giRHfiXRiK7imbAE7gGBQR8E7f0sUCLskPSCtWhtb+ZYmiQktVa+J9gjXN3lZOIWMlDbAw3DApQOcYGDT6TCDXzJvrGuqPUI3oEH+tRMlNmtbcHfGHicEAPHXxqJHAesuK3r34qJ3w==" condicionesDePago="Pago en una sola exhibición" fecha="2015-08-03T14:18:51" folio="A9448 / 3247" formaDePago="Pago en una sola exhibición" metodoDePago="PayPal" noCertificado="00001000000202179316" sello="UryXiPJ+LLKqO1FSN8hf9EmUi7VAi5DFEELP0s+REZLs6kAGlWClz5hNgu8V1aVz+PMWZLLEOThRNw0+Sy4JxsYml+7MIZgz4NOcniYE3AV3ajLwWXA4E4dIbyM+xY1jwwlET8JzS5aIRPQ4suzEwuTdNQRPqad/1c7tnPIQvVU=" subTotal="518.960000" tipoDeComprobante="ingreso" total="602.000000" version="3.2" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd">
+    <cfdi:Emisor nombre="PULL &amp; BEAR MEXICO SA DE CV" rfc="P&amp;B0108104K7">
+        <cfdi:DomicilioFiscal calle="Calle PONIENTE 146" codigoPostal="02300" colonia="INDUSTRIAL VALLEJO" estado="DISTRITO FEDERAL" localidad="MEXICO" municipio="DELEGACION AZCAPOTZALCO" noExterior="730" noInterior="S/N" pais="MEXICO"/>
+        <cfdi:ExpedidoEn calle="Calle PONIENTE 146" codigoPostal="02300" colonia="INDUSTRIAL VALLEJO" estado="DISTRITO FEDERAL" localidad="MEXICO" noExterior="730" noInterior="S/N" pais="MEXICO"/>
+        <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+    </cfdi:Emisor>
+    <cfdi:Receptor nombre="Esteban Blanquel" rfc="BAHE8810073C9">
+        <cfdi:Domicilio calle="calle 17 numero 168 -" codigoPostal="57900" colonia="Las aguilas" estado="MEXICO" localidad="Nezahualcoyotl" municipio="Nezahualcoyotl" pais="México"/>
+    </cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto cantidad="1.0000" descripcion="BAÑADOR BÁSICO CORTO ESTILO VINTAGE" importe="249.000000" noIdentificacion="0580050940103" unidad="EA" valorUnitario="249.000000">
+            <cfdi:InformacionAduanera aduana="Aeropuerto Internacional Ciudad de Mexico" fecha="2015-05-23" numero="154730615005411"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto cantidad="1.0000" descripcion="GORRO REVERSIBLE ESTAMPADO TOPOS" importe="199.000000" noIdentificacion="0983150250503" unidad="EA" valorUnitario="199.000000">
+            <cfdi:InformacionAduanera aduana="Aeropuerto Internacional Ciudad de Mexico" fecha="2015-05-23" numero="154730615005411"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto cantidad="1.0000" descripcion="CAMISETA TIRANTES PANELES CONTRASTE" importe="99.000000" noIdentificacion="0923857925004" unidad="EA" valorUnitario="99.000000">
+            <cfdi:InformacionAduanera aduana="Aeropuerto Internacional Ciudad de Mexico" fecha="2015-05-23" numero="154730615005411"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto cantidad="1.0000" descripcion="Gastos de envío" importe="55.000000" noIdentificacion="0000000000000" unidad="EA" valorUnitario="55.000000"/>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos totalImpuestosRetenidos="0.000000" totalImpuestosTrasladados="83.040000">
+        <cfdi:Traslados>
+            <cfdi:Traslado importe="83.040000" impuesto="IVA" tasa="16.000000"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    
+<cfdi:Complemento><tfd:TimbreFiscalDigital FechaTimbrado="2015-08-03T14:18:55" UUID="122B8CC3-4BF0-46D2-BCBF-682EBD18ECBE" noCertificadoSAT="00001000000202639096" selloCFD="UryXiPJ+LLKqO1FSN8hf9EmUi7VAi5DFEELP0s+REZLs6kAGlWClz5hNgu8V1aVz+PMWZLLEOThRNw0+Sy4JxsYml+7MIZgz4NOcniYE3AV3ajLwWXA4E4dIbyM+xY1jwwlET8JzS5aIRPQ4suzEwuTdNQRPqad/1c7tnPIQvVU=" selloSAT="pjHXbMLITiYeXa5sKjSNdu5vM1aRvDxqJ8a0D517B0+5ddJ0nCBJLiIihkhmkUTv8dBrhfj8CV3yOYtYnFskzNGnj/qhG9tlK9rX1aijndXkBxcLOHbcMAtYQKUnpJhMR7ClraQbIq3E8/vSJ1sfBG7PvZhyLqfBDmVmVkFMJsg=" version="1.0" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd"/></cfdi:Complemento><cfdi:Addenda>
+        <INDITEX xmlns="http://repository.edicomnet.com/schemas/mx/cfd/addenda" xsi:schemaLocation="http://repository.edicomnet.com/schemas/mx/cfd/addenda http://repository.edicomnet.com/schemas/mx/cfd/addenda/INDITEX.xsd">
+            <Tienda>
+                <codigoTienda>9448</codigoTienda>
+                <nombreTienda>Mexico</nombreTienda>
+            </Tienda>
+            <TPV>1</TPV>
+            <TipoDocumento>05</TipoDocumento>
+            <numeroTicket>A9448 / 3247</numeroTicket>
+            <fechaTicket>2015-08-03</fechaTicket>
+            <horaTicket>14:18:51.364+02</horaTicket>
+            <condicionesDePago>Pago en una sola exhibición</condicionesDePago>
+            <formaDePago>Pago en una sola exhibición</formaDePago>
+            <interlocutor tipoInterlocutor="emisor">
+                <datosIdentificacion>
+                    <nombre>PULL &amp; BEAR MEXICO SA DE CV</nombre>
+                    <correo>contact.mx@pullandbear.com</correo>
+                    <rfc>P&amp;B0108104K7</rfc>
+                </datosIdentificacion>
+                <datosDomicilio>
+                    <calle>Calle PONIENTE 146</calle>
+                    <noExterior>730</noExterior>
+                    <noInterior>S/N</noInterior>
+                    <colonia>INDUSTRIAL VALLEJO</colonia>
+                    <localidad>MEXICO</localidad>
+                    <municipio>DELEGACION AZCAPOTZALCO</municipio>
+                    <estado>DISTRITO FEDERAL</estado>
+                    <pais>MEXICO</pais>
+                    <codigoPostal>02300</codigoPostal>
+                </datosDomicilio>
+                <otrosDatos>
+                    <telefono>-</telefono>
+                    <fax>-</fax>
+                    <URL>http://www.pullandbear.com/mx/es/</URL>
+                </otrosDatos>
+            </interlocutor>
+            <interlocutor tipoInterlocutor="receptor">
+                <datosIdentificacion>
+                    <nombre>Esteban Blanquel</nombre>
+                    <correo>iblanquel@gmail.com</correo>
+                    <rfc>BAHE8810073C9</rfc>
+                </datosIdentificacion>
+                <datosDomicilio>
+                    <calle>calle 17 numero 168
+-</calle>
+                    <colonia>Las aguilas</colonia>
+                    <localidad>Nezahualcoyotl</localidad>
+                    <municipio>Nezahualcoyotl</municipio>
+                    <estado>MEXICO</estado>
+                    <pais>México</pais>
+                    <codigoPostal>57900</codigoPostal>
+                </datosDomicilio>
+                <otrosDatos>
+                    <telefono>+52 5525600161</telefono>
+                </otrosDatos>
+            </interlocutor>
+            <interlocutor tipoInterlocutor="expedidoEn">
+                <datosIdentificacion>
+                    <nombre>PULL &amp; BEAR MEXICO SA DE CV</nombre>
+                    <correo>contact.mx@pullandbear.com</correo>
+                    <rfc>P&amp;B0108104K7</rfc>
+                </datosIdentificacion>
+                <datosDomicilio>
+                    <calle>Calle PONIENTE 146</calle>
+                    <noExterior>730</noExterior>
+                    <noInterior>S/N</noInterior>
+                    <colonia>INDUSTRIAL VALLEJO</colonia>
+                    <localidad>MEXICO</localidad>
+                    <estado>DISTRITO FEDERAL</estado>
+                    <pais>MEXICO</pais>
+                    <codigoPostal>02300</codigoPostal>
+                </datosDomicilio>
+                <otrosDatos>
+                    <telefono>-</telefono>
+                    <fax>-</fax>
+                    <URL>http://www.pullandbear.com/mx/es/</URL>
+                </otrosDatos>
+            </interlocutor>
+            <concepto numConcepto="1">
+                <datosConcepto>
+                    <temporada>V</temporada>
+                    <seccion>C</seccion>
+                    <tipoProducto>Desconocido</tipoProducto>
+                    <cantidad>1.0000</cantidad>
+                    <unidadVenta>EA</unidadVenta>
+                    <valorUnitario>249.0000</valorUnitario>
+                    <importe>249.0000</importe>
+                    <codigoBarras>0580050940103</codigoBarras>
+                    <descripcion>BAÑADOR BÁSICO CORTO ESTILO VINTAGE</descripcion>
+                </datosConcepto>
+                <impuesto tipoImpuesto="IVA">
+                    <tasaImpuesto>16.00</tasaImpuesto>
+                    <importeImpuesto>34.3400</importeImpuesto>
+                    <categoriaImpuesto>trasladado</categoriaImpuesto>
+                </impuesto>
+                <informacionAduanera>
+                    <pedimento>154730615005411</pedimento>
+                    <aduana>Aeropuerto Internacional Ciudad de Mexico</aduana>
+                    <fechaPedimento>2015-05-23</fechaPedimento>
+                </informacionAduanera>
+            </concepto>
+            <concepto numConcepto="2">
+                <datosConcepto>
+                    <temporada>I</temporada>
+                    <seccion>C</seccion>
+                    <tipoProducto>Desconocido</tipoProducto>
+                    <cantidad>1.0000</cantidad>
+                    <unidadVenta>EA</unidadVenta>
+                    <valorUnitario>199.0000</valorUnitario>
+                    <importe>199.0000</importe>
+                    <codigoBarras>0983150250503</codigoBarras>
+                    <descripcion>GORRO REVERSIBLE ESTAMPADO TOPOS</descripcion>
+                </datosConcepto>
+                <impuesto tipoImpuesto="IVA">
+                    <tasaImpuesto>16.00</tasaImpuesto>
+                    <importeImpuesto>27.4500</importeImpuesto>
+                    <categoriaImpuesto>trasladado</categoriaImpuesto>
+                </impuesto>
+                <informacionAduanera>
+                    <pedimento>154730615005411</pedimento>
+                    <aduana>Aeropuerto Internacional Ciudad de Mexico</aduana>
+                    <fechaPedimento>2015-05-23</fechaPedimento>
+                </informacionAduanera>
+            </concepto>
+            <concepto numConcepto="3">
+                <datosConcepto>
+                    <temporada>V</temporada>
+                    <seccion>C</seccion>
+                    <tipoProducto>Desconocido</tipoProducto>
+                    <cantidad>1.0000</cantidad>
+                    <unidadVenta>EA</unidadVenta>
+                    <valorUnitario>99.0000</valorUnitario>
+                    <importe>99.0000</importe>
+                    <codigoBarras>0923857925004</codigoBarras>
+                    <descripcion>CAMISETA TIRANTES PANELES CONTRASTE</descripcion>
+                </datosConcepto>
+                <impuesto tipoImpuesto="IVA">
+                    <tasaImpuesto>16.00</tasaImpuesto>
+                    <importeImpuesto>13.6600</importeImpuesto>
+                    <categoriaImpuesto>trasladado</categoriaImpuesto>
+                </impuesto>
+                <informacionAduanera>
+                    <pedimento>154730615005411</pedimento>
+                    <aduana>Aeropuerto Internacional Ciudad de Mexico</aduana>
+                    <fechaPedimento>2015-05-23</fechaPedimento>
+                </informacionAduanera>
+            </concepto>
+            <concepto numConcepto="4">
+                <datosConcepto>
+                    <temporada>I</temporada>
+                    <seccion>S</seccion>
+                    <tipoProducto>Desconocido</tipoProducto>
+                    <cantidad>1.0000</cantidad>
+                    <unidadVenta>EA</unidadVenta>
+                    <valorUnitario>55.0000</valorUnitario>
+                    <importe>55.0000</importe>
+                    <codigoBarras>0000000000000</codigoBarras>
+                    <descripcion>Gastos de envío</descripcion>
+                </datosConcepto>
+                <impuesto tipoImpuesto="IVA">
+                    <tasaImpuesto>16.00</tasaImpuesto>
+                    <importeImpuesto>7.5900</importeImpuesto>
+                    <categoriaImpuesto>trasladado</categoriaImpuesto>
+                </impuesto>
+            </concepto>
+            <subTotal>518.9600</subTotal>
+            <totalImpuestos>83.0400</totalImpuestos>
+            <importeTotal>602.0000</importeTotal>
+            <totalUnidades>1</totalUnidades>
+            <metodoPago>
+                <descripcion>PayPal</descripcion>
+                <importePago>602.0000</importePago>
+                <importePesos>602.0000</importePesos>
+                <divisaPago>MXN</divisaPago>
+            </metodoPago>
+            <E-Commerce>
+                <order_id>60874152</order_id>
+                <shipping_address>
+                    <nombre>Blanquel, Esteban</nombre>
+                    <direccion>calle 17 numero 168</direccion>
+                    <municipio>Nezahualcoyotl</municipio>
+                    <cp>57900</cp>
+                    <pais>México</pais>
+                </shipping_address>
+                <total_shipping>
+                    <referencia>XSHIPSKU</referencia>
+                    <unidad>1</unidad>
+                    <precio>55.00</precio>
+                    <importe>55.00</importe>
+                </total_shipping>
+                <contact_details>
+                    <direccion_web>http://www.pullandbear.com/mx/es/</direccion_web>
+                </contact_details>
+                <id_cadena>2</id_cadena>
+                <order_barcode>608741529448</order_barcode>
+            </E-Commerce>
+        </INDITEX>
+    </cfdi:Addenda></cfdi:Comprobante>

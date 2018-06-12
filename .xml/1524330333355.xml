@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="16395" fecha="2015-04-03T15:00:47" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="6487.20" TipoCambio="1.0000" Moneda="MXN" total="7525.15" tipoDeComprobante="ingreso" metodoDePago="Transferencia" LugarExpedicion="QUINTANA ROO BENITO JUAREZ" NumCtaPago="9881" noCertificado="00001000000200157658" certificado="MIIEyzCCA7OgAwIBAgIUMDAwMDEwMDAwMDAyMDAxNTc2NTgwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDEyNTE5NTc0NFoXDTE2MDEyNTE5NTc0NFowggELMTswOQYDVQQDEzJFU1RSQVRFR0lBIFkgTE9HSVNUSUNPUyBFTVBSRVNBUklBTEVTIEJNQiBTQSBERSBDVjE7MDkGA1UEKRMyRVNUUkFURUdJQSBZIExPR0lTVElDT1MgRU1QUkVTQVJJQUxFUyBCTUIgU0EgREUgQ1YxOzA5BgNVBAoTMkVTVFJBVEVHSUEgWSBMT0dJU1RJQ09TIEVNUFJFU0FSSUFMRVMgQk1CIFNBIERFIENWMSUwIwYDVQQtExxFTEUxMDA1MDZLUzkgLyBDVUZNNzEwNjE4NlA2MR4wHAYDVQQFExUgLyBDVUZNNzEwNjE4TURGUlJSMDUxCzAJBgNVBAsTAmRmMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOkTnMFXY8vysNR0fAhHhB2ytVn4ytrRe2kOcXewy9OVydz/ZUHWgp5djMB+wezKfmKar7YDbu9Y9wuT4hr/gRLwjES/vNWT5KZ34CRgbZVk4DPtVU43xUW7g1ZBh1UtIjxzCvAfTXmqiolSiKEqSAN5Yh2FEIFQrCGiFfjxpMYQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAGMLfQQIrRwifr89wvwEoMqGrYZKU3HAuCC+9ZkuxhBmPcVwdFKQVPXMpSe6voV6Oc8Db8KkgUML/gpjd45QellH2AwzzI0tsZ72a8CNrcFUgg+CWOlJhg19essKzW3O+CgHz0z+Jz4T+kn0Bu3CGJyYl2ESwh5EtH2erfZR1bjEg6pDgUvn8TbnC+J4DxtjsZD4MPl+XTHgWexFHqUkoaU4tWW8O01SHoqYIonSsXPtTSxpQKfNdOwRCwlgp4VyUCKxLbhcAe5LPSDcHZo/IDrh6giwDMd7lfLfchkaDi7/d/igtQ6wk8I8wPb8lmHxBKHxuY6go+1TSxFpLJ1aoCQ==" sello="EgEEZ3Csh1W5PVZY668tKVmbymldBRhhfY4dVVoTHoQSXQBrx5pRzD4axY0hbtC7ZoH4XXkBZGcmqHLpyNw9NZZnOPzkXcNHdyExLufQv2W+5RaQNFQB5VGklrFwshvmV/L8TjgUGEB18Xaq2803VNQiZofnc7dL0ugKLtCkBK4=">
+  <cfdi:Emisor rfc="ELE100506KS9" nombre="ESTRATEGIA Y LOGISTICOS EMPRESARIALES BMB SA DE CV">
+    <cfdi:DomicilioFiscal calle="BOLIVAR 31 110" colonia="CENTRO (AREA 1)" municipio="CUAUHTEMOC" estado="MEXICO, D.F." pais="México" codigoPostal="06000" />
+    <cfdi:ExpedidoEn calle="BONAMPAK MANZANA 1 LOC 3E NO. 3" noExterior="BONAMPAK MANZANA 1 LOC 3E NO. 3" colonia="SM 3  CANCUN" localidad="BENITO JUAREZ" estado="QUINTANA ROO" pais="México" codigoPostal="77500" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="QUI810918NR6" nombre="Quiroocan, S.A. de C.V.">
+    <cfdi:Domicilio calle="Carr. Chetumal . Pto. Juárez" colonia="Km. 266.3" municipio="Mpio. de Solidaridad Xpu-Ha" estado="Quintana Roo" pais="México" codigoPostal="77750" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="No APLICA" descripcion="Gestion y Control de Operaciones." valorUnitario="6487.20" importe="6487.20" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1037.95">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1037.95" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="7BFD6A59-0110-4CB9-8763-D3B680C7A9C5" FechaTimbrado="2015-04-03T15:01:12" noCertificadoSAT="00001000000301160463" selloCFD="EgEEZ3Csh1W5PVZY668tKVmbymldBRhhfY4dVVoTHoQSXQBrx5pRzD4axY0hbtC7ZoH4XXkBZGcmqHLpyNw9NZZnOPzkXcNHdyExLufQv2W+5RaQNFQB5VGklrFwshvmV/L8TjgUGEB18Xaq2803VNQiZofnc7dL0ugKLtCkBK4=" selloSAT="NBsLlWYM5/3XFKnwYO7BjQvdIR1OTSz/MpHgysnjIh9TEDAL1E8s5iRcs5TmJBm76TjLUcFqsicJHtD00+JO7d6T6USrVxIiKuSSJniCO52/W8nOPnNhL2kum6V3wJ7eWvN+5c2Emfnfb8dbrnP1d/mAqXTESIBsnZz8o7010aE=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="4264" fecha="2014-10-13T21:47:59" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1.00" TipoCambio="1.0000" Moneda="MXN" total="1.16" tipoDeComprobante="ingreso" metodoDePago="Efectivo" LugarExpedicion="ESTADO DE MEXICO TOLUCA" NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000201661762" certificado="MIIEezCCA2OgAwIBAgIUMDAwMDEwMDAwMDAyMDE2NjE3NjIwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDczMDIxMTkyM1oXDTE2MDczMDIxMTkyM1owgbwxITAfBgNVBAMTGElOVEVHUkEgQ09NUEFOWSBTQSBERSBDVjEhMB8GA1UEKRMYSU5URUdSQSBDT01QQU5ZIFNBIERFIENWMSEwHwYDVQQKExhJTlRFR1JBIENPTVBBTlkgU0EgREUgQ1YxJTAjBgNVBC0THElOVDA0MDMyMkhJMyAvIE1FQ0c1NzA0MTZSRTAxHjAcBgNVBAUTFSAvIE1FQ0c1NzA0MTZIREZEUkIwODEKMAgGA1UECxMBMTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxI4ZHcSjPp9XoMKTXB40wDuNDL/PMf6HK7ij8A0S5NU/Y6MljDJUbaIbeiv8TUUPSDaU6H8hzU82H4WYIFVhS03szfZrwfiQmu6TXjjsmNnE79RaU/ZuFzJm/s9DLJaXQGEM0y2YVqN1CFzd8WjPyGzZOkw8jxFhZ0isbaghbmsCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAIVv7w/nx5Agcl+sn5DuzGmaF5vVLb1nRBPJDXagI1VJ8YEb0NWFkaL/1J2qC5A2x7Q3ouqVebo56CH0qC5emPHJ7Bd+BA3PqF6wfGLzosqR9+MYDUFoUPI947dRvMmVYHFPhdXutVeRQ9hWRHBjfEXlSTPHflXCyCQxd+V/FeOmm1mn6JJ1pEl3c9BvFik6o7a3fPbA36HXmGJHHb1sNiEYMYdlyJZSdZWpXRJQ9h7FEfaFrOnlvFJj1VAFcI8ZRIOG0xNlONPhuhe63uprYZj+KkuG4IjDlekRK2J7GQxE1y0HZo2qbV4vB/mK1ws9RQWP7j07ionGoZFrrcoG75s=" sello="j+Pi6C1mr/YSXiiGAYZbOLyGbEPp92CRrBxfkv/FJk+3cFxcx+mP3OnoH4XkXPmcaMgJwofh/RDGP93n2XH4HM/vXsHK3UifFJVpqpCzNJ34DpoXbPkniJy+NEyXs0xv4RKXITKWlT9Iy+cQ1hx62lbtGJIHlH8Ib9zVLQsq+RI=">
+  <cfdi:Emisor rfc="INT040322HI3" nombre="TABLADECO S.A. DE C.V.">
+    <cfdi:DomicilioFiscal calle="AV.PASEO TOLLOCAN PONIENTE 1315" colonia="NUEVA OXTOTITLAN" municipio="TOLUCA" estado="ESTADO DE MEXICO" pais="México" codigoPostal="50100" />
+    <cfdi:ExpedidoEn calle="AV. PASEO TOLLOCAN PONIENTE No. 1315" noExterior="AV. PASEO TOLLOCAN PONIENTE No. 1315" colonia="NUEVA OXTOTITLAN" localidad="TOLUCA" estado="ESTADO DE MEXICO" pais="México" codigoPostal="50100" />
+    <cfdi:RegimenFiscal Regimen="Régimen General de Ley Personas Morales" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="VENTAS  MOSTRADOR">
+    <cfdi:Domicilio calle="ANTONIO CARDENAS # 1195" colonia="BENITO JUAREZ" municipio="COAHUILA" estado="COAHUILA" pais="México" codigoPostal="25050" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="No Aplica" descripcion="demo" valorUnitario="1.00" importe="1.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="0.16">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="0.16" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="35EFC05B-44CF-4B46-BEA4-A31071658CF3" FechaTimbrado="2014-10-13T21:51:14" noCertificadoSAT="00001000000301160463" selloCFD="j+Pi6C1mr/YSXiiGAYZbOLyGbEPp92CRrBxfkv/FJk+3cFxcx+mP3OnoH4XkXPmcaMgJwofh/RDGP93n2XH4HM/vXsHK3UifFJVpqpCzNJ34DpoXbPkniJy+NEyXs0xv4RKXITKWlT9Iy+cQ1hx62lbtGJIHlH8Ib9zVLQsq+RI=" selloSAT="otvhNZo6M0+4hk66WGUCy4mO/DP3xbyoDcvjISe/XcfcQLaCZ5CbvDYqLOaZ3LQ/E9AKgbSQ7cKfOYaJqlq0sttuGlSA/l8supaBPLOUpWC5Q6GDdShPYexnzbvOb6Rr4KPBIvAFs/P7Xe6Fu427cVs4cQ0Y5xRaf7a3DHOgh7o=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
