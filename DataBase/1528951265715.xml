@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-09-25T10:32:32" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="800.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="928.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301839970" certificado="MIIEYTCCA0mgAwIBAgIUMDAwMDEwMDAwMDAzMDE4Mzk5NzAwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTcxNzI5MDJaFw0xNzEyMTcxNzI5MDJaMIGtMRwwGgYDVQQDExNET0xPUkVTIEdBUkNJQSBDUlVaMRwwGgYDVQQpExNET0xPUkVTIEdBUkNJQSBDUlVaMRwwGgYDVQQKExNET0xPUkVTIEdBUkNJQSBDUlVaMRYwFAYDVQQtEw1HQUNENjUwNDA5S0szMRswGQYDVQQFExJHQUNENjUwNDA5TURGUlJMMDkxHDAaBgNVBAsTE2RvbG9yZXMgZ2FyY2lhIGNydXowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMRkDFrlXyx+buBHTsn0CR43T2gMsBb5PFP3qdAsHu8nxavAby/kn4ZccSVs97NvM/+8KMREtk+q2npWR2QqkYX1gzBm/tfuqb2OpWHBLei6jlR4ECZOHNcYAfuDb3EKoVwfTrvelI474NiEMwVYjFyL7gkojpxqFCYVMjk98D3PAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQDNffTFWLKVoYwN3eu+70YtEh64fhzzWYTzK25+tiPTlitEa3aZG/Xffp9fN/93iIHVWvpPguLRvh6YSDLTpd9RvPkspD7CUiXXMf5kzKN0NdNElucebOZ8QOjbNnIu7PVfhEz4sdHjCvrrHMtEI60vk7yh38zDj7JPNU0jr+m+9OBhSOr+3YaM5L9NDYXkCZhfrUTcuWIJq3ZwgR9eOkM9Tud68ZEpie4tM9gPgvT46uXNjhh3WCxfZZakAlXEGewVqZeIkOhNWurXtgEK85YYPH1bkBByObeb/Ary1X/eB0x4P8PeqoEa6Jaz3034Zj5ICVlU6p646ZO/0wuhVTGB" sello="RhM2Fm1TlvhpFQQyE79g96IopmG1xnaTG67aqYV7ztL8AYO/nge95cnihCnOnCkAFQ4aIV1zH5y+iXMKxoEgIfTsNBZLJGzZaOawQntud3DYMbRlgwzNaeaW63DsdotqmmPpOHKEhQHzquTT8NghitjJG8AQlZBsIyrETxKsNjA=">
+  <cfdi:Emisor rfc="GACD650409KK3" nombre="DOLORES GARCIA CRUZ">
+    <cfdi:DomicilioFiscal calle="FTE. DE CHAPULTEPEC 46 A" colonia="FUENTES DEL VALLE" municipio="TULTITLAN" estado="EDO. DE MEXICO" pais="México" codigoPostal="54910" />
+    <cfdi:ExpedidoEn calle="FTE. DE CHAPULTEPEC 46 A" colonia="FUENTES DEL VALLE" localidad="TULTITLAN" estado="EDO. DE MEXICO" pais="México" codigoPostal="54910" />
+    <cfdi:RegimenFiscal Regimen="OTRO" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="PEN7502175E7" nombre="PLASTI-ENVASES, S.A. DE C.V.">
+    <cfdi:Domicilio calle="AVE. HIDALGO No101" colonia="PARQUE INDUSTRIAL CARTAGENA" municipio="TULTITLAN" estado="MEXICO" pais="México" codigoPostal="54918" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="20.00" unidad="Pieza" noIdentificacion="Factura Libre" descripcion="CIRCULO EN CORTE DE VINIL COLOR AMARILLO CROMO DE 20CM. DE DIAMETRO" valorUnitario="40.00" importe="800.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="128.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="128.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="595A8069-C97C-46F2-AA6B-E099F5895CD1" FechaTimbrado="2014-09-25T10:32:33" noCertificadoSAT="00001000000301160463" selloCFD="RhM2Fm1TlvhpFQQyE79g96IopmG1xnaTG67aqYV7ztL8AYO/nge95cnihCnOnCkAFQ4aIV1zH5y+iXMKxoEgIfTsNBZLJGzZaOawQntud3DYMbRlgwzNaeaW63DsdotqmmPpOHKEhQHzquTT8NghitjJG8AQlZBsIyrETxKsNjA=" selloSAT="GeYzjY5zVELuUhjA33dfyjqVfInBFrVSwy2us2WB6O4mokeoz0zpDxMv9G7tXBBTSoTPlxd3Odg7gLJ+5O/zJcBQ97ut+ghQonokqIXLSga+4jJtj9UI/IwbvGOcecVOTFeSNo2nspq7n35+PdtCctDPZT9jnsJYCKUCaVOgqWw=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

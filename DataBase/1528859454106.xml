@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="4" fecha="2014-09-18T13:26:43" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="540.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="626.40" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301839970" certificado="MIIEYTCCA0mgAwIBAgIUMDAwMDEwMDAwMDAzMDE4Mzk5NzAwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTcxNzI5MDJaFw0xNzEyMTcxNzI5MDJaMIGtMRwwGgYDVQQDExNET0xPUkVTIEdBUkNJQSBDUlVaMRwwGgYDVQQpExNET0xPUkVTIEdBUkNJQSBDUlVaMRwwGgYDVQQKExNET0xPUkVTIEdBUkNJQSBDUlVaMRYwFAYDVQQtEw1HQUNENjUwNDA5S0szMRswGQYDVQQFExJHQUNENjUwNDA5TURGUlJMMDkxHDAaBgNVBAsTE2RvbG9yZXMgZ2FyY2lhIGNydXowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMRkDFrlXyx+buBHTsn0CR43T2gMsBb5PFP3qdAsHu8nxavAby/kn4ZccSVs97NvM/+8KMREtk+q2npWR2QqkYX1gzBm/tfuqb2OpWHBLei6jlR4ECZOHNcYAfuDb3EKoVwfTrvelI474NiEMwVYjFyL7gkojpxqFCYVMjk98D3PAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQDNffTFWLKVoYwN3eu+70YtEh64fhzzWYTzK25+tiPTlitEa3aZG/Xffp9fN/93iIHVWvpPguLRvh6YSDLTpd9RvPkspD7CUiXXMf5kzKN0NdNElucebOZ8QOjbNnIu7PVfhEz4sdHjCvrrHMtEI60vk7yh38zDj7JPNU0jr+m+9OBhSOr+3YaM5L9NDYXkCZhfrUTcuWIJq3ZwgR9eOkM9Tud68ZEpie4tM9gPgvT46uXNjhh3WCxfZZakAlXEGewVqZeIkOhNWurXtgEK85YYPH1bkBByObeb/Ary1X/eB0x4P8PeqoEa6Jaz3034Zj5ICVlU6p646ZO/0wuhVTGB" sello="LOAywU+jC1nhpqBDwcuZzIJQ0vdj2El/xyPaNnC0Y52oRYNNdV1NiN86jPOT5NZfIfQmpRMIBjRK6uQJHTZv3IbyQbpOJ5fkt9VlghEDqWloJksUuvgU+9euaPrZEkrJqX8pn7ucrj2p8X4eMIeZTFOUq9YeaSTkoj8XWUBP04U=">
+  <cfdi:Emisor rfc="GACD650409KK3" nombre="DOLORES GARCIA CRUZ">
+    <cfdi:DomicilioFiscal calle="FTE. DE CHAPULTEPEC 46 A" colonia="FUENTES DEL VALLE" municipio="TULTITLAN" estado="EDO. DE MEXICO" pais="México" codigoPostal="54910" />
+    <cfdi:ExpedidoEn calle="FTE. DE CHAPULTEPEC 46 A" colonia="FUENTES DEL VALLE" localidad="TULTITLAN" estado="EDO. DE MEXICO" pais="México" codigoPostal="54910" />
+    <cfdi:RegimenFiscal Regimen="OTRO" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="DMC971011QT5" nombre="DISTRIBUIDORA DE MONTACARGAS DEL CENTRO S.A. DE C.V.">
+    <cfdi:Domicilio calle="CAMINO VIEJO A TULTITLAN MZ. 22 LT. 25" colonia="VILLA ESMERALDA" municipio="TULTITLAN" estado="ESTADO DE MEXICO" pais="México" codigoPostal="54910" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="20.00" unidad="Pieza" noIdentificacion="02060107" descripcion="CALCOMANIA EN CORTE DE VINIL ACR COLOR BLANCO" valorUnitario="10.00" importe="200.00" />
+    <cfdi:Concepto cantidad="20.00" unidad="Pieza" noIdentificacion="02060107" descripcion="CALCOMANIA EN CORTE DE VINIL NO RAIDING COLOR BLANCO" valorUnitario="12.00" importe="240.00" />
+    <cfdi:Concepto cantidad="20.00" unidad="Pieza" noIdentificacion="02060107" descripcion="CALCOMANIA EN IMPRESION WARNING" valorUnitario="5.00" importe="100.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="86.40">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="86.40" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="81FC7527-9AE5-4594-BB07-9A67E3CB0D45" FechaTimbrado="2014-09-18T13:27:47" noCertificadoSAT="00001000000301160463" selloCFD="LOAywU+jC1nhpqBDwcuZzIJQ0vdj2El/xyPaNnC0Y52oRYNNdV1NiN86jPOT5NZfIfQmpRMIBjRK6uQJHTZv3IbyQbpOJ5fkt9VlghEDqWloJksUuvgU+9euaPrZEkrJqX8pn7ucrj2p8X4eMIeZTFOUq9YeaSTkoj8XWUBP04U=" selloSAT="1J6ALbyliWB2ch8vmtDHx1NPTMwmpWiYUDIE7k1408GVuWsUQAHDtbqZBa7L1/S9oUrbuvKw+TxZUn988iQsW/b5A0jHCwUSRlJd6ciHj5YmjauixO1b0L6ffBgRhf8zMNtuG9WGfQtV/YzeZUPiBRbge8oOzSqRrBWz8LhzhoE=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

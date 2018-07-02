@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-08-20T13:32:53" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="2530.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="2934.80" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="EDO. DE MEXICO COACALCO DEL BERRIOZABAL" NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301899737" certificado="MIIEYDCCA0igAwIBAgIUMDAwMDEwMDAwMDAzMDE4OTk3MzcwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTkwNjEwMzRaFw0xNzEyMTkwNjEwMzRaMIGsMSAwHgYDVQQDExdGUk9ZTEFOIFBBQ0hFQ08gUEFDSEVDTzEgMB4GA1UEKRMXRlJPWUxBTiBQQUNIRUNPIFBBQ0hFQ08xIDAeBgNVBAoTF0ZST1lMQU4gUEFDSEVDTyBQQUNIRUNPMRYwFAYDVQQtEw1QQVBGNjIwNTEyS1JBMRswGQYDVQQFExJQQVBGNjIwNTEySERGQ0NSMDkxDzANBgNVBAsTBk1hdHJpejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAp6L/cTGjyTC7DoLYbJ7dLsbEns3nd9jdD7X+3OSE9A6HpmSOzz+08t5Tbn9HN397dDbNgN9tU3WnkzQMWVX/tXGlrZeAKlHhWkokpfrMhtZgRqS8iVyYXPE/vuW7ELhxKXbP3dsYu2GRAhs1ps9eArvYfjgG1pyEDCsVpN4lNL0CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBACTPXHtHQ8q2iX2/pW7y8QgpNskxf0YTHLd69TdCG54OvoZuWLau+3sB4H2NZUw7sGO3XDpIbLimlPFOl3dO8Hlqn/XW0kaPFg/5dCVE57/FXtRfkPPBvKLZgBTIe2SEbuqX+8cT2eyyxBswyRvfIDEFVq4hfhxNFec78SJBCRHQKFE5ETtuWncdNhPycvRVO0PVnwIHHQnbGfLiDbECL0looS8GKVmwcWcDGe0lmGxSk8gOCgZu+6fv8u7NLUrgLVmfs+t1fytussGH5+X69Z1gGU4k11M5prvvP51aaEmOOfFRhbvbq4R4Rreu063JjpzIudHLAcw0kx6SKgumEnY=" sello="ADYzi/bL9clqKrKalgFBDXl3VVYMiGJx5HMj/BUbPlpIqwgZ3AIe9HkD9E9949EjNt94TMRG7Ha9hK9DMn9st3qQshMQryBmGtJoUWJ8pZBaoWBXJGYJG9mhX/xOvyfnKjVNF5if9AHfvia+/+MrF6wy3gv1gCfAUkL1daEmWTs=">
+  <cfdi:Emisor rfc="PAPF620512KRA" nombre="FROYLAN PACHECO PACHECO">
+    <cfdi:DomicilioFiscal calle="AV. HIDALGO 38" colonia="SAN LORENZO TETLIXTAC" municipio="COACALCO DEL BERRIOZABAL" estado="EDO. DE MEXICO" pais="México" codigoPostal="55714" />
+    <cfdi:ExpedidoEn calle="AV. HIDALGO 38" colonia="SAN LORENZO TETLIXTAC" localidad="COACALCO DEL BERRIOZABAL" estado="EDO. DE MEXICO" pais="México" codigoPostal="55714" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="UPV031211LBA" nombre="UNIVERSIDAD POLITECNICA DEL VALLE DE MEXICO">
+    <cfdi:Domicilio calle="AV. MEXIQUENSE S/N°" colonia="VILLA ESMERALDA" municipio="TULTITLAN" estado="MEXICO" pais="México" codigoPostal="54910" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Pieza" noIdentificacion="02060107" descripcion="REVISION ELECTRICA Y CAMBIO DE BATERIA" valorUnitario="1180.00" importe="1180.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="REPARACION DE ALTERNADOR" valorUnitario="1200.00" importe="1200.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="ESCANEO Y AJUSTE DE MARCHA MINIMA" valorUnitario="150.00" importe="150.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="404.80">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="404.80" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="0D277F61-F4F5-4447-A305-CA7F3656EEED" FechaTimbrado="2014-08-20T13:33:21" noCertificadoSAT="00001000000301160463" selloCFD="ADYzi/bL9clqKrKalgFBDXl3VVYMiGJx5HMj/BUbPlpIqwgZ3AIe9HkD9E9949EjNt94TMRG7Ha9hK9DMn9st3qQshMQryBmGtJoUWJ8pZBaoWBXJGYJG9mhX/xOvyfnKjVNF5if9AHfvia+/+MrF6wy3gv1gCfAUkL1daEmWTs=" selloSAT="jJX18062iB8SJFjnVu63Tvo1ICfY2lRBrij4mQlLNEL78kPl/0N0nwWjRJNwVaU1dPs2PoZURUiDYCjLlBGeqqSQ+6KY5JTHDzW8d5C0UcLMXTgGEJFMNf3gJ0/vKJHFGppLJpWF8h14GspwTDH0ccMQP/ve7JzNs6xjWA0yZYY=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

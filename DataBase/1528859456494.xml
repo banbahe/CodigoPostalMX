@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-09-03T15:12:46" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="7619.75" descuento="0.00" TipoCambio="0" Moneda="USD" total="7619.75" tipoDeComprobante="ingreso" metodoDePago="TRANSFERENCIA ELECTRÓNICA DE FONDOS" LugarExpedicion="México D.F." NumCtaPago="3091" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301848387" certificado="MIIEZjCCA06gAwIBAgIUMDAwMDEwMDAwMDAzMDE4NDgzODcwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTcyMDE1MjdaFw0xNzEyMTcyMDE1MjdaMIGyMSMwIQYDVQQDExpOSUNPTEFTIFJPRFJJR1VFWiBNQVJUSU5FWjEjMCEGA1UEKRMaTklDT0xBUyBST0RSSUdVRVogTUFSVElORVoxIzAhBgNVBAoTGk5JQ09MQVMgUk9EUklHVUVaIE1BUlRJTkVaMRYwFAYDVQQtEw1ST01ONTEwODE1R0M4MRswGQYDVQQFExJST01ONTEwODE1SFZaRFJDMDkxDDAKBgNVBAsTA1NVUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArVio41gExNkhbyNu/zKr70tL6PP5hBvuNeHHyrxv+jLKf9iV13k/NQXW0f7unr9oG2zTQzCc4qKx3szh5wRrWEec4ce9+pWXHEBJV8sgHa8zM2w+WhEJU1A7DBVwRcNvZ8/IvjPXIZeddYQqD4KUeQPm85QjgmXZZjDLCJeisesCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBALne9JtkC/tJqODNP/IbhOsuwMFerD9rz9f4EyAImjxCc5vNggOWj8zjvPy8GXnUJOoHsEUs8wozZVsUr+8XtDgeEdxWjw5YWaZgrMLWKONCh0Cr+Vnmup+SYIeRQDDkEM6QWa23Yp2Y9vdRN6T2GduKFvDG52g0vn7ITAyiw3aPdMB8dHlYhcQbhv/WOubQLFf0+GSESsL2nCjNQ3Kmuk+aSn4SiBdNGoE9AbJBZSOTt0PL+ATURUp7MApXV+G3KoWiDxjYgRlZmWfleLbtBNveMAkK8AT7vmuhYn7SUHCw7+2egvKmbOEAGgA3rctTuYuJvPWHw9UObOQnzLxgZ1s=" sello="NJPoGu8TSAC+QcrUZvJuX0B5U+Fqsx7WzETQjrpzQJig0k9zxkSmpQncFXUcMv/D6anyLlYjw6RVw10REQzb2TeuY+zBz4D7zsnBN1ukNpthNNASZ2UEq6ZeHmp51rpudfLDMhNr8W/UgTMGJDx7LD09KyLd/d/+treRenVs/RE=">
+  <cfdi:Emisor rfc="ROMN510815GC8" nombre="NICOLAS RODRIGUEZ MARTINEZ">
+    <cfdi:DomicilioFiscal calle="UNICORNIO 73" colonia="PRADO CHURUBUSCO" municipio="COYOACAN" estado="D.F." pais="México" codigoPostal="04300" />
+    <cfdi:ExpedidoEn calle="UNICORNIO 73" colonia="PRADO CHURUBUSCO" localidad="COYOACAN" estado="D.F." pais="México" codigoPostal="04300" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="Criterion Catalysts &amp; Technologies L.P.">
+    <cfdi:Domicilio calle="910 Louisiana Street, 29th Floor" colonia="Houston" municipio="Houston" estado="Texas" pais="Estados Unidos" codigoPostal="77002" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Expenses" valorUnitario="2111.75" importe="2111.75" />
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Consulting Fees" valorUnitario="5508.00" importe="5508.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="F2B19C41-389E-4F8A-895C-B76F24F8566F" FechaTimbrado="2014-09-03T15:13:47" noCertificadoSAT="00001000000301160463" selloCFD="NJPoGu8TSAC+QcrUZvJuX0B5U+Fqsx7WzETQjrpzQJig0k9zxkSmpQncFXUcMv/D6anyLlYjw6RVw10REQzb2TeuY+zBz4D7zsnBN1ukNpthNNASZ2UEq6ZeHmp51rpudfLDMhNr8W/UgTMGJDx7LD09KyLd/d/+treRenVs/RE=" selloSAT="BkfuYRxCHm6eiaxUTiaGcSxFQ67p2TB97DgJVlMPz5d7RFAEyMyz4JYWzqPbCzJTGlx2FJwWGsk6ESQncJpIfNf588Wf2ZolIrzvMxbgKzaUxND0VyIaz3LzA5AbZ9K8dKPqbmlOrKbuIYM/+hJh8BDQeCMjIsz+A3zYsmTZkfU=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

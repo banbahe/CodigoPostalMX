@@ -43,15 +43,15 @@ namespace Models.EF
                     }
                     else
                     {
-                        if (this.Exist())
-                        {
-                            flag = false;
-                        }
-                        else
-                        {
-                            flag = true;
-                            context.Entry(this).State = EntityState.Added;
-                        }
+                        //if (this.Exist())
+                        //{
+                        //    flag = false;
+                        //}
+                        //else
+                        //{
+                        flag = true;
+                        context.Entry(this).State = EntityState.Added;
+                        //}
                     }
 
                     context.SaveChanges();

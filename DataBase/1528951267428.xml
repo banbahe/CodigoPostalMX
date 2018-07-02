@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-09-18T19:35:30" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="23467.11" descuento="0.00" TipoCambio="1" Moneda="MXN" total="22371.98" tipoDeComprobante="ingreso" metodoDePago="CHEQUE" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000301658806" certificado="MIIEnjCCA4agAwIBAgIUMDAwMDEwMDAwMDAzMDE2NTg4MDYwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTAxNjMxMDhaFw0xNzEyMTAxNjMxMDhaMIHqMTEwLwYDVQQDFChMVUlTIFJPRFJJR08gQU1BREVPIERFIExBIFBF0UEgQ0VSVkFOVEVTMTEwLwYDVQQpFChMVUlTIFJPRFJJR08gQU1BREVPIERFIExBIFBF0UEgQ0VSVkFOVEVTMTEwLwYDVQQKFChMVUlTIFJPRFJJR08gQU1BREVPIERFIExBIFBF0UEgQ0VSVkFOVEVTMRYwFAYDVQQtEw1QRUNMODIxMDE3VFYzMRswGQYDVQQFExJQRUNMODIxMDE3SERGWFJTMDgxGjAYBgNVBAsTEVBSRVNJREVOVEVTIE4uMTA0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBY7G5hNLUuSYnQVTF9CciNlT51QHAUwBYaQApZn39pk+PBlhz0oc2NYj9ZQPd82xCLLjw5MhOw8CMvBGTho2o9ntZ6b0ot4K/Uakhp59NriHKUmzct5fLSoE4e8APNhot9tEPktMiLP0F130jAz3ReHFv8+66cWo6hZUhXTAkAQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAEttAMVRacP/a/VSoQoYiIsz+wGyi2kktXYJwiJ8sC6neTvaUM4vv6uDJIgH+mzpDGsQtBo+wS9NGr8FtPMyByU6URZu2pS0EYZdAPy1b0zT29cnQkoo+MecQlwY1DmVjNHJh4s/vqm3sbBA+cocgqmi+wzqnh8dDZsLF2MzRD3i8TPq4EtyelGEP3u8yzVJC9HLDh8f+zZECrmevAO+W6PV33ht+diSA/Uwp9uVdidw0BTFpU+KoNpMk9xeDu1ME/hK2QrmlnZ+oAPB24ef582VJgB4sOQ1CzgOHTIuTG+E6Z7s1OKGiDmbpNyST9/e+k2J5hNVTFis0Wo1ro89a2g==" sello="oSVsMAlPBcobdCBcVLDOGBPx8j1vP2oVyBbm9L9gKzfvJIIXcMxA1JztEvQ8Zed5ZHi1U0jmwhZb+LCeJ0tBDURcJv0NEHU8z6OZ/jW6+HdZP52Kpb7OwaTrlM//Rjj4cUhMo34Z33iROYrcI/WlZ83+Ihb0UkSkdOVAyAMuV3U=">
+  <cfdi:Emisor rfc="PECL821017TV3" nombre="LUIS RODRIGO AMADEO DE LA PEÑA CERVANTES">
+    <cfdi:DomicilioFiscal calle="PRESIDENTES 104 BIS CASA B" colonia="PORTALES" municipio="BENITO JUÁREZ" estado="D.F." pais="México" codigoPostal="03300" />
+    <cfdi:ExpedidoEn calle="PRESIDENTES 104 BIS CASA B" colonia="PORTALES" localidad="BENITO JUÁREZ" estado="D.F." pais="México" codigoPostal="03300" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="IED990115SM2" nombre="Instituto Electoral del Distrito Federal">
+    <cfdi:Domicilio calle="Huizachez 25" colonia="Rancho Los Colorines" municipio="Tlalpan" estado="D.F." pais="México" codigoPostal="14386" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Renta del mes de Septiembre del 2014" valorUnitario="23467.11" importe="23467.11" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="4849.87" totalImpuestosTrasladados="3754.74">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="2503.16" />
+      <cfdi:Retencion impuesto="ISR" importe="2346.71" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="3754.74" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="4391FF0C-1CF6-4070-B744-75622B75790D" FechaTimbrado="2014-09-18T19:36:34" noCertificadoSAT="00001000000301160463" selloCFD="oSVsMAlPBcobdCBcVLDOGBPx8j1vP2oVyBbm9L9gKzfvJIIXcMxA1JztEvQ8Zed5ZHi1U0jmwhZb+LCeJ0tBDURcJv0NEHU8z6OZ/jW6+HdZP52Kpb7OwaTrlM//Rjj4cUhMo34Z33iROYrcI/WlZ83+Ihb0UkSkdOVAyAMuV3U=" selloSAT="Oj6/UOeBjauVuehsCM5Pn8B+I3iPZJsSJbF5RhDrK2IitxNw6J4v27Qu9VG3I/aSmNwiQ92gSjNb96Zjrgzvsrlp1cCddqwsJZB5BarIK8aKjMmUi3FwMrDEJpvSeb9qb/mRay+gtSUo1jY35Y2cbvR7/j8TKITaHd57DC1xqPk=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

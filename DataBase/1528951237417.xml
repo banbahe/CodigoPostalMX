@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="O" folio="3428" fecha="2015-04-01T13:49:41" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1490.04" TipoCambio="1.0000" Moneda="MXN" total="1728.45" tipoDeComprobante="ingreso" metodoDePago="Efectivo" LugarExpedicion="ESTADO DE MEXICO TOLUCA" NumCtaPago="No Identificado" noCertificado="00001000000304891358" certificado="MIIEbDCCA1SgAwIBAgIUMDAwMDEwMDAwMDAzMDQ4OTEzNTgwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDA4MTMxODI4NThaFw0xODA4MTMxODI4NThaMIG4MR0wGwYDVQQDFBQiVEFCTEFERUNPIiBTQSBERSBDVjEdMBsGA1UEKRQUIlRBQkxBREVDTyIgU0EgREUgQ1YxHTAbBgNVBAoUFCJUQUJMQURFQ08iIFNBIERFIENWMSUwIwYDVQQtExxUQUIxMDEyMDdRSTkgLyBOVUNNNjkwNDI2UFA1MR4wHAYDVQQFExUgLyBOVUNNNjkwNDI2SERGWEJSMDMxEjAQBgNVBAsTCVRBQkxBREVDTzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAkRGcZMSAusx1y9GrqPo9a5mbIrEgu78P5f6VwjPzAoXyRUnPHOEqrIiJticlJxITwv/1GP+7u9//vniSHYHXGGNsIrcT7BovbeGRqKQphKDNBoHTcXN+/c/Bdx3V03buZTT7pIp+6BXRnBkx1xtMhMuOaNwmn+6STCDz+ss1pyECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAKWMJUE597F7bYD8zros4KIzCPzy3rrlSrphY5IEEkGZfT3wBU4FfbbFtFd6Zxd22cWP8qJGq79cOu/8Q46+UmkUFVyACVfvpQLFBx6MkJGgnHtz4jIivL/EsugJP8WD+gMroLGHWB+ejzrYE9ParJgeU8sBI2awBb0BP0jUY3IJ+XHgoEYLAvBwJEogeH9oEP/4Mf2kQoWJ2gGuQ0fDAjPn6SxwSum2lvyVa8vvB7GlOdHuu6k/FQAGoRQZj/l/hArbq8gVLvb+HXy54NAjbeZQYWtaElpCEWFe1mt7mSYT2QxX7r9pMfNSJFidRiS0bkAOwRKshd327PmA5nxsdOE=" sello="bMCyXwrYKGbtigdz9/wlN7A0/bcJpBx02N/e5NIOpu3MHaAwnj3M7CNaFZWfNrrr2enuik0cECNFKzB0Nc5KtVpn97Ny8rDiNlouhR00Jp1/eQtjH2LHbC7dQw0E5SqKwMnMho7fPFDGLLd2u2J+2ghvfOe4JacvFB+bM7yyh6E=">
+  <cfdi:Emisor rfc="TAB101207QI9" nombre="TABLADECO S.A. DE C.V.">
+    <cfdi:DomicilioFiscal calle="AV.PASEO TOLLOCAN PONIENTE 1315" colonia="NUEVA OXTOTITLAN" municipio="TOLUCA" estado="ESTADO DE MEXICO" pais="MÉXICO" codigoPostal="50100" />
+    <cfdi:ExpedidoEn calle="AV. VIALIDAD ALFREDO DEL MAZO #2924 LOCAL B" noExterior="AV. VIALIDAD ALFREDO DEL MAZO #2924 LOCAL B" colonia="LA MAGDALENA" localidad="TOLUCA" estado="ESTADO DE MEXICO" pais="MÉXICO" codigoPostal="50010" />
+    <cfdi:RegimenFiscal Regimen="Régimen General de Ley Personas Morales" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="SIL090429L77" nombre="SILEA S.A DE C.V">
+    <cfdi:Domicilio calle="DAGOBERTO FLORES EXT. MANZANA 37 LOTE - 4" colonia="JESUS JIMENEZ GALLARDO" municipio="METEPEC" estado="MEX." pais="MÉXICO" codigoPostal="52167" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="24.00" unidad="PIEZA" noIdentificacion="02066501" descripcion="ANGULO DE AMARRE USG CAL 26, 3.05 M" valorUnitario="18.69" importe="448.56" />
+    <cfdi:Concepto cantidad="36.00" unidad="PIEZA" noIdentificacion="02066401" descripcion="CANAL DE AMARRE USG CAL 26 4.10 X 3.05 M" valorUnitario="28.93" importe="1041.48" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="238.41">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="238.41" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="268FB610-7F22-4DF6-9350-F04BE385BA7B" FechaTimbrado="2015-04-01T13:49:53" noCertificadoSAT="00001000000301160463" selloCFD="bMCyXwrYKGbtigdz9/wlN7A0/bcJpBx02N/e5NIOpu3MHaAwnj3M7CNaFZWfNrrr2enuik0cECNFKzB0Nc5KtVpn97Ny8rDiNlouhR00Jp1/eQtjH2LHbC7dQw0E5SqKwMnMho7fPFDGLLd2u2J+2ghvfOe4JacvFB+bM7yyh6E=" selloSAT="aiRqPQfU5HEzX35vZc2whZUWo34I3dKqH0HL0qSIE00AzXn4MAbiG5lz0EVJj7H4NRc4FpRc2SNKj7KnN6jR3/bzncI2TiTqC6a8KwQKA8flul51zob4A1zQV4BVGHrsv5HQAqBgvlOiyeMShU9g5BR2c/UgPYgsDizvXSdH7WA=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

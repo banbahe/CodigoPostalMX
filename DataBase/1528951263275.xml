@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="4" fecha="2014-08-08T14:02:53" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="13902.24" descuento="0.00" TipoCambio="1" Moneda="MXN" total="16126.60" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300498037" certificado="MIIEXTCCA0WgAwIBAgIUMDAwMDEwMDAwMDAzMDA0OTgwMzcwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA3MTYxNjI5NDVaFw0xNzA3MTYxNjI5NDVaMIGpMRkwFwYDVQQDExBUVVJJTUVYIFNBIERFIENWMRkwFwYDVQQpExBUVVJJTUVYIFNBIERFIENWMRkwFwYDVQQKExBUVVJJTUVYIFNBIERFIENWMSUwIwYDVQQtExxUVVIwODA1MjNOSDIgLyBUT0dHNDYxMTI0UkM4MR4wHAYDVQQFExUgLyBUT0dHNDYxMTI0TURGUlJEMDgxDzANBgNVBAsTBk1FWElDTzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoZOHR4kFjcsBYub6h0vqAsR0JG8IUmnPv/ZstAfUBpn/AGSLvLZexyDVjrW088NjeWWqpeNl4hcrObe33AB2pLiG8ykzUVcecBnQQKQJ7bd9sc/DSWd2kw9bVtv+FPXMU6SwpZg2iD36sJ2T23n9mLc/28S8QCQXVYGy9HblWU8CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGY/6uso2xPHUQ1cTC/HN2sbXXERqlqmAPKus7kKeXdnMHdHOwZfpcfG2ovH6moxYndVXKLdh/GePal9FcijGD4+RItncEHYuhTqBAwdxPBw19BlOnNmCXJwFtoBkOYS6Tf2ykTZDcu/yqC0u8uHlceIpmtThJ79xGOt7QLGfNZiAjN/pCfi8h0WY5ZCtwfY+GNp70Abb8NeG0hKsJap0/FtXs5cvIlQcJCnwbMTuchrsRFZv4w2tR0c50iVg5UhJxTe/jIQnmRE7IX0gIyJn03EEJKuwAmNLGLrL//Ug3Jq8OMjwRM0l1qB7AgLTF/FPiBkuBf5ZcdoJR1cjud90mc=" sello="UIUn5sUdGlD7arQPHNAIGNTu2jTbYanPcfMZUd3hymV4gicLQ7AA6m9UwK15bfML/mEYrjHBMzqS6EgQKursPBXlH4fr3SoOniS820PNA10QvSb244Hxv/Z9MNRRaLZGaOXZ/5eXx7iFHMu57YrGZl03aU1qFWKs6SFJk9FhdOo=">
+  <cfdi:Emisor rfc="TUR080523NH2" nombre="TURIMEX SA DE CV">
+    <cfdi:DomicilioFiscal calle="BLVD. DE LOS VIRREYES 630" colonia="LOMAS DE CHAPULTEPEC" municipio="MIGUEL HIDALGO" estado="MEXICO, D.F." pais="México" codigoPostal="11000" />
+    <cfdi:ExpedidoEn calle="BLVD. DE LOS VIRREYES 630" colonia="LOMAS DE CHAPULTEPEC" localidad="MIGUEL HIDALGO" estado="MEXICO, D.F." pais="México" codigoPostal="11000" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="AME001011JS3" nombre="Aquanima Mexico, S. de R.L. de C.V.">
+    <cfdi:Domicilio calle="Av. Santa Fe 505 7 Piso Ofna. 702" colonia="Cruz Manca" municipio="Cuajimalpa" estado="Distrito Federal" pais="México" codigoPostal="05349" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Consumo de Alimentos y Bebidas" valorUnitario="11985.00" importe="11985.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Servicio de Guia" valorUnitario="1400.00" importe="1400.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Renta de Espacio" valorUnitario="517.24" importe="517.24" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="2224.36">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="2224.36" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="A3D4A6BC-2F32-4B7E-BE5B-DC70910718DF" FechaTimbrado="2014-08-08T14:02:55" noCertificadoSAT="00001000000301160463" selloCFD="UIUn5sUdGlD7arQPHNAIGNTu2jTbYanPcfMZUd3hymV4gicLQ7AA6m9UwK15bfML/mEYrjHBMzqS6EgQKursPBXlH4fr3SoOniS820PNA10QvSb244Hxv/Z9MNRRaLZGaOXZ/5eXx7iFHMu57YrGZl03aU1qFWKs6SFJk9FhdOo=" selloSAT="eG3y/myV9u3I8KZFolcz1tNRP4RhQiWVKdH3jOmsfQgVD67+TbXef/fbj+I+xqJD8YBIJeuVJBLljUnRnyTgepqbbWOUHNL1zH/KHNPA3A7FRMZgslm1GMlWxYzI3o08Crrd0MUUy0OwShnRiJSEdN4PZSXXTxiG2Haa8mz9WZU=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

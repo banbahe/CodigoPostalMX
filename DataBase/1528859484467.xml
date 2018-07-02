@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="2" fecha="2014-08-29T14:07:31" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="6200.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="6200.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000302496756" certificado="MIIEcTCCA1mgAwIBAgIUMDAwMDEwMDAwMDAzMDI0OTY3NTYwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDAxMTcyMjU4MzVaFw0xODAxMTcyMjU4MzVaMIG9MSUwIwYDVQQDExxHQUJSSUVMIEpBSU1FIEdPTlpBTEVaIE1FSklBMSUwIwYDVQQpExxHQUJSSUVMIEpBSU1FIEdPTlpBTEVaIE1FSklBMSUwIwYDVQQKExxHQUJSSUVMIEpBSU1FIEdPTlpBTEVaIE1FSklBMRYwFAYDVQQtEw1HT01HNTUwMzI0Q0E1MRswGQYDVQQFExJHT01HNTUwMzI0SERGTkpCMDAxETAPBgNVBAsTCFNVQ1VSU0FMMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXg8G6vzkpgO0Cr8hhO5Z7WZsvC+jHGmRDybm7WNk1q6UNJYYbiWmUlkEyORPB373/nmtqGce7UBFtPGXfzqh4eX17vYdr5bq2H0DpH72C9FR+KKejbxSKNDiH8RrdIYt4uLDrCojIN6Yw7lj6yb/6HNjO7p5Uk2pFV2MiXmRe/wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAK2kbIp3wqvlTs/NcdCNW+HPJFmXN71POK3RCdJl4Av/11RsgDy/ivoOeK56b86Mk3Ct23T/ZDgUqcNt4RJ0ymSv0zOyn3avUrBlHWxO7HNX1BkF4fXZYYdaERbbiccI8YdS8lU5g4G2F1YBkzw0nczCo6GBiQ6ybplxuvUaYYIv65IafWdQhjddKYZhAdpY/8irjZNRrcBt+QQCe+yploaC3MbX8CtUJTRoI7vNlDmzSA6IxXzD4hfQNps7TV+X8Q9V3ZWsdeko9ShszH4qItER8cMkENjLzaBkvJJjbGpOjg6Zx0FQ6oaQxtZt8Qw9dl+lnC/R9k5cKt9dnGXfGAA==" sello="WjAjCIy6GuV1WNyyRmHbKBIE5EEBQb1RzwAnaOUNgdbK1HC1rrGqXS9l/3rOre047q5L2qaYy89DmYgWO5ZlpDojZBOSx1LuQ2C/nZt+Dy3KID1N9EAipi2HlAMAnBBF6mGbgGiFjYOpixkr10bUMB6m7rL3IW068mcJJeYi21U=">
+  <cfdi:Emisor rfc="GOMG550324CA5" nombre="GABRIEL JAIME GONZALEZ MEJIA">
+    <cfdi:DomicilioFiscal calle="FERNANDO MONTES DE OCA 28 A" colonia="CONDESA" municipio="CUAUHTEMOC" estado="D.F." pais="México" codigoPostal="06140" />
+    <cfdi:ExpedidoEn calle="FERNANDO MONTES DE OCA 28 A" colonia="CONDESA" localidad="CUAUHTEMOC" estado="D.F." pais="México" codigoPostal="06140" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="FERNANDO MONTES DE OCA 28 A" colonia="CONDESA" municipio="CUAUHTEMOC" estado="D.F." pais="México" codigoPostal="06140" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="02060107" descripcion="Odontologia" valorUnitario="6200.00" importe="6200.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="16DA8B2D-1E8A-4B58-864F-19F56E44B17F" FechaTimbrado="2014-08-29T14:08:03" noCertificadoSAT="00001000000301160463" selloCFD="WjAjCIy6GuV1WNyyRmHbKBIE5EEBQb1RzwAnaOUNgdbK1HC1rrGqXS9l/3rOre047q5L2qaYy89DmYgWO5ZlpDojZBOSx1LuQ2C/nZt+Dy3KID1N9EAipi2HlAMAnBBF6mGbgGiFjYOpixkr10bUMB6m7rL3IW068mcJJeYi21U=" selloSAT="d0QBfnLHyOH8OTq00lgPo3fI/7oAqzOyK19ZPh+ZQgiG5q22rLBqxyhsWjFGPo+etkX6S+/ca9S66SJC5xqbfaCxVgYYj4qq08doKBhW4oqc8cHaiUYfnfa46uPoFSFO7Nxj2NnAdhSkEhpGC4eynzgWGBWUEcb34o6A/E+zTI0=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

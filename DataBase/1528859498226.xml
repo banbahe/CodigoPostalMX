@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="1" fecha="2014-06-26T18:49:48" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="0.95" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000302358960" certificado="MIIEYDCCA0igAwIBAgIUMDAwMDEwMDAwMDAzMDIzNTg5NjAwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDAxMTIwNjE3MjdaFw0xODAxMTIwNjE3MjdaMIGsMSAwHgYDVQQDExdDQVJPTElOQSBaQVJBVEUgVkFaUVVFWjEgMB4GA1UEKRMXQ0FST0xJTkEgWkFSQVRFIFZBWlFVRVoxIDAeBgNVBAoTF0NBUk9MSU5BIFpBUkFURSBWQVpRVUVaMRYwFAYDVQQtEw1aQVZDNzYxMjI0SkE1MRswGQYDVQQFExJaQVZDNzYxMjI0TURGUlpSMDkxDzANBgNVBAsTBk1hdHJpejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArbr0l7weDymHDDEvixLarJqIQAL/qNq3nvVbaXbK8QM53vilfuIEwm9S9UIVtMRukimoIuUTnF1BGdpXtZnSTIT1zeEWzXWG7ViUzOAZG6fbbaIHVxcnmbVitoDQIDH0fHGfe0s9ouO0uzLaVKzxQa2ryX4G+GveDWmQPXK4MicCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBABzr6/3IOMlzk+ax5vIOqkCX1o3jKbSY40UDKlWklnFJkgku0tIkxWHdNzQSj8onPaqVOBCAgkLz6fX9utTR8VFdBk88HY7tvAW0dMfUx+28sxhjC/e6fFihFtP591m4j61LN1FxhF9hB0S8oYKnvfpSM76OXxztCifKoVpC5jOJMwXWNoiD9vXGRAIL5jRjGxLX6iU0PD09rCwdOqhzPLKGOHWWXMfRSL62bpaE+wL17DolrtYtWi6dKa6+q6rUL8FFBPncM0WGAJa4LBPfB2NONh3WD+/rziaJb1OPLnDAtShSPxjaZUUPazzlrmrhQBvl0bVRBR/24M46+7J+N9k=" sello="S4c/CEgx7zGO/0nEo5kQidNepTcFfnBa2eWxnS1Z75PdU+WT/e9SZQCgAOgPO1u2DhmVQZ/Xe+ViVL2uQcP8Rx2lUOkVWcv7GoG4iBWySwgqUzMy5p6pmqwLtOnJBfNaoihKN9FHAQXKyBKCkpjMvkT7OhOBT/LzlTzFUwC7vSY=">
+  <cfdi:Emisor rfc="ZAVC761224JA5" nombre="CAROLINA ZARATE VAZQUEZ">
+    <cfdi:DomicilioFiscal calle="EBANO 90" colonia="VIVEROS DE XALOSTOC" municipio="ECATEPEC DE MORELOS" estado="EDO. DE MEXICO" pais="México" codigoPostal="55340" />
+    <cfdi:ExpedidoEn calle="EBANO 90" colonia="VIVEROS DE XALOSTOC" localidad="ECAPETEC DE MORELOS" estado="EDO. MEXICO" pais="México" codigoPostal="55340" />
+    <cfdi:RegimenFiscal Regimen="OTRO" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="EBANO 90" colonia="VIVEROS DE XALOSTOC" municipio="ECATEPEC DE MORELOS" estado="EDO. DE MEXICO" pais="México" codigoPostal="55340" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="NO APLICA" noIdentificacion="02060107" descripcion="RECIBO DE HONORARIOS PRUEBA" valorUnitario="1.00" importe="1.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="0.21" totalImpuestosTrasladados="0.16">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="IVA" importe="0.11" />
+      <cfdi:Retencion impuesto="ISR" importe="0.10" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="0.16" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="01B68D17-B431-4A6A-AF5B-7699F7FAD51D" FechaTimbrado="2014-06-26T18:49:50" noCertificadoSAT="00001000000301160463" selloCFD="S4c/CEgx7zGO/0nEo5kQidNepTcFfnBa2eWxnS1Z75PdU+WT/e9SZQCgAOgPO1u2DhmVQZ/Xe+ViVL2uQcP8Rx2lUOkVWcv7GoG4iBWySwgqUzMy5p6pmqwLtOnJBfNaoihKN9FHAQXKyBKCkpjMvkT7OhOBT/LzlTzFUwC7vSY=" selloSAT="emri6ro7Z0Gxul/qqPzzsWXT2ZzKgnNdw4dN2S4AQdjsiEdeafXfgT7Ru/tr+aAaVbC1yl0uiaZProiKfff5seZzA3zGwqAZcSoE6PRMRR9gjbSdP7rHYC7gLvdzE0jH1OJdkYB+98zxwzNScnHypKc//165TpsmHKibmHHgUzM=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

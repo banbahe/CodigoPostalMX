@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="5" fecha="2014-08-25T16:59:20" formaDePago="PAGO EN UNA SOLA EXHIBICION" condicionesDePago="Contado" subTotal="1000.00" descuento="0.00" TipoCambio="1" Moneda="MXN" total="1000.00" tipoDeComprobante="ingreso" metodoDePago="NO IDENTIFICADO" LugarExpedicion="México D.F." NumCtaPago="No Identificado" FechaFolioFiscalOrig="0001-01-01T00:00:00" noCertificado="00001000000300720172" certificado="MIIEVDCCAzygAwIBAgIUMDAwMDEwMDAwMDAzMDA3MjAxNzIwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzA4MjMxNjUyMjFaFw0xNzA4MjMxNjUyMjFaMIGgMRwwGgYDVQQDExNKVUFOIFZJQ0VOQ0lPIFJJVkFTMRwwGgYDVQQpExNKVUFOIFZJQ0VOQ0lPIFJJVkFTMRwwGgYDVQQKExNKVUFOIFZJQ0VOQ0lPIFJJVkFTMRYwFAYDVQQtEw1WSVJKNzMxMDIzMkgxMRswGQYDVQQFExJWSVJKNzMxMDIzSE1DQ1ZOMDAxDzANBgNVBAsTBk1FWElDTzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzwvmdWATMZp3FYFREjksNzSd0V/94nk6AEJkLUiXM1gReCkn4UpLf7ctCrKEFUeTErJCnAEU27szzRqnKEVozOD9RywNLRqvdgzRFgQbsbHED7bgHe5egiJCHPKJjECov1FB6Fae6yFU7x4jThgk/Z3ALHssWxy0CB1OZUE1Ut8CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAFAzXOmIfO5mn8Ql0KE3L5/pAloRduqIkSBf8BwL+4gHP1Rz8t0LMKpMvijmJ8HeG+Y5/oM0sQcGVwimU6qJnjbsZy5Mexpn0f4tsFYS1w5qHJlC1FAd2uXwXaxMEmRF+2zRAzrrllaACOeofS8Rgwo46dzyS6QcnZ2YYeop/3IrAqfSBRQHRZjXGIHFPzAdnkDhZNm8ZzSzbPohC/JW0CnopNQ5zxkLqH0oPW5cm4IKA8qVN0pXIOizh362f4nNn2zlYU6m0xSInL85xnwuKXhCDz6XiDqJTEdDGrF9KPQa8jlYi0dnZU0VrvxKL4RP1WTyRsQFQD9+PW5W5JrP450=" sello="oBGLyHJ5zxI76Od+Qi4BTK5kGjqC+sgQ/o62vsPsuFVX7COIhfVYMFQyhK4YvUaoDy6XeH1bB22pmqdrqgOlAAyzhpIkyL+3X8zVm6hI03UvmyjG9eI2JOEeYsFtGG0acw5SqT25Boi2g+RYpHTnGNifTnNxFLcEr5ivGFgNBGE=">
+  <cfdi:Emisor rfc="VIRJ7310232H1" nombre="JUAN VICENCIO RIVAS">
+    <cfdi:DomicilioFiscal calle="EJERCITO NACIONAL HOSPITAL ESPAÑOL 613 502" colonia="GRANADA" municipio="MIGUEL HIDALGO" estado="D.F." pais="México" codigoPostal="11520" />
+    <cfdi:ExpedidoEn calle="EJERCITO NACIONAL HOSPITAL ESPAÑOL 613 502" colonia="GRANADA" localidad="MIGUEL HIDALGO" estado="D.F." pais="México" codigoPostal="11520" />
+    <cfdi:RegimenFiscal Regimen="ACTIVIDADES EMPRESARIALES Y PROFESIONALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="IAMG800901463" nombre="Maria Guadalupe Icaza Maceira">
+    <cfdi:Domicilio calle="Castillo de Buckingham No 26" colonia="Condado de Sayavedra" municipio="Atizapan" estado="Edo de Mex" pais="México" codigoPostal="52938" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="02060107" descripcion="Honorarios Médicos" valorUnitario="1000.00" importe="1000.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="984C0454-B163-4860-AA16-E41EEEB707E1" FechaTimbrado="2014-08-25T16:59:39" noCertificadoSAT="00001000000301160463" selloCFD="oBGLyHJ5zxI76Od+Qi4BTK5kGjqC+sgQ/o62vsPsuFVX7COIhfVYMFQyhK4YvUaoDy6XeH1bB22pmqdrqgOlAAyzhpIkyL+3X8zVm6hI03UvmyjG9eI2JOEeYsFtGG0acw5SqT25Boi2g+RYpHTnGNifTnNxFLcEr5ivGFgNBGE=" selloSAT="3h4wpIlQmY8hibG94mpNeRIZ73GjT7MKLnxfHXDYoPbQQJExZKn2FfJmgkzxjhP1zuTsXOpBpxed6pjJNBY8E3ZhKQbD1wgLFtmMh6TF6wGIijVmAmtgQLKRLjY/qSRRKz4WfWocpuZFoaABxsGfT/P/ieCQUzsVWAlYLBMRIMA=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
