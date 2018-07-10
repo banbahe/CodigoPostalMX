@@ -1,5 +1,10 @@
+require('isomorphic-fetch'); // or another library of choice.
+var Dropbox = require('dropbox').Dropbox;
+var dbx = new Dropbox({ accessToken: 'piuQiwTZUlwAAAAAAAC1lxVUaCWDZLDwQvY2IKCS6TPjdCu2LhymCYjuQNQBnAl_' });
+
 const userEntity = require('../entities/user.entity')
 const responseutil = require('../util/response.util')
+
 /**
  * // DOG
  * id
@@ -32,6 +37,21 @@ const responseutil = require('../util/response.util')
   */ 
 
 module.exports = {
+    UserDropboxTest: function(req,res){
+        // res.statusCode(200);
+
+ dbx.filesListFolder({path: ''})
+  .then(function(response) {
+    debugger;
+    console.log('response');
+    console.log(response);
+  })
+  .catch(function(error) {
+    console.log('error');
+    console.log(error);
+  }); 
+        res.send('Hello World!');
+    },
     UserCreate: function(req,res){
         let user = userEntity({
             id_item: 0,
