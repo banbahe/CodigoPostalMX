@@ -33,20 +33,24 @@ const responseutil = require('../util/response.util')
 
 module.exports = {
     UserCreate: function (req, res) {
+        var d = new Date();
+        var n = d.getTime();
+
         let user = userEntity({
             id_item: 0,
             status_item: 1,
             maker: req.body.email,
-            create_date: new Date(),
-            modification_date: new Date(),
+            create_date: n,
+            modification_date:n,
             email: req.body.email,
             password: req.body.password,
+            typeUser: req.body.typeUser,
             username: '',
             name: '',
             lastname: '',
             lastname2: '',
             alternatemail: '',
-            birthday: new Date(),
+            birthday: n,
             rfc: '',
             curp: '',
             genre: 0,
