@@ -65,5 +65,12 @@ module.exports = {
             }
         });
 
+    },
+    GetAll: function (req, res) {
+        userEntity.find({}, function (err, users) {
+            res.status(200).send(users);
+          //  responseutil.Send(res, 200, JSON.stringify(user), 'OK', '', '');
+
+        });
     }
 }
