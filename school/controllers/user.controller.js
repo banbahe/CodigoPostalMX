@@ -90,5 +90,17 @@ module.exports = {
             //  responseutil.Send(res, 200, JSON.stringify(user), 'OK', '', '');
 
         });
+    },
+    Delete:function(req,res){
+        console.dir(req.params.userid);
+        userEntity.findById(req.params.userid,function(err,user){
+            if(err) return err;
+
+            user.status_item =  StatusItem.DISABLE;
+            user.save(function(err,updateUser){
+                if(err) return err;
+                res.send(updateUser);
+            })
+        })
     }
 }
