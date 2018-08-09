@@ -63,7 +63,6 @@ module.exports = {
         });
     },
     Delete: function (req, res) {
-
         userEntity.findById(req.params.userid, function (err, doc) {
             if (err) {
                 console.dir(err);
@@ -75,8 +74,36 @@ module.exports = {
                 if (err) return err;
                 res.send(userUpdate);
             });
-
         });
-       
+    },
+    Update: function (req, res) {
+
+        var d = new Date();
+        var n = d.getTime();
+
+        userEntity.findById(req.params.userid, function (err, doc) {
+            if (err) {
+                console.dir(err);
+                responseutil.Send(res, 400, '', false, ('error' + err), '', '');
+            }
+
+            doc.modification_date = n;
+            doc.typeUser = req.body.typeUser;
+            doc.password = req.body.password;
+            doc.username = req.body.username;
+            doc.birthday = req.body.birthday;
+            doc.rfc = req.body.rfc;
+            doc.curp = req.body.curp;
+            doc.zipcode = req.body.zipcode;
+            doc.home_reference = req.body.home_reference;
+            doc.apartment_number = req.body.apartment_number;
+            doc.telephone_number = req.body.telephone_number;
+            doc.telephone_number2 = req.body.telephone_number2;
+            
+            doc.save(function (err, userUpdate) {
+                if (err) return err;
+                res.send(userUpdate);
+            });
+        });
     }
 }
