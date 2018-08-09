@@ -1,35 +1,6 @@
 const userEntity = require('../entities/user.entity')
 const responseutil = require('../util/response.util')
-/**
- * // DOG
- * id
- * notas dog
- * name 
- * alias
- * features
- * size ( xs, s, m, l xl xll) 
- * color
- * 
- * 
- * // FECHA 
- * data birthday
- * data loss
- * date encontrado
- * historial
- * idDog
- * 
- * 
- * // Multimedia
- * idDog
- * url
- * 
- * // Location
- * x_perdidad
- * y_perdidad
- * ratio 100km
- * 
- * 
- */
+const StatusItem = require('../util/enums.util')
 
 module.exports = {
     UserCreate: function (req, res) {
@@ -91,16 +62,21 @@ module.exports = {
 
         });
     },
-    Delete:function(req,res){
-        console.dir(req.params.userid);
-        userEntity.findById(req.params.userid,function(err,user){
-            if(err) return err;
+    Delete: function (req, res) {
 
-            user.status_item =  StatusItem.DISABLE;
-            user.save(function(err,updateUser){
-                if(err) return err;
-                res.send(updateUser);
-            })
-        })
+        userEntity.findById(req.params.userid, function (err, doc) {
+            if (err) {
+                console.dir(err);
+                responseutil.Send(res, 400, '', false, ('error' + err), '', '');
+            }
+
+            doc.status_item = StatusItem.DISABLE;
+            doc.save(function (err, userUpdate) {
+                if (err) return err;
+                res.send(userUpdate);
+            });
+
+        });
+       
     }
 }
