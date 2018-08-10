@@ -99,11 +99,21 @@ module.exports = {
             doc.apartment_number = req.body.apartment_number;
             doc.telephone_number = req.body.telephone_number;
             doc.telephone_number2 = req.body.telephone_number2;
-            
+
             doc.save(function (err, userUpdate) {
                 if (err) return err;
                 res.send(userUpdate);
             });
+        });
+    },
+    Get: function (req, res) {
+        console.dir(req.params.userid);
+        userEntity.findById(req.params.userid, function (err, doc) {
+            if (err) {
+                console.dir(err);
+                responseutil.Send(res, 400, '', false, ('error' + err), '', '');
+            }
+            res.send(doc);
         });
     }
 }
