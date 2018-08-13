@@ -34,7 +34,7 @@ module.exports = {
 
                 course.save(function (err) {
                     if (err) {
-                        return err;
+                        responseutil.Send(res, 400, '', false, ('error' + err), '', '');
                     } else {
                         responseutil.Send(res, 200, JSON.stringify(course), 'OK', '', '');
                     }
@@ -43,64 +43,54 @@ module.exports = {
         });
     },
     GetAll: function (req, res) {
-        userEntity.find({}, function (err, users) {
-            res.status(200).send(users);
-            //  responseutil.Send(res, 200, JSON.stringify(user), 'OK', '', '');
-
+        courseEntity.find({}, function (err, docs) {
+            if (err) {
+                responseutil.Send(res, 400, '', false, ('error' + err), '', '');
+            } else {
+                res.status(200).send(docs);
+            }
         });
     },
     Delete: function (req, res) {
-        userEntity.findById(req.params.userid, function (err, doc) {
+        courseEntity.findById(req.params.courseid, function (err, doc) {
             if (err) {
-                console.dir(err);
                 responseutil.Send(res, 400, '', false, ('error' + err), '', '');
+            } else {
+                doc.status_item = enums.StatusItem.DISABLE;
+                doc.save(function (err, docUpdate) {
+                    if (err) return err;
+                    res.send(docUpdate);
+                });
             }
-
-            doc.status_item = StatusItem.DISABLE;
-            doc.save(function (err, userUpdate) {
-                if (err) return err;
-                res.send(userUpdate);
-            });
         });
     },
     Update: function (req, res) {
-
-        var d = new Date();
-        var n = d.getTime();
-
-        userEntity.findById(req.params.userid, function (err, doc) {
+        courseEntity.findById(req.params.courseid, function (err, doc) {
             if (err) {
                 console.dir(err);
                 responseutil.Send(res, 400, '', false, ('error' + err), '', '');
+            } else {
+                doc.modification_date = enums.DateTimeNowToMilliSeconds();
+                doc.user = req.body.user;
+                doc.name = req.body.name;
+                doc.grade = req.body.grade;
+                doc.status_item = req.body.status_item;
+                doc.save(function (err, docUpdate) {
+                    if (err) return err;
+                    res.send(docUpdate);
+                });
             }
-
-            doc.modification_date = n;
-            doc.typeUser = req.body.typeUser;
-            doc.password = req.body.password;
-            doc.username = req.body.username;
-            doc.birthday = req.body.birthday;
-            doc.rfc = req.body.rfc;
-            doc.curp = req.body.curp;
-            doc.zipcode = req.body.zipcode;
-            doc.home_reference = req.body.home_reference;
-            doc.apartment_number = req.body.apartment_number;
-            doc.telephone_number = req.body.telephone_number;
-            doc.telephone_number2 = req.body.telephone_number2;
-
-            doc.save(function (err, userUpdate) {
-                if (err) return err;
-                res.send(userUpdate);
-            });
         });
     },
     Get: function (req, res) {
-        console.dir(req.params.userid);
-        userEntity.findById(req.params.userid, function (err, doc) {
+
+        courseEntity.findById(req.params.courseid, function (err, doc) {
             if (err) {
-                console.dir(err);
+
                 responseutil.Send(res, 400, '', false, ('error' + err), '', '');
+            } else {
+                res.send(doc);
             }
-            res.send(doc);
         });
     }
 }
