@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 routes = require("./routes/users.route")(app);
-// routes = require("./routes/cfdi.route")(app);
+routes = require("./routes/course.route")(app);
 
 
 mongoose.disconnect();

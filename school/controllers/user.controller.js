@@ -1,4 +1,4 @@
-const userEntity = require('../entities/user.entity')
+const userEntity = require('../entities/users.entity')
 const responseutil = require('../util/response.util')
 const StatusItem = require('../util/enums.util')
 

@@ -1,54 +1,42 @@
-const userEntity = require('../entities/courses.entity')
+const courseEntity = require('../entities/courses.entity')
 const responseutil = require('../util/response.util')
-const StatusItem = require('../util/enums.util')
+const enums = require('../util/enums.util')
 
 module.exports = {
     Create: function (req, res) {
-       
-        // check if exist email
-        let query = userEntity.find({
-            email: req.body.email
+        // check if exist course
+        let query = courseEntity.find({
+            name: req.body.name,
+            grade: req.body.grade
         });
-        
+
         query.exec(function (err, docs) {
             if (err) {
-                console.log('error' + err);
                 responseutil.Send(res, 400, '', false, ('error' + err), '', '');
             }
 
+
             if (docs.length >= 1) {
-                responseutil.Send(res, 400, '', false, 'Usuario ya existe', '', '');
+                responseutil.Send(res, 400, '', false, 'Materia ya existe', '', '');
             } else {
-                let user = userEntity({
+
+                let datetmp = enums.DateTimeNowToMilliSeconds();
+                let course = courseEntity({
                     id_item: 0,
                     status_item: 1,
-                    maker: req.body.email,
-                    create_date: n,
-                    modification_date: n,
-                    email: req.body.email,
-                    password: req.body.password,
-                    typeUser: req.body.typeUser,
-                    username: '',
-                    name: '',
-                    lastname: '',
-                    lastname2: '',
-                    alternatemail: '',
-                    birthday: n,
-                    rfc: '',
-                    curp: '',
-                    genre: 0,
-                    zipcode: '',
-                    home_reference: '',
-                    apartment_number: '',
-                    telephone_number: '',
-                    telephone_number2: ''
+                    maker: req.body.userlogin,
+                    create_date: datetmp,
+                    modification_date: datetmp,
+                    user: req.body.userid,
+                    name: req.body.name,
+                    grade: req.body.grade
                 });
 
-                user.save(function (err) {
+                course.save(function (err) {
                     if (err) {
                         return err;
                     } else {
-                        responseutil.Send(res, 200, JSON.stringify(user), 'OK', '', '');
+                        responseutil.Send(res, 200, JSON.stringify(course), 'OK', '', '');
                     }
                 });
             }

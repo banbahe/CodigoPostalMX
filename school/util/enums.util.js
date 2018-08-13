@@ -9,11 +9,11 @@
 // module.exports = StatusItem;
 
 module.exports = {
-    StatusItem = {
+    StatusItem : {
         "ENABLE": 1,
         "DISABLE": 2
     },
-    DateTimeNowToMilliSeconds =  function(){
+    DateTimeNowToMilliSeconds :  function(){
         var d = new Date();
         var n = d.getTime();
         return n;
