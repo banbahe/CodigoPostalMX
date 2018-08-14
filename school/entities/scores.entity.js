@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const Course = mongoose.model('Course');
-const User = mongoose.model('User');
+// const Course = mongoose.model('Course');
+// const User = mongoose.model('User');
 
 let score = new Schema({
   id_item: { type: Number, require: true },
@@ -11,9 +11,9 @@ let score = new Schema({
   create_date: { type: Number, required: true },
   modification_date: { type: Number, required: true },
   score: Number,
-  user: {type: Schema.ObjectId, ref: 'User'},
-  course:{type: Schema.ObjectId, ref: 'Course'}
+  user: {type: Schema.Types.ObjectId, ref: 'users'},
+  course:{type: Schema.Types.ObjectId, ref: 'courses'}
 });
 
-const Score = mongoose.model('score',score);
+const Score = mongoose.model('scores',score);
 module.exports = Score;
