@@ -5,7 +5,7 @@ const enums = require('../util/enums.util')
 module.exports = {
     Create: function (req, res) {
         // check if exist course
-        let query = courseEntity.find({
+        let query = scoreEntity.find({
             course: req.body.course,
         });
 
@@ -25,12 +25,13 @@ module.exports = {
                     status_item: 1,
                     maker: req.body.maker,
                     create_date: datetmp,
+                    modification_date: datetmp,
                     score: req.body.score,
                     user: req.body.user,
                     course: req.body.course,
                 });
 
-                course.save(function (err) {
+                score.save(function (err) {
                     if (err) {
                         responseutil.Send(res, 400, '', false, ('error' + err), '', '');
                     } else {
@@ -70,14 +71,9 @@ module.exports = {
             } else {
                 doc.modification_date = enums.DateTimeNowToMilliSeconds();
                 doc.status_item = req.body.status_item;
-            
-                doc.maker =  req.body.maker,
-                doc.create_date = datetmp,
                 doc.score = req.body.score,
-                doc.user = req.body.user,
-                doc.course =  req.body.course,
-
-                //
+                // doc.user = req.body.user,
+               // doc.course =  req.body.course,
                 doc.save(function (err, docUpdate) {
                     if (err) return err;
                     res.send(docUpdate);

@@ -13,6 +13,8 @@ app.use(bodyParser.json());
 
 routes = require("./routes/users.route")(app);
 routes = require("./routes/course.route")(app);
+routes = require("./routes/score.route")(app);
+
 
 
 mongoose.disconnect();
